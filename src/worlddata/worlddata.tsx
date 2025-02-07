@@ -2,106 +2,330 @@
 const base = "worldpics/"
 import worldInterface from "../interface.tsx"
 
-export const signLength = 4
-export const signWords = ["stop","yield","pedestrianCrossong", "railway"]
+export const signWords = ["stop","yield","pedestrianCrossong","chevron","railway"]
+export const signLength = signWords.length
 
-export const worldData:worldInterface[] = [
+export const worldData: worldInterface[] = [
   {
-    domain: "ax",
+    flag: base + "ax/ax_flag.svg",
     name: "Åland",
+    wiki: "https://en.wikipedia.org/wiki/%C3%85land",
+    domain: ["ax"],
     region: ["Europe", "Nordic"],
-    flag: base + "ax_flag.svg",
-    chevron: [base + "se_chevron.png"],
     bollard: [base + "se_bollard.jpg"],
-    sign: {
-      stop: [base + "se_sign-stop.png"],
-      yield: [base + "se_sign-yield.png"],
-      pedestrianCrossing: [base + "se_sign-crossing.png"],
-      railway: [base + "se_sigh-railway.png"],
+    signs: {
+      outerBorder: false,
+      stop: [
+        {
+          pic: `${base}+ "se/se_sign-stop.png"`,
+          colors: ["white", "red"],
+          border: "white",
+        },
+      ],
+      yield: [
+        {
+          pic: `${base} + "se/se_sign-yield.png"`,
+          colors: ["yellow", "red"],
+          border: "",
+        },
+      ],
+      pedestrianCrossing: [
+        {
+          pic: `${base} + "se/se_sign-crossing.png"`,
+          colors: ["black", "white", "blue"],
+          border: "white",
+        },
+      ],
+      chevron: [
+        {
+          pic: base + "no/no_chevron.svg",
+          colors: ["yellow", "black"],
+          border: null,
+        },
+      ],
+      railway: [
+        {
+          pic: `${base} + "se/se_sign-railway.png"`,
+          colors: ["yellow", "red"],
+          border: "",
+        }
+      ],
     },
   },
   {
-    domain: "dk",
+    flag: base + "dk/dk_flag.svg",
     name: "Denmark",
+    wiki: "https://en.wikipedia.org/wiki/Denmark",
+    domain: ["dk"],
     region: ["Europe", "Nordic"],
-    flag: base + "dk_flag.svg",
-    chevron: [base + "se_chevron.png"],
     bollard: [base + "se_bollard.jpg"],
-    sign: {
-      stop: [base + "se_sign-stop.png"],
-      yield: [base + "se_sign-yield.png"],
-      pedestrianCrossing: [base + "se_sign-crossing.png"],
-      railway: [base + "se_sigh-railway.png"],
+    signs: {
+      outerBorder: false,
+      stop: [
+        {
+          pic: `${base}+ "se/se_sign-stop.png"`,
+          colors: ["white", "red"],
+          border: "white",
+        },
+      ],
+      yield: [
+        {
+          pic: `${base} + "se/se_sign-yield.png"`,
+          colors: ["yellow", "red"],
+          border: "",
+        },
+      ],
+      pedestrianCrossing: [
+        {
+          pic: `${base} + "se/se_sign-crossing.png"`,
+          colors: ["black", "white", "blue"],
+          border: "white",
+        },
+      ],
+      chevron: [
+        {
+          pic: base + "no/no_chevron.svg",
+          colors: ["yellow", "black"],
+          border: null,
+        },
+      ],
+      railway: [
+        {
+          pic: `${base} + "se/se_sign-railway.png"`,
+          colors: ["yellow", "red"],
+          border: "",
+        }
+      ],
     },
   },
   {
-    domain: "fi",
+    flag: base + "fi/fi_flag.svg",
     name: "Finland",
+    wiki: "https://en.wikipedia.org/wiki/Finland",
+    domain: ["fi"],
     region: ["Europe", "Nordic"],
-    flag: base + "fi_flag.svg",
-    chevron: [base + "se/se_chevron.png",base + "se/se_chevron.png"],
     bollard: [base + "se_bollard.jpg"],
-    sign: {
-      stop: [base + "se_sign-stop.png"],
-      yield: [base + "se_sign-yield.png"],
-      pedestrianCrossing: [base + "se_sign-crossing.png"],
-      railway: [base + "se_sigh-railway.png"],
+    signs: {
+      outerBorder: false,
+      stop: [
+        {
+          pic: `${base}+ "se/se_sign-stop.png"`,
+          colors: ["white", "red"],
+          border: "white",
+        },
+      ],
+      yield: [
+        {
+          pic: `${base} + "se/se_sign-yield.png"`,
+          colors: ["yellow", "red"],
+          border: "",
+        },
+      ],
+      pedestrianCrossing: [
+        {
+          pic: `${base} + "se/se_sign-crossing.png"`,
+          colors: ["black", "white", "blue"],
+          border: "white",
+        },
+      ],
+      chevron: [
+        {
+          pic: base + "no/no_chevron.svg",
+          colors: ["yellow", "black"],
+          border: null,
+        },
+      ],
+      railway: [
+        {
+          pic: `${base} + "se/se_sign-railway.png"`,
+          colors: ["yellow", "red"],
+          border: "",
+        }
+      ],
     },
   },
   {
-    domain: "fo",
+    flag: base + "fo/fo_flag.svg",
     name: "Faroe Islands",
+    wiki: "https://en.wikipedia.org/wiki/Faroe_Islands",
+    domain: ["fo"],
     region: ["Europe", "Nordic"],
-    flag: base + "fo.svg",
-    chevron: [base + "se_chevron.png"],
     bollard: [base + "se_bollard.jpg"],
-    sign: {
-      stop: [base + "se_sign-stop.png"],
-      yield: [base + "se_sign-yield.png"],
-      pedestrianCrossing: [base + "se_sign-crossing.png"],
-      railway: [base + "se_sigh-railway.png"],
+    signs: {
+      outerBorder: false,
+      stop: [
+        {
+          pic: `${base}+ "se/se_sign-stop.png"`,
+          colors: ["white", "red"],
+          border: "white",
+        },
+      ],
+      yield: [
+        {
+          pic: `${base} + "se/se_sign-yield.png"`,
+          colors: ["yellow", "red"],
+          border: "",
+        },
+      ],
+      pedestrianCrossing: [
+        {
+          pic: `${base} + "se/se_sign-crossing.png"`,
+          colors: ["black", "white", "blue"],
+          border: "white",
+        },
+      ],
+      chevron: [
+        {
+          pic: base + "no/no_chevron.svg",
+          colors: ["yellow", "black"],
+          border: null,
+        },
+      ],
+      railway: [
+        {
+          pic: `${base} + "se/se_sign-railway.png"`,
+          colors: ["yellow", "red"],
+          border: "",
+        }
+      ],
     },
   },
   {
-    domain: "is",
+    flag: base + "is/is_flag.svg",
     name: "Iceland",
+    wiki: "https://en.wikipedia.org/wiki/Iceland",
+    domain: ["is"],
     region: ["Europe", "Nordic"],
-    flag: base + "is_flag.svg",
-    chevron: [base + "se_chevron.png"],
     bollard: [base + "se_bollard.jpg"],
-    sign: {
-      stop: [base + "se_sign-stop.png"],
-      yield: [base + "se_sign-yield.png"],
-      pedestrianCrossing: [base + "se_sign-crossing.png"],
-      railway: [base + "se_sigh-railway.png"],
+    signs: {
+      outerBorder: false,
+      stop: [
+        {
+          pic: `${base}+ "se/se_sign-stop.png"`,
+          colors: ["white", "red"],
+          border: "white",
+        },
+      ],
+      yield: [
+        {
+          pic: `${base} + "se/se_sign-yield.png"`,
+          colors: ["yellow", "red"],
+          border: "",
+        },
+      ],
+      pedestrianCrossing: [
+        {
+          pic: `${base} + "se/se_sign-crossing.png"`,
+          colors: ["black", "white", "blue"],
+          border: "white",
+        },
+      ],
+      chevron: [
+        {
+          pic: base + "no/no_chevron.svg",
+          colors: ["yellow", "black"],
+          border: null,
+        },
+      ],
+      railway: [
+        {
+          pic: `${base} + "se/se_sign-railway.png"`,
+          colors: ["yellow", "red"],
+          border: "",
+        }
+      ],
     },
   },
   {
-    domain: "no",
+    flag: base + "no/no_flag.svg",
     name: "Norway",
+    wiki: "https://en.wikipedia.org/wiki/Norway",
+    domain: ["no"],
     region: ["Europe", "Nordic"],
-    flag: base + "no_flag.svg", 
-    chevron: [base + "se_chevron.png"],
-    bollard: [base + "se_bollard.jpg"],
-    sign: {
-      stop: [base + "se_sign-stop.png"],
-      yield: [base + "se_sign-yield.png"],
-      pedestrianCrossing: [base + "se_sign-crossing.png"],
-      railway: [base + "se_sigh-railway.png"],
+    bollard: [base + "no/no_bollard.jpg"],
+    signs: {
+      outerBorder: false,
+      stop: [
+        {
+          pic: base + "no/no_sign-stop.svg",
+          colors: ["white", "red"],
+          border: "white",
+        },
+      ],
+      yield: [
+        {
+          pic: base + "no/no_sign-yield.svg",
+          colors: ["yellow", "red"],
+          border: "white",
+        },
+      ],
+      pedestrianCrossing: [
+        {
+          pic: base + "no/no_sign-crossing.svg",
+          colors: ["black", "white", "blue"],
+          border: "white",
+        },
+      ],
+      chevron: [
+        {
+          pic: base + "no/no_sign-chevron.svg",
+          colors: ["yellow", "black"],
+          border: null,
+        },
+      ],
+      railway: [
+        {
+          pic: base + "no/no_sign-railway.png",
+          colors: ["white", "red"],
+          border: "",
+        }
+      ],
     },
   },
   {
-    domain: "se",
-    name: "Sweden",
-    region: ["Europe", "Nordic"],
     flag: base + "se/se_flag.svg",
-    chevron: [base + "se/se_chevron.png"],
-    bollard: [base + "se/se_bollard.jpg"],
-    sign: {
-      stop: [base + "se/se_sign-stop.png"],
-      yield: [base + "se/se_sign-yield.png"],
-      pedestrianCrossing: [base + "se/se_sign-crossing.png"],
-      railway: [base + "se/se_sign-railway.png"],
+    name: "Sweden",
+    wiki: "https://en.wikipedia.org/wiki/Sweden",
+    domain: ["se"],
+    region: ["Europe", "Nordic"],
+    bollard: [base + "se/se_bollard.png"],
+    signs: {
+      outerBorder: false,
+      stop: [
+        {
+        pic: base + "se/se_sign-stop.png",
+        colors: ["white", "red"],
+        border: "white",
+        },
+      ],
+      yield: [
+        {
+          pic: base + "se/se_sign-yield.png",
+          colors: ["yellow", "red"],
+          border: null,
+        },
+      ],
+      pedestrianCrossing: [
+        {
+          pic: base + "se/se_sign-crossing.png",
+          colors: ["black", "white", "blue"],
+          border: "white",
+        },
+      ],
+      chevron: [
+        {
+          pic: base + "se/se_sign-chevron.png",
+          colors: ["yellow", "blue"],
+          border: null,
+        },
+      ],
+      railway: [
+        {
+          pic: base + "se/se_sign-railway.png",
+          colors: ["yellow", "red"],
+          border: null,
+        }
+      ],
     },
   },
 ]

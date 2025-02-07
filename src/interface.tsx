@@ -1,17 +1,26 @@
 export default interface worldData {
-  domain: string;
-  name: string;
-  region: string[];
   flag: string;
-  chevron: string[];
+  name: string;
+  wiki: string;
+  domain: string[];
+  region: string[];
   bollard: string[];
-  sign: {
-      stop: string[];
-      yield: string[];
-      pedestrianCrossing: string[];
-      railway: string[];
-  }
-}
+  signs: {
+    // TOADD: namesigns, rails
+    outerBorder: boolean;
+    stop: sign[];
+    yield: sign[];
+    pedestrianCrossing: sign[];
+    chevron: sign[];
+    railway: sign[];
+  };
+};
+
+interface sign {
+  pic: string;
+  colors: string[];
+  border: string | null;
+};
 
 // mall:
 // {

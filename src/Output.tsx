@@ -11,19 +11,18 @@ export default function Output(props:props) {
     console.log(item)
     return (
       <tbody>
-      <tr key={item.domain}>
-        <td>{item.domain}</td>
-        <td><img src={item.flag} /></td>
+      <tr key={item.flag}>
+        <td><a href={item.wiki} target="_blank" rel="noopener noreferrer"><img src={item.flag} /></a></td>
         <td>{item.name}</td>
+        <td>{item.domain}</td>
         <td>{item.region.map(item => <div>{item}</div>)}</td>
-        <td>{item.chevron?.map(item => <img src={item} />) || ""}</td>
-        <td>{item.bollard?.map(item => <img src={item} />) || ""}</td>
-        <td>{item.sign?.stop.map(item => <img src={item} />)}</td>
-        <td>{item.sign?.yield.map(item => <img src={item} />)}</td>
-        <td>{item.sign?.pedestrianCrossing.map(item => <img src={item} />)}</td>
-        <td>{item.sign?.railway.map(item => <img src={item} />)}</td>
+        <td>{item.bollard.map(item => <a href={item} target="_blank" rel="noopener noreferren"><img src={item} /></a>)}</td>
 
-
+        <td>{item.signs.chevron.map(item => <a href={item.pic} target="_blank" rel="noopener noreferrer"><img src={item.pic} /></a>)}</td>
+        <td>{item.signs.stop.map(item => <a href={item.pic} target="_blank" rel="noopener noreferrer"><img src={item.pic} /></a>)}</td>
+        <td>{item.signs.yield.map(item => <a href={item.pic} target="_blank" rel="noopener noreferrer"><img src={item.pic} /></a>)}</td>
+        <td>{item.signs.pedestrianCrossing.map(item => <a href={item.pic} target="_blank" rel="noopener noreferrer"><img src={item.pic} /></a>)}</td>
+        <td>{item.signs.railway.map(item => <a href={item.pic} target="_blank" rel="noopener noreferrer"><img src={item.pic} /></a>)}</td>
       </tr>
       </tbody>
     )
@@ -32,7 +31,7 @@ export default function Output(props:props) {
     <div className="Output">
       <table>
         <thead>
-          <tr key="head"><th>Domain</th><th>Flag</th><th>Name</th><th>Region</th><th>Chevron</th><th>Bollard</th><th colSpan={signLength}>Sign</th></tr>
+          <tr key="head"><th>Domain</th><th>Flag</th><th>Name</th><th>Region</th><th>Bollard</th><th colSpan={signLength}>Sign</th></tr>
           <tr key="head2"><th colSpan={6}></th>{signWords.map(item => <th>{item}</th>)}</tr>
         </thead>
         {tableRows}

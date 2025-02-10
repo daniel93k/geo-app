@@ -22,7 +22,7 @@ export default function Output(props:props) {
         <td>{item.name}</td>
         <td>{item.domain}</td>
         <td>{item.region.map(item => <div>{item}</div>)}</td>
-        <td>{item.bollard.map(item => <a href={item} target="_blank" rel="noopener noreferren"><img src={item} /></a>)}</td>
+        <td>{item.bollard?item.bollard.map(item => <a href={item.pic} target="_blank" rel="noopener noreferren"><img src={item.pic} /></a>):"n/a"}</td>
 
         <td>{item.signs.chevron.map(item => <a href={item.pic} target="_blank" rel="noopener noreferrer"><img src={item.pic} /></a>)}</td>
         <td>{item.signs.speed.map(item => <a href={item.pic} target="_blank" rel="noopener noreferrer"><img src={item.pic} /></a>)}</td>

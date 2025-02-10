@@ -1,4 +1,3 @@
-// const base = "https://danikaru.se/geodata/"
 const base = "worldpics/"
 import worldInterface from "../interface.tsx"
 
@@ -10,7 +9,13 @@ export const worldData: worldInterface[] = [
     sovereign: false,
     domain: ["ax"],
     region: ["Europe", "Nordic"],
-    bollard: [base + "se_bollard.jpg"],
+    bollard: [
+      {
+        pic: base + "fi/fi_bollard.png",
+        colors: ["black","white"],
+        reflector: ["white"],
+      }
+    ],
     signs: {
       speed: [
         {
@@ -54,7 +59,13 @@ export const worldData: worldInterface[] = [
     sovereign: true,
     domain: ["dk"],
     region: ["Europe", "Nordic"],
-    bollard: [base + "dk_bollard.jpg"],
+    bollard: [
+      {
+        pic: base + "dk/dk_bollard.png",
+        colors: ["red","white"],
+        reflector: ["yellow","silver"],
+      }
+    ],
     signs: {
       speed: [
         {
@@ -86,7 +97,7 @@ export const worldData: worldInterface[] = [
       ],
       chevron: [
         {
-          pic: base + "dk/dk.svg",
+          pic: base + "dk/dk_sign-chevron.png",
           colors: ["yellow", "black"],
         },
       ],
@@ -104,7 +115,13 @@ export const worldData: worldInterface[] = [
     sovereign: true,
     domain: ["fi"],
     region: ["Europe", "Nordic"],
-    bollard: [base + "fi_bollard.jpg"],
+    bollard: [
+      {
+        pic: base + "fi/fi_bollard.png",
+        colors: ["black","white"],
+        reflector: ["white"],
+      }
+    ],
     signs: {
       speed: [
         {
@@ -155,13 +172,19 @@ export const worldData: worldInterface[] = [
     sovereign: false,
     domain: ["fo"],
     region: ["Europe", "Nordic"],
-    bollard: [base + "se_bollard.jpg"],
+    bollard: [
+      {
+        pic: base + "fo/fo_bollard.png",
+        colors: ["red","yellow"],
+        reflector: ["yellow", "white"],
+      }
+    ],
     signs: {
       speed: [
         {
           pic: base + "dk/dk_sign-speed.svg",
           colors: ["black","white", "red"],
-          text: "Number",
+          text: "Number 'km'",
         },
       ],
       stop: [
@@ -187,7 +210,7 @@ export const worldData: worldInterface[] = [
       ],
       chevron: [
         {
-          pic: base + "no/no_chevron.svg",
+          pic: base + "dk/dk_sign-chevron.png",
           colors: ["yellow", "black"],
         },
       ],
@@ -199,7 +222,6 @@ export const worldData: worldInterface[] = [
     sovereign: false,
     domain: ["gl"],
     region: ["Europe", "Nordic"],
-    bollard: [base + "gl/gl.jpg"],
     signs: {
       speed: [
         {
@@ -231,8 +253,8 @@ export const worldData: worldInterface[] = [
       ],
       chevron: [
         {
-          pic: base + "gl/gl-chevron.svg",
-          colors: ["yellow", "black"],
+          pic: base + "dk/dk_sign-chevron.png",
+          colors: ["red", "white"],
         },
       ],
     },
@@ -243,7 +265,13 @@ export const worldData: worldInterface[] = [
     sovereign: true,
     domain: ["is"],
     region: ["Europe", "Nordic"],
-    bollard: [base + "is_bollard.jpg"],
+    bollard: [
+      {
+        pic: base + "is/is_bollard.png",
+        colors: ["silver","yellow"],
+        reflector: ["silver"],
+      }
+    ],
     signs: {
       speed: [
         {
@@ -275,7 +303,7 @@ export const worldData: worldInterface[] = [
       ],
       chevron: [
         {
-          pic: base + "is/is_chevron.svg",
+          pic: base + "no/no_sign-chevron.svg",
           colors: ["yellow", "black"],
         },
       ],
@@ -287,7 +315,13 @@ export const worldData: worldInterface[] = [
     sovereign: true,
     domain: ["no"],
     region: ["Europe", "Nordic"],
-    bollard: [base + "no/no_bollard.jpg"],
+    bollard: [
+      {
+        pic: base + "no/no_bollard.png",
+        colors: ["black","white"],
+        reflector: ["white"]
+      }
+    ],
     signs: {
       speed: [
         {
@@ -338,7 +372,13 @@ export const worldData: worldInterface[] = [
     sovereign: true,
     domain: ["se"],
     region: ["Europe", "Nordic"],
-    bollard: [base + "se/se_bollard.png"],
+    bollard: [
+      {
+        pic: base + "se/se_bollard.png",
+        colors: ["black","white"],
+        reflector: ["white"]
+      }
+    ],
     signs: {
       speed: [
         {

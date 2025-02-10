@@ -4,7 +4,7 @@ export default interface worldData {
   sovereign: boolean;
   domain: string[];
   region: string[];
-  bollard: string[];
+  bollard?: bollard[];
   signs: {
     stop: sign[];
     speed: sign[];
@@ -14,6 +14,12 @@ export default interface worldData {
     railway?: sign[];
   };
 };
+
+interface bollard {
+  pic: string;
+  colors: string[];
+  reflector: string[];
+}
 
 interface sign {
   pic: string;

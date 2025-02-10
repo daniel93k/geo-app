@@ -1,9 +1,0 @@
-misc: https://google.com/maps
-flags: https://wikipedia.com
-
-
-se:
-https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/
-
-no:
-https://en.wikipedia.org/wiki/Road_signs_in_Norway

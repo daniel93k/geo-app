@@ -8,6 +8,6 @@ interface props {
 export default function Options(props:props) {
   console.log(props)
   return (
-    <div>Options</div>
+    <div>Optionsdfh</div>
   )
 }

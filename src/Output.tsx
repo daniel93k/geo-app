@@ -18,18 +18,18 @@ export default function Output(props:props) {
     return (
       <tbody>
       <tr key={item.flag}>
-        <td><a href={`./sources/index.html#${item.domain}`} target="_blank" rel="noopener noreferrer"><img src={item.flag} /></a></td>
-        <td>{item.name}</td>
-        <td>{item.domain}</td>
-        <td>{item.region.map(item => <div>{item}</div>)}</td>
-        <td>{item.bollard?item.bollard.map(item => <a href={item.pic} target="_blank" rel="noopener noreferren"><img src={item.pic} /></a>):"n/a"}</td>
+        <td className="flag"><a href={`./sources/index.html#${item.domain}`} target="_blank" rel="noopener noreferrer"><img src={item.flag} /></a></td>
+        <td className="name">{item.name}</td>
+        <td className="domain">{item.domain}</td>
+        <td className="region">{item.region.map(item => <div>{item}</div>)}</td>
+        <td className="collard">{item.bollard?item.bollard.map(item => <a href={item.pic} target="_blank" rel="noopener noreferren"><img src={item.pic} /></a>):"n/a"}</td>
 
-        <td>{item.signs.chevron.map(item => <a href={item.pic} target="_blank" rel="noopener noreferrer"><img src={item.pic} /></a>)}</td>
-        <td>{item.signs.speed.map(item => <a href={item.pic} target="_blank" rel="noopener noreferrer"><img src={item.pic} /></a>)}</td>
-        <td>{item.signs.stop.map(item => <a href={item.pic} target="_blank" rel="noopener noreferrer"><img src={item.pic} /></a>)}</td>
-        <td>{item.signs.yield.map(item => <a href={item.pic} target="_blank" rel="noopener noreferrer"><img src={item.pic} /></a>)}</td>
-        <td>{item.signs.pedestrianCrossing.map(item => <a href={item.pic} target="_blank" rel="noopener noreferrer"><img src={item.pic} /></a>)}</td>
-        <td>{item.signs.railway?item.signs.railway.map(item => <a href={item.pic} target="_blank" rel="noopener noreferrer"><img src={item.pic}/></a>):"n/a"}</td>
+        <td className="chevron">{item.signs.chevron.map(item => <a href={item.pic} target="_blank" rel="noopener noreferrer"><img src={item.pic} /></a>)}</td>
+        <td className="speed">{item.signs.speed.map(item => <a href={item.pic} target="_blank" rel="noopener noreferrer"><img src={item.pic} /></a>)}</td>
+        <td className="stop">{item.signs.stop.map(item => <a href={item.pic} target="_blank" rel="noopener noreferrer"><img src={item.pic} /></a>)}</td>
+        <td className="yield">{item.signs.yield.map(item => <a href={item.pic} target="_blank" rel="noopener noreferrer"><img src={item.pic} /></a>)}</td>
+        <td className="crossing">{item.signs.pedestrianCrossing.map(item => <a href={item.pic} target="_blank" rel="noopener noreferrer"><img src={item.pic} /></a>)}</td>
+        <td className="railway">{item.signs.railway?item.signs.railway.map(item => <a href={item.pic} target="_blank" rel="noopener noreferrer"><img src={item.pic}/></a>):"n/a"}</td>
       </tr>
       </tbody>
     )

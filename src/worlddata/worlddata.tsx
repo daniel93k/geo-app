@@ -1,13 +1,13 @@
 const base = "worldpics/"
 import worldInterface from "../interface.tsx"
-
+// TODO add höger/vänster trafik, väglinjer, snöpålar, vägskyltar med nummer, regskyltar, alfabeten(språk), elstolpar, vanliga ort tex: väg, telnummer,
 
 export const worldData: worldInterface[] = [
   {
     flag: base + "ax/ax_flag.svg",
     name: "Åland",
-    sovereign: false,
-    domain: ["ax"],
+    sovereignTo: "fi",
+    domain: ".ax",
     region: ["Europe", "Nordic"],
     bollard: [
       {
@@ -56,8 +56,7 @@ export const worldData: worldInterface[] = [
   {
     flag: base + "dk/dk_flag.svg",
     name: "Denmark",
-    sovereign: true,
-    domain: ["dk"],
+    domain: ".dk",
     region: ["Europe", "Nordic"],
     bollard: [
       {
@@ -112,8 +111,7 @@ export const worldData: worldInterface[] = [
   {
     flag: base + "fi/fi_flag.svg",
     name: "Finland",
-    sovereign: true,
-    domain: ["fi"],
+    domain: ".fi",
     region: ["Europe", "Nordic"],
     bollard: [
       {
@@ -169,8 +167,8 @@ export const worldData: worldInterface[] = [
   {
     flag: base + "fo/fo_flag.svg",
     name: "Faroe Islands",
-    sovereign: false,
-    domain: ["fo"],
+    sovereignTo: "dk",
+    domain: ".fo",
     region: ["Europe", "Nordic"],
     bollard: [
       {
@@ -219,8 +217,8 @@ export const worldData: worldInterface[] = [
   {
     flag: base + "gl/gl_flag.svg",
     name: "Greenland",
-    sovereign: false,
-    domain: ["gl"],
+    sovereignTo: "dk",
+    domain: ".gl",
     region: ["Europe", "Nordic"],
     signs: {
       speed: [
@@ -262,8 +260,7 @@ export const worldData: worldInterface[] = [
   {
     flag: base + "is/is_flag.svg",
     name: "Iceland",
-    sovereign: true,
-    domain: ["is"],
+    domain: ".is",
     region: ["Europe", "Nordic"],
     bollard: [
       {
@@ -312,8 +309,7 @@ export const worldData: worldInterface[] = [
   {
     flag: base + "no/no_flag.svg",
     name: "Norway",
-    sovereign: true,
-    domain: ["no"],
+    domain: ".no",
     region: ["Europe", "Nordic"],
     bollard: [
       {
@@ -369,8 +365,7 @@ export const worldData: worldInterface[] = [
   {
     flag: base + "se/se_flag.svg",
     name: "Sweden",
-    sovereign: true,
-    domain: ["se"],
+    domain: ".se",
     region: ["Europe", "Nordic"],
     bollard: [
       {

@@ -1,8 +1,8 @@
 export default interface worldData {
   flag: string;
   name: string;
-  sovereign: boolean;
-  domain: string[];
+  sovereignTo?: string;
+  domain: string;
   region: string[];
   bollard?: bollard[];
   signs: {

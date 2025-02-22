@@ -1,4 +1,4 @@
-export default interface worldData {
+export interface worldDataInterface {
   flag: string;
   name: string;
   sovereignTo?: string;
@@ -27,3 +27,7 @@ interface sign {
   text?: string;
   border?: string;
 };
+export interface worldFormInterface {
+  soverign: boolean;
+  nonSoverign: boolean;
+}

@@ -1,0 +1,49 @@
+
+.DomainList {
+  height: 30px;
+  /* border: 1px solid red; */
+
+  [type="checkbox"] {
+    display: none;
+  }
+
+  label {
+    display: flex;
+    height: 30px;
+  }
+
+  .flag {
+    /* min-width: 30px; */
+    height: 30px;
+  }
+  .flag img {
+    height: 100%;
+  }
+
+
+} 
+/* #domain div {
+  height: 20px;
+  user-select: none;
+}
+
+#domain div img {
+  height: 100%;
+}
+
+#domain div [type=checkbox] {
+  display: none;
+}
+#domain div [type=checkbox]:checked + label span{
+  background-color: aquamarine;
+}
+#domain div label {
+  display: flex;
+  margin: 2px;
+}
+#domain div label .flag {
+  min-width: 34px;
+}
+#domain div label .dom {
+  min-width: 30px;
+} */

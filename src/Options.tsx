@@ -1,13 +1,50 @@
 import "./Options.css"
-import worldInterface from "./interface.tsx"
+import {worldDataInterface, worldFormInterface} from "./interface.tsx"
+import DomainList from "./components/DomainList.tsx";
+// import {worldData} from "./worlddata/worlddata.tsx";
+// import {useEffect, useState} from "react";
+
 interface props {
-  data: worldInterface[];
-  setData: React.Dispatch<React.SetStateAction<worldInterface[]>>
+  data: worldDataInterface[]
+  setData: React.Dispatch<React.SetStateAction<worldDataInterface[]>>
+  formData: worldFormInterface,
+  setFormData: React.Dispatch<React.SetStateAction<worldFormInterface>>
 }
 
+
 export default function Options(props:props) {
-  console.log(props)
+
+  function handleChange(e: React.ChangeEvent<HTMLInputElement>){
+    const type = e.target.type
+    const name = e.target.name
+
+    if(type === "checkbox") {
+      const checked = e.target.checked
+      props.setFormData(p => ({...p,[name]:checked}))
+    }
+  }
+
+  function formAction() {
+    console.log("formAction")
+  }
+
   return (
-    <div>Optionsdfh</div>
+    <div className="Options">
+      <form action={formAction} className="form1">
+        <section className="domain">
+          <section className="options">
+            <fieldset>
+              <input onChange={handleChange} type="checkbox" id="soverign" name="soverign" checked={props.formData.soverign}/>
+                <label htmlFor="soverign">Soverign</label><br />
+              <input onChange={handleChange} type="checkbox" id="non-soverign" name="nonSoverign" checked={props.formData.nonSoverign}/>
+                <label htmlFor="non-soverign">Not soverign</label><br />
+            </fieldset>
+          </section>
+          <section className="list">
+            <DomainList data={props.data} setData={props.setData}/>
+          </section>
+        </section>
+      </form>
+    </div>
   )
 }

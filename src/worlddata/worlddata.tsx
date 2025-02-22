@@ -1,8 +1,8 @@
 const base = "worldpics/"
-import worldInterface from "../interface.tsx"
+import {worldDataInterface} from "../interface.tsx"
 // TODO add höger/vänster trafik, väglinjer, snöpålar, vägskyltar med nummer, regskyltar, alfabeten(språk), elstolpar, vanliga ort tex: väg, telnummer,
 
-export const worldData: worldInterface[] = [
+export const worldData: worldDataInterface[] = [
   {
     flag: base + "ax/ax_flag.svg",
     name: "Åland",
@@ -12,7 +12,7 @@ export const worldData: worldInterface[] = [
     bollard: [
       {
         pic: base + "fi/fi_bollard.png",
-        colors: ["black","white"],
+        colors: ["white","black"],
         reflector: ["white"],
       }
     ],
@@ -61,7 +61,7 @@ export const worldData: worldInterface[] = [
     bollard: [
       {
         pic: base + "dk/dk_bollard.png",
-        colors: ["red","white"],
+        colors: ["white","red"],
         reflector: ["yellow","silver"],
       }
     ],
@@ -116,7 +116,7 @@ export const worldData: worldInterface[] = [
     bollard: [
       {
         pic: base + "fi/fi_bollard.png",
-        colors: ["black","white"],
+        colors: ["white","black"],
         reflector: ["white"],
       }
     ],
@@ -173,7 +173,7 @@ export const worldData: worldInterface[] = [
     bollard: [
       {
         pic: base + "fo/fo_bollard.png",
-        colors: ["red","yellow"],
+        colors: ["yellow","red"],
         reflector: ["yellow", "white"],
       }
     ],
@@ -265,7 +265,7 @@ export const worldData: worldInterface[] = [
     bollard: [
       {
         pic: base + "is/is_bollard.png",
-        colors: ["silver","yellow"],
+        colors: ["yellow"],
         reflector: ["silver"],
       }
     ],
@@ -314,7 +314,7 @@ export const worldData: worldInterface[] = [
     bollard: [
       {
         pic: base + "no/no_bollard.png",
-        colors: ["black","white"],
+        colors: ["white","black"],
         reflector: ["white"]
       }
     ],
@@ -370,7 +370,7 @@ export const worldData: worldInterface[] = [
     bollard: [
       {
         pic: base + "se/se_bollard.png",
-        colors: ["black","white"],
+        colors: ["white","black"],
         reflector: ["white"]
       }
     ],

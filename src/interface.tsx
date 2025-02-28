@@ -1,11 +1,13 @@
 export interface worldDataInterface {
   flag: string;
   name: string;
-  sovereignTo?: string;
+  googleMaps: boolean;
   domain: string;
   region: string[];
+  sovereignTo?: string;
   bollard?: bollard[];
-  signs: {
+  snowPole?: snowPole[];
+  signs?: {
     stop: sign[];
     speed: sign[];
     yield: sign[];
@@ -15,6 +17,10 @@ export interface worldDataInterface {
   };
 };
 
+interface snowPole {
+  pic: string;
+  colors?: string[];
+}
 interface bollard {
   pic: string;
   colors: string[];
@@ -30,4 +36,6 @@ interface sign {
 export interface worldFormInterface {
   soverign: boolean;
   nonSoverign: boolean;
+  googleMapsCoverage: boolean;
+  nonGoogleMapsCoverage: boolean;
 }

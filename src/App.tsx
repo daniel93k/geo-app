@@ -11,6 +11,8 @@ export default function App() {
   const [formData, setFormData] = useState<worldFormInterface>({
     soverign: true,
     nonSoverign: true,
+    googleMapsCoverage: true,
+    nonGoogleMapsCoverage: true,
   })
   useEffect(() => {
     setData(worldData.filter(item => {

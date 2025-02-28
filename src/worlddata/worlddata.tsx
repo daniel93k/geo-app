@@ -3,10 +3,12 @@ import {worldDataInterface} from "../interface.tsx"
 // TODO add höger/vänster trafik, väglinjer, snöpålar, vägskyltar med nummer, regskyltar, alfabeten(språk), elstolpar, vanliga ort tex: väg, telnummer,
 
 export const worldData: worldDataInterface[] = [
+
   {
     flag: base + "ax/ax_flag.svg",
     name: "Åland",
     sovereignTo: "fi",
+    googleMaps: true,
     domain: ".ax",
     region: ["Europe", "Nordic"],
     bollard: [
@@ -54,64 +56,10 @@ export const worldData: worldDataInterface[] = [
     },
   },
   {
-    flag: base + "dk/dk_flag.svg",
-    name: "Denmark",
-    domain: ".dk",
-    region: ["Europe", "Nordic"],
-    bollard: [
-      {
-        pic: base + "dk/dk_bollard.png",
-        colors: ["white","red"],
-        reflector: ["yellow","silver"],
-      }
-    ],
-    signs: {
-      speed: [
-        {
-          pic: base + "dk/dk_sign-speed.svg",
-          colors: ["black","white", "red"],
-          text: "Number",
-        },
-      ],
-      stop: [
-        {
-          pic: base + "dk/dk_sign-stop.svg",
-          colors: ["white", "red"],
-          border: "white",
-          text: "STOP",
-        },
-      ],
-      yield: [
-        {
-          pic: base + "dk/dk_sign-yield.svg",
-          colors: ["white", "red"],
-        },
-      ],
-      pedestrianCrossing: [
-        {
-          pic: base + "dk/dk_sign-crossing.svg",
-          colors: ["black", "white", "blue"],
-          border: "white",
-        },
-      ],
-      chevron: [
-        {
-          pic: base + "dk/dk_sign-chevron.png",
-          colors: ["yellow", "black"],
-        },
-      ],
-      railway: [
-        {
-          pic: base + "dk/dk_sign-railway.webp",
-          colors: ["red", "white"],
-        }
-      ],
-    },
-  },
-  {
     flag: base + "fi/fi_flag.svg",
     name: "Finland",
     domain: ".fi",
+    googleMaps: true,
     region: ["Europe", "Nordic"],
     bollard: [
       {
@@ -165,10 +113,67 @@ export const worldData: worldDataInterface[] = [
     },
   },
   {
+    flag: base + "dk/dk_flag.svg",
+    name: "Denmark",
+    domain: ".dk",
+    googleMaps: true,
+    region: ["Europe", "Nordic"],
+    bollard: [
+      {
+        pic: base + "dk/dk_bollard.png",
+        colors: ["white","red"],
+        reflector: ["yellow","silver"],
+      }
+    ],
+    signs: {
+      speed: [
+        {
+          pic: base + "dk/dk_sign-speed.svg",
+          colors: ["black","white", "red"],
+          text: "Number",
+        },
+      ],
+      stop: [
+        {
+          pic: base + "dk/dk_sign-stop.svg",
+          colors: ["white", "red"],
+          border: "white",
+          text: "STOP",
+        },
+      ],
+      yield: [
+        {
+          pic: base + "dk/dk_sign-yield.svg",
+          colors: ["white", "red"],
+        },
+      ],
+      pedestrianCrossing: [
+        {
+          pic: base + "dk/dk_sign-crossing.svg",
+          colors: ["black", "white", "blue"],
+          border: "white",
+        },
+      ],
+      chevron: [
+        {
+          pic: base + "dk/dk_sign-chevron.png",
+          colors: ["yellow", "black"],
+        },
+      ],
+      railway: [
+        {
+          pic: base + "dk/dk_sign-railway.webp",
+          colors: ["red", "white"],
+        }
+      ],
+    },
+  },
+  {
     flag: base + "fo/fo_flag.svg",
     name: "Faroe Islands",
     sovereignTo: "dk",
     domain: ".fo",
+    googleMaps: true,
     region: ["Europe", "Nordic"],
     bollard: [
       {
@@ -219,6 +224,7 @@ export const worldData: worldDataInterface[] = [
     name: "Greenland",
     sovereignTo: "dk",
     domain: ".gl",
+    googleMaps: true,
     region: ["Europe", "Nordic"],
     signs: {
       speed: [
@@ -261,6 +267,7 @@ export const worldData: worldDataInterface[] = [
     flag: base + "is/is_flag.svg",
     name: "Iceland",
     domain: ".is",
+    googleMaps: true,
     region: ["Europe", "Nordic"],
     bollard: [
       {
@@ -310,6 +317,7 @@ export const worldData: worldDataInterface[] = [
     flag: base + "no/no_flag.svg",
     name: "Norway",
     domain: ".no",
+    googleMaps: true,
     region: ["Europe", "Nordic"],
     bollard: [
       {
@@ -366,6 +374,7 @@ export const worldData: worldDataInterface[] = [
     flag: base + "se/se_flag.svg",
     name: "Sweden",
     domain: ".se",
+    googleMaps: true,
     region: ["Europe", "Nordic"],
     bollard: [
       {
@@ -418,3 +427,56 @@ export const worldData: worldDataInterface[] = [
     },
   },
 ]
+
+  // mall
+  // {
+  //   flag: base + "ax/ax_flag.svg",
+  //   name: "Åland",
+  //   domain: ".ax",
+  //   region: ["Europe", "Nordic"],
+  //   googleMaps: true,
+  //   sovereignTo: "fi",
+  //   bollard: [
+  //     {
+  //       pic: base + "",
+  //       colors: ["",""],
+  //       reflector: [""],
+  //     }
+  //   ],
+  //   signs: {
+  //     speed: [
+  //       {
+  //         pic: base + "",
+  //         colors: ["",""],
+  //         border: "",
+  //       },
+  //     ],
+  //     stop: [
+  //       {
+  //         pic: base + "",
+  //         colors: [""],
+  //         border: "",
+  //         text: "",
+  //       },
+  //     ],
+  //     yield: [
+  //       {
+  //         pic: base + "",
+  //         colors: [""],
+  //       },
+  //     ],
+  //     pedestrianCrossing: [
+  //       {
+  //         pic: base + "",
+  //         colors: [""],
+  //         border: "",
+  //       },
+  //     ],
+  //     chevron: [
+  //       {
+  //         pic: base + "",
+  //         colors: [""],
+  //       },
+  //     ],
+  //   },
+  // },

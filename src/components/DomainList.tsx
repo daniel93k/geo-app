@@ -15,7 +15,7 @@ export default function DomainList(props:props) {
         <input type="checkbox" id={item.domain} name={item.domain}/>
         <label htmlFor={item.domain}>
           <div className="flag">
-            <img src={item.flag} />
+            <img src={item.flag.pic} />
           </div>
           <span className="dom">{item.domain}</span>
           <span>{item.name}</span>

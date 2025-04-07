@@ -1,38 +1,44 @@
 export interface worldDataInterface {
-  flag: string;
   name: string;
-  googleMaps: boolean;
   domain: string;
   region: string[];
+  flag: marker;
+
   sovereignTo?: string;
-  bollard?: bollard[];
-  snowPole?: snowPole[];
-  signs?: {
-    stop: sign[];
-    speed: sign[];
-    yield: sign[];
-    pedestrianCrossing: sign[];
-    chevron: sign[];
-    railway?: sign[];
-  };
+  onGoogleMaps: boolean;
+  drivingSide: "right" | "left";
+  languages?: string[];
+  commonWords?: commonWords;
+
+  bollard?: marker[];
+  poleSnow?: marker[];
+  poleTele?: marker[];
+  roadMarkings?: marker[];
+  regPlate?: marker[];
+  signStop?: marker[];
+  signSpeed?: marker[];
+  signYield?: marker[];
+  signPedestrianCrossing?: marker[];
+  signChevron?: marker[];
+  signRailway?: marker[];
+  signRoad?: marker[];
 };
 
-interface snowPole {
+interface marker {
   pic: string;
   colors?: string[];
-}
-interface bollard {
-  pic: string;
-  colors: string[];
-  reflector: string[];
-}
-
-interface sign {
-  pic: string;
-  colors: string[];
   text?: string;
   border?: string;
-};
+  reflector?: string[];
+  shape?: string[];
+  continous?: boolean;
+}
+interface commonWords {
+  "road"?: string;
+  "mountain"?: string;
+  "river"?: string;
+}
+
 export interface worldFormInterface {
   soverign: boolean;
   nonSoverign: boolean;

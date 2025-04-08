@@ -448,56 +448,72 @@ export const worldData: worldDataInterface[] = [
   },
 ]
 
-//mall
-//{
-//  name: "",
-//  domain: "",
-//  region: [""],
-//  flag: {
-//    pic: base + "ax/ax_flag.svg",
-//    colors: [""],
-//  },
-//  sovereignTo: "",
-//  onGoogleMaps: ,
-//  bollard: [
-//    {
-//      pic: base + "",
-//      colors: ["",""],
-//      reflector: [""],
+//  {
+//    name: "",
+//    domain: "",
+//    region: [""],
+//    flag: {
+//      pic: base + "ax/ax_flag.svg",
+//      colors: [""],
+//    },
+//    sovereignTo: "",
+//    onGoogleMaps: ,
+//    driningSide: "",
+//    languages: [""],
+//    commonWords: {
+//      "road": "",
+//      "mountain": "",
+//      "river": "",
 //    }
-//  ],
-//  signSpeed: [
-//    {
-//      pic: base + "",
-//      colors: ["",""],
-//      border: "",
-//    },
-//  ],
-//  signStop: [
-//    {
-//      pic: base + "",
-//      colors: [""],
-//      border: "",
-//      text: "",
-//    },
-//  ],
-//  signYield: [
-//    {
-//      pic: base + "",
-//      colors: [""],
-//    },
-//  ],
-//  signPedestrianCrossing: [
-//    {
-//      pic: base + "",
-//      colors: [""],
-//      border: "",
-//    },
-//  ],
-//  signChevron: [
-//    {
-//      pic: base + "",
-//      colors: [""],
-//    },
-//  ],
-//},
+//    bollard: [
+//      {
+//        pic: base + "",
+//        colors: ["",""],
+//        reflector: [""],
+//      }
+//    ],
+//    poleSnow: {},
+//    poleTele: {},
+//    roadMarkings: {},
+//    regPlate: {},
+//    signSpeed: [
+//      {
+//        pic: base + "",
+//        colors: ["",""],
+//        border: "",
+//      },
+//    ],
+//    signStop: [
+//      {
+//        pic: base + "",
+//        colors: [""],
+//        border: "",
+//        text: "",
+//      },
+//    ],
+//    signYield: [
+//      {
+//        pic: base + "",
+//        colors: [""],
+//      },
+//    ],
+//    signPedestrianCrossing: [
+//      {
+//        pic: base + "",
+//        colors: [""],
+//        border: "",
+//      },
+//    ],
+//    signChevron: [
+//      {
+//        pic: base + "",
+//        colors: [""],
+//      },
+//    ],
+//    signRailway: [
+//      {
+//        pic: base + "",
+//        colors: [""],
+//      },
+//    ],
+//  },

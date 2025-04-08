@@ -15,13 +15,12 @@ export interface worldDataInterface {
   poleTele?: marker[];
   roadMarkings?: marker[];
   regPlate?: marker[];
-  signStop?: marker[];
   signSpeed?: marker[];
+  signStop?: marker[];
   signYield?: marker[];
   signPedestrianCrossing?: marker[];
   signChevron?: marker[];
   signRailway?: marker[];
-  signRoad?: marker[];
 };
 
 interface marker {

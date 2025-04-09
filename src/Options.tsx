@@ -17,7 +17,6 @@ export default function Options(props:props) {
   function handleChange(e: React.ChangeEvent<HTMLInputElement>){
     const type = e.target.type
     const name = e.target.name
-    console.log(e.target)
 
     if(type === "checkbox") {
       const checked = e.target.checked
@@ -36,14 +35,14 @@ export default function Options(props:props) {
             <fieldset>
               <input onChange={handleChange} type="checkbox" id="soverign" name="soverign" checked={props.formData.soverign}/>
                 <label htmlFor="soverign">Soverign</label><br />
-              <input onChange={handleChange} type="checkbox" id="non-soverign" name="nonSoverign" checked={props.formData.nonSoverign}/>
-                <label htmlFor="non-soverign">Not soverign</label><br />
+              <input onChange={handleChange} type="checkbox" id="nonSoverign" name="nonSoverign" checked={props.formData.nonSoverign}/>
+                <label htmlFor="nonSoverign">Not soverign</label><br />
             </fieldset>
             <fieldset>
-              <input onChange={handleChange} type="checkbox" id="googleMapsCoverage" name="googleMapsCoverage" checked={props.formData.googleMapsCoverage}/>
-                <label htmlFor="googleMapsCoverage">googleMaps</label><br />
-              <input onChange={handleChange} type="checkbox" id="non-googleMapsCoverage" name="nonGoogleMapsCoverage" checked={props.formData.nonGoogleMapsCoverage}/>
-                <label htmlFor="non-googleMapsCoverage">Non-googleMaps</label><br />
+              <input onChange={handleChange} type="checkbox" id="onGoogleMaps" name="onGoogleMaps" checked={props.formData.onGoogleMaps}/>
+                <label htmlFor="onGoogleMaps">On GoogleMaps</label><br />
+              <input onChange={handleChange} type="checkbox" id="notOnGoogleMaps" name="notOnGoogleMaps" checked={props.formData.notOnGoogleMaps}/>
+                <label htmlFor="notOnGoogleMaps">Not on GoogleMaps</label><br />
             </fieldset>
           <section className="list">
             <DomainList data={props.data} setData={props.setData}/>

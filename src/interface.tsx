@@ -25,6 +25,7 @@ export interface worldDataInterface {
 
 interface marker {
   pic: string;
+  proportions?: string; // x:y
   colors?: string[];
   text?: string;
   border?: string;
@@ -41,6 +42,13 @@ interface commonWords {
 export interface worldFormInterface {
   soverign: boolean;
   nonSoverign: boolean;
-  googleMapsCoverage: boolean;
-  nonGoogleMapsCoverage: boolean;
+  onGoogleMaps: boolean;
+  notOnGoogleMaps: boolean;
+}
+
+export const worldFormInit = {
+  soverign: true,
+  nonSoverign: true,
+  onGoogleMaps: true,
+  notOnGoogleMaps: false,
 }

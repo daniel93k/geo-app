@@ -8,7 +8,7 @@ interface props {
 }
 
 export default function DomainList(props:props) {
-  console.log(props.data)
+  // console.log(props.data)
   const options = worldData.map(item => {
     return (
     <div key={item.domain} className="DomainList">

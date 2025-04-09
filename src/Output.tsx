@@ -1,17 +1,18 @@
 import "./Output.css"
 import {worldDataInterface} from "./interface.tsx"
 
-const tableHeaders = ["Flag","Name","Domain","Region","Bollard","Signs"]
-const signHeaders = ["chevron","speed","stop","yield","crossing","railway"]
+// const tableHeaders = ["Flag","Name","Domain","Region","Bollard","Signs"]
+// const signHeaders = ["chevron","speed","stop","yield","crossing","railway"]
 
-const beforeSignsGap = tableHeaders.indexOf("Signs")
-const signHeadersLength = signHeaders.length
+// const beforeSignsGap = tableHeaders.indexOf("Signs")
+// const signHeadersLength = signHeaders.length
 
 interface props {
   data: worldDataInterface[]
 }
 
 export default function Output(props:props) {
+  console.log(props.data)
   const tableRows = props.data.map(item => {
     return (
       <tr key={item.flag.pic}>
@@ -30,19 +31,12 @@ export default function Output(props:props) {
       </tr>
     )
   })
+
   return (
     <div className="Output">
       <table>
         <thead>
-          <tr key="head">
-            {tableHeaders.map(item => {
-              if(item === "Signs")
-                return <th key={item} colSpan={signHeadersLength}>{item}</th>
-              else 
-                return <th key={item}>{item}</th>})
-            }
-          </tr>
-          <tr key="head2"><th colSpan={beforeSignsGap}></th>{signHeaders.map(item => <th key={item}>{item}</th>)}</tr>
+          {/* <tr key="head"><th></th>{signHeaders.map(item => <th key={item}>{item}</th>)}</tr> */}
         </thead>
         <tbody>
           {tableRows}

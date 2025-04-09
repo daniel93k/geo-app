@@ -9,6 +9,7 @@ export const worldData: worldDataInterface[] = [
     region: ["Europe", "Nordic"],
     flag: {
       pic: base + "ax/ax_flag.svg",
+      proportions: "17:26",
       colors: ["blue", "yellow", "red"],
     },
     sovereignTo: "fi",
@@ -58,11 +59,72 @@ export const worldData: worldDataInterface[] = [
     ],
   },
   {
+    name: "Denmark",
+    domain: ".dk",
+    region: ["Europe", "Nordic"],
+    flag: {
+      pic: base + "dk/dk_flag.svg",
+      proportions: "28:37",
+      colors: ["red", "white"],
+    },
+    onGoogleMaps: true,
+    languages: ["finnish", "swedish"],
+    drivingSide: "right",
+    bollard: [
+      {
+        pic: base + "dk/dk_bollard.png",
+        colors: ["white","red"],
+        reflector: ["yellow","silver"],
+      }
+    ],
+    signSpeed: [
+      {
+        pic: base + "dk/dk_sign-speed.svg",
+        colors: ["black","white", "red"],
+        text: "Number",
+      },
+    ],
+    signStop: [
+      {
+        pic: base + "dk/dk_sign-stop.svg",
+        colors: ["white", "red"],
+        border: "white",
+        text: "STOP",
+      },
+    ],
+    signYield: [
+      {
+        pic: base + "dk/dk_sign-yield.svg",
+        colors: ["white", "red"],
+      },
+    ],
+    signPedestrianCrossing: [
+      {
+        pic: base + "dk/dk_sign-crossing.svg",
+        colors: ["black", "white", "blue"],
+        border: "white",
+      },
+    ],
+    signChevron: [
+      {
+        pic: base + "dk/dk_sign-chevron.png",
+        colors: ["yellow", "black"],
+      },
+    ],
+    signRailway: [
+      {
+        pic: base + "dk/dk_sign-railway.webp",
+        colors: ["red", "white"],
+      }
+    ],
+    },
+  {
     name: "Finland",
     domain: ".fi",
     region: ["Europe", "Nordic"],
     flag: {
       pic: base + "fi/fi_flag.svg",
+      proportions: "11:18",
       colors: ["blue, white"],
     },
     onGoogleMaps: true,
@@ -118,70 +180,12 @@ export const worldData: worldDataInterface[] = [
     ],
   },
   {
-    name: "Denmark",
-    domain: ".dk",
-    region: ["Europe", "Nordic"],
-    flag: {
-      pic: base + "dk/dk_flag.svg",
-      colors: ["red", "white"],
-    },
-    onGoogleMaps: true,
-    languages: ["finnish", "swedish"],
-    drivingSide: "right",
-    bollard: [
-      {
-        pic: base + "dk/dk_bollard.png",
-        colors: ["white","red"],
-        reflector: ["yellow","silver"],
-      }
-    ],
-    signSpeed: [
-      {
-        pic: base + "dk/dk_sign-speed.svg",
-        colors: ["black","white", "red"],
-        text: "Number",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "dk/dk_sign-stop.svg",
-        colors: ["white", "red"],
-        border: "white",
-        text: "STOP",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "dk/dk_sign-yield.svg",
-        colors: ["white", "red"],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "dk/dk_sign-crossing.svg",
-        colors: ["black", "white", "blue"],
-        border: "white",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "dk/dk_sign-chevron.png",
-        colors: ["yellow", "black"],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "dk/dk_sign-railway.webp",
-        colors: ["red", "white"],
-      }
-    ],
-    },
-  {
     name: "Faroe Islands",
     domain: ".fo",
     region: ["Europe", "Nordic"],
     flag: {
       pic: base + "fo/fo_flag.svg",
+      proportions: "8:11",
       colors: ["white", "blue", "red"],
     },
     sovereignTo: "dk",
@@ -235,6 +239,7 @@ export const worldData: worldDataInterface[] = [
     region: ["Europe", "Nordic"],
     flag: {
       pic: base + "gl/gl_flag.svg",
+      proportions: "2:3",
       colors: ["white", "red"],
     },
     sovereignTo: "dk",
@@ -281,6 +286,7 @@ export const worldData: worldDataInterface[] = [
     region: ["Europe", "Nordic"],
     flag: {
       pic: base + "is/is_flag.svg",
+      proportions: "18:25",
       colors: ["blue", "white", "red"],
     },
     onGoogleMaps: true,
@@ -329,11 +335,77 @@ export const worldData: worldDataInterface[] = [
     ],
   },
   {
+    name: "North Korea",
+    domain: ".kp",
+    region: ["Asia"],
+    flag: {
+      pic: base + "kp/kp_flag.svg",
+      proportions: "1:2",
+      colors: ["red", "blue", "white"],
+    },
+    onGoogleMaps: false,
+    drivingSide: "right",
+    languages: ["Korean"],
+    commonWords: {
+      "road": "",
+      "mountain": "",
+      "river": "",
+    },
+    bollard: [
+      {
+        pic: base + "",
+        colors: ["",""],
+        reflector: [""],
+      }
+    ],
+    signSpeed: [
+      {
+        pic: base + "",
+        colors: ["",""],
+        border: "",
+      },
+    ],
+    signStop: [
+      {
+        pic: base + "",
+        colors: [""],
+        border: "",
+        text: "",
+      },
+    ],
+    signYield: [
+      {
+        pic: base + "",
+        colors: [""],
+      },
+    ],
+    signPedestrianCrossing: [
+      {
+        pic: base + "",
+        colors: [""],
+        border: "",
+      },
+    ],
+    signChevron: [
+      {
+        pic: base + "",
+        colors: [""],
+      },
+    ],
+    signRailway: [
+      {
+        pic: base + "",
+        colors: [""],
+      },
+    ],
+  },
+  {
     name: "Norway",
     domain: ".no",
     region: ["Europe", "Nordic"],
     flag: {
       pic: base + "no/no_flag.svg",
+      proportions: "8:11",
       colors: ["red", "white", "blue"],
     },
     onGoogleMaps: true,
@@ -393,6 +465,7 @@ export const worldData: worldDataInterface[] = [
     region: ["Europe", "Nordic"],
     flag: {
       pic: base + "se/se_flag.svg",
+      proportions: "5:8",
       colors: ["blue", "yellow"],
     },
     onGoogleMaps: true,
@@ -456,7 +529,7 @@ export const worldData: worldDataInterface[] = [
 //      pic: base + "ax/ax_flag.svg",
 //      colors: [""],
 //    },
-//    sovereignTo: "",
+//    sovereignTo: ,
 //    onGoogleMaps: ,
 //    driningSide: "",
 //    languages: [""],
@@ -464,7 +537,7 @@ export const worldData: worldDataInterface[] = [
 //      "road": "",
 //      "mountain": "",
 //      "river": "",
-//    }
+//    },
 //    bollard: [
 //      {
 //        pic: base + "",

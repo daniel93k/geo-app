@@ -1,5 +1,6 @@
 export interface worldDataInterface {
   name: string;
+  capital: string[];
   domain: string;
   region: string[];
   flag: marker;
@@ -27,6 +28,7 @@ interface marker {
   pic: string;
   proportions?: string; // x:y
   colors?: string[];
+  emblem?: string;
   text?: string;
   border?: string;
   reflector?: string[];

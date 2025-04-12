@@ -144,6 +144,208 @@ export const worldData: worldDataInterface[] = [
     },
     onGoogleMaps: true,
     drivingSide: "right",
+    languages: ["Arabic"],
+    commonWords: {
+      road: "",
+      mountain: "",
+      river: "",
+    },
+    bollard: [
+      {
+        pic: base + "",
+        colors: ["", ""],
+        reflector: [""],
+      },
+    ],
+    signSpeed: [
+      {
+        pic: base + "",
+        colors: ["", ""],
+        border: "",
+      },
+    ],
+    signStop: [
+      {
+        pic: base + "",
+        colors: [""],
+        border: "",
+        text: "",
+      },
+    ],
+    signYield: [
+      {
+        pic: base + "",
+        colors: [""],
+      },
+    ],
+    signPedestrianCrossing: [
+      {
+        pic: base + "",
+        colors: [""],
+        border: "",
+      },
+    ],
+    signChevron: [
+      {
+        pic: base + "",
+        colors: [""],
+      },
+    ],
+    signRailway: [
+      {
+        pic: base + "",
+        colors: [""],
+      },
+    ],
+  },
+  {
+    name: "Afghanistan",
+    capital: ["Kabul"],
+    domain: ".af",
+    region: ["Asia"],
+    flag: {
+      pic: base + "af/af_flag.svg",
+      proportions: "1:2",
+      colors: ["white", "black"],
+      emblem: "",
+    },
+    onGoogleMaps: false,
+    drivingSide: "right",
+    languages: ["Pashto", "Dari"],
+    commonWords: {
+      road: "",
+      mountain: "",
+      river: "",
+    },
+    bollard: [
+      {
+        pic: base + "",
+        colors: ["", ""],
+        reflector: [""],
+      },
+    ],
+    signSpeed: [
+      {
+        pic: base + "",
+        colors: ["", ""],
+        border: "",
+      },
+    ],
+    signStop: [
+      {
+        pic: base + "",
+        colors: [""],
+        border: "",
+        text: "",
+      },
+    ],
+    signYield: [
+      {
+        pic: base + "",
+        colors: [""],
+      },
+    ],
+    signPedestrianCrossing: [
+      {
+        pic: base + "",
+        colors: [""],
+        border: "",
+      },
+    ],
+    signChevron: [
+      {
+        pic: base + "",
+        colors: [""],
+      },
+    ],
+    signRailway: [
+      {
+        pic: base + "",
+        colors: [""],
+      },
+    ],
+  },
+  {
+    name: "Antigua and Barbuda",
+    capital: ["Saint John's"],
+    domain: ".ag",
+    region: ["North America", "Caribbean"],
+    flag: {
+      pic: base + "ag/ag_flag.svg",
+      proportions: "2:3",
+      colors: ["red", "black", "yellow", "blue", "white"],
+      emblem: "",
+    },
+    onGoogleMaps: false,
+    drivingSide: "left",
+    languages: ["Antiguan and Barbudan Creole"],
+    commonWords: {
+      road: "",
+      mountain: "",
+      river: "",
+    },
+    bollard: [
+      {
+        pic: base + "",
+        colors: ["", ""],
+        reflector: [""],
+      },
+    ],
+    signSpeed: [
+      {
+        pic: base + "",
+        colors: ["", ""],
+        border: "",
+      },
+    ],
+    signStop: [
+      {
+        pic: base + "",
+        colors: [""],
+        border: "",
+        text: "",
+      },
+    ],
+    signYield: [
+      {
+        pic: base + "",
+        colors: [""],
+      },
+    ],
+    signPedestrianCrossing: [
+      {
+        pic: base + "",
+        colors: [""],
+        border: "",
+      },
+    ],
+    signChevron: [
+      {
+        pic: base + "",
+        colors: [""],
+      },
+    ],
+    signRailway: [
+      {
+        pic: base + "",
+        colors: [""],
+      },
+    ],
+  },
+  {
+    name: "Anguilla",
+    capital: ["The Valley"],
+    domain: ".ai",
+    region: ["North America", "Caribbean"],
+    flag: {
+      pic: base + "ai/ai_flag.svg",
+      proportions: "1:2",
+      colors: ["blue", "red", "white"],
+      emblem: "",
+    },
+    sovereignTo: "uk",
+    onGoogleMaps: false,
+    drivingSide: "left",
     languages: [""],
     commonWords: {
       road: "",
@@ -199,423 +401,611 @@ export const worldData: worldDataInterface[] = [
     ],
   },
   {
-  name: "Afghanistan",
-  capital: ["Kabul"],
-  domain: ".af",
-  region: ["Asia"],
+    name: "Albania",
+    capital: ["Tirana"],
+    domain: ".al",
+    region: ["Europe"],
+    flag: {
+      pic: base + "al/al_flag.svg",
+      proportions: "5:7",
+      colors: ["red", "black"],
+      emblem: "al/al_coat_of_arms.svg",
+    },
+    onGoogleMaps: true,
+    drivingSide: "right",
+    languages: ["Albanian"],
+    commonWords: {
+      road: "",
+      mountain: "",
+      river: "",
+    },
+    bollard: [
+      {
+        pic: base + "",
+        colors: ["", ""],
+        reflector: [""],
+      },
+    ],
+    signSpeed: [
+      {
+        pic: base + "",
+        colors: ["", ""],
+        border: "",
+      },
+    ],
+    signStop: [
+      {
+        pic: base + "",
+        colors: [""],
+        border: "",
+        text: "",
+      },
+    ],
+    signYield: [
+      {
+        pic: base + "",
+        colors: [""],
+      },
+    ],
+    signPedestrianCrossing: [
+      {
+        pic: base + "",
+        colors: [""],
+        border: "",
+      },
+    ],
+    signChevron: [
+      {
+        pic: base + "",
+        colors: [""],
+      },
+    ],
+    signRailway: [
+      {
+        pic: base + "",
+        colors: [""],
+      },
+    ],
+  },
+  {
+  name: "Armenia",
+  capital: ["Yerevan"],
+  domain: ".am",
+  region: ["Asia", "Caucasus"],
   flag: {
-    pic: base + "af/af_flag.svg",
-    proportions: "1:2",
-    colors: ["white", "black"],
-    emblem: "",
+   pic: base + "am/am_flag.svg",
+   proportions: "1:2",
+   colors: ["red", "blue", "yellow"],
+   emblem: "am/am_coat_of_arms.svg",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["Armenian"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Angola",
+  capital: ["Luanda"],
+  domain: ".ao",
+  region: ["Africa"],
+  flag: {
+   pic: base + "ao/ao_flag.svg",
+   proportions: "2:3",
+   colors: ["red", "black", "yellow"],
+   emblem: "",
   },
   onGoogleMaps: false,
   drivingSide: "right",
   languages: [""],
   commonWords: {
   "road": "",
-  "mountain": "",
-  "river": "",
+   "mountain": "",
+   "river": "",
   },
   bollard: [
-  {
-    pic: base + "",
-    colors: ["",""],
-    reflector: [""],
-  }
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
   ],
   signSpeed: [
-  {
-    pic: base + "",
-    colors: ["",""],
-    border: "",
-  },
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
   ],
   signStop: [
-  {
-    pic: base + "",
-    colors: [""],
-    border: "",
-    text: "",
-  },
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
   ],
   signYield: [
-  {
-    pic: base + "",
-    colors: [""],
-  },
+   {
+     pic: base + "",
+     colors: [""],
+   },
   ],
   signPedestrianCrossing: [
-  {
-    pic: base + "",
-    colors: [""],
-    border: "",
-  },
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
   ],
   signChevron: [
-  {
-    pic: base + "",
-    colors: [""],
-  },
+   {
+     pic: base + "",
+     colors: [""],
+   },
   ],
   signRailway: [
-  {
-    pic: base + "",
-    colors: [""],
-  },
+   {
+     pic: base + "",
+     colors: [""],
+   },
   ],
   },
   {
-  name: "Antigua and Barbuda",
-  capital: ["Saint John's"],
-  domain: ".ag",
-  region: ["North America", "Caribbean"],
+  name: "Antarctica",
+  capital: ["Snow City!"],
+  domain: ".aq",
+  region: ["Antarctica"],
   flag: {
-    pic: base + "ag/ag_flag.svg",
-    proportions: "2:3",
-    colors: ["red","black", "yellow", "blue", "white"],
-    emblem: "",
+   pic: base + "aq/aq_flag.svg",
+   proportions: "9:15",
+   colors: ["blue", "white"],
+   emblem: "",
   },
-  onGoogleMaps: false,
-  drivingSide: "left",
+  sovereignTo: "many",
+  onGoogleMaps: true,
+  drivingSide: null,
   languages: [""],
   commonWords: {
   "road": "",
-  "mountain": "",
-  "river": "",
+   "mountain": "",
+   "river": "",
   },
   bollard: [
-  {
-    pic: base + "",
-    colors: ["",""],
-    reflector: [""],
-  }
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
   ],
   signSpeed: [
-  {
-    pic: base + "",
-    colors: ["",""],
-    border: "",
-  },
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
   ],
   signStop: [
-  {
-    pic: base + "",
-    colors: [""],
-    border: "",
-    text: "",
-  },
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
   ],
   signYield: [
-  {
-    pic: base + "",
-    colors: [""],
-  },
+   {
+     pic: base + "",
+     colors: [""],
+   },
   ],
   signPedestrianCrossing: [
-  {
-    pic: base + "",
-    colors: [""],
-    border: "",
-  },
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
   ],
   signChevron: [
-  {
-    pic: base + "",
-    colors: [""],
-  },
+   {
+     pic: base + "",
+     colors: [""],
+   },
   ],
   signRailway: [
-  {
-    pic: base + "",
-    colors: [""],
-  },
+   {
+     pic: base + "",
+     colors: [""],
+   },
   ],
   },
   {
-  name: "Anguilla",
-  capital: ["The Valley"],
-  domain: ".ai",
-  region: ["North America", "Caribbean"],
+  name: "Argentia",
+  capital: ["Buenos Aires"],
+  domain: ".ar",
+  region: ["South America"],
   flag: {
-    pic: base + "ai/ai_flag.svg",
-    proportions: "1:2",
-    colors: ["blue", "red", "white"],
-    emblem: "",
+   pic: base + "ar/ar_flag.svg",
+   proportions: "5:8",
+   colors: ["blue", "white"],
+   emblem: "ar/ar_coat_of_arms.svg",
   },
-  sovereignTo: "uk",
-  onGoogleMaps: false,
-  drivingSide: "left",
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["Spanish"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "American Samoa",
+  capital: ["Pago Pago", "Fatatogo", "Tafuna"],
+  domain: ".as",
+  region: ["Oceania", "Polynesia"],
+  flag: {
+   pic: base + "as/as_flag.svg",
+   proportions: "1:2",
+   colors: ["blue","red", "white"],
+   emblem: "",
+  },
+  sovereignTo: "us",
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["Samoan", "English"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Austria",
+  capital: ["Vienna"],
+  domain: ".at",
+  region: ["Europe"],
+  flag: {
+   pic: base + "at/at_flag.svg",
+   proportions: "2:3",
+   colors: ["red", "white"],
+   emblem: "at/at_coat_of_arms.svg",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
   languages: [""],
   commonWords: {
   "road": "",
-  "mountain": "",
-  "river": "",
+   "mountain": "",
+   "river": "",
   },
   bollard: [
-  {
-    pic: base + "",
-    colors: ["",""],
-    reflector: [""],
-  }
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
   ],
   signSpeed: [
-  {
-    pic: base + "",
-    colors: ["",""],
-    border: "",
-  },
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
   ],
   signStop: [
-  {
-    pic: base + "",
-    colors: [""],
-    border: "",
-    text: "",
-  },
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
   ],
   signYield: [
-  {
-    pic: base + "",
-    colors: [""],
-  },
+   {
+     pic: base + "",
+     colors: [""],
+   },
   ],
   signPedestrianCrossing: [
-  {
-    pic: base + "",
-    colors: [""],
-    border: "",
-  },
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
   ],
   signChevron: [
-  {
-    pic: base + "",
-    colors: [""],
-  },
+   {
+     pic: base + "",
+     colors: [""],
+   },
   ],
   signRailway: [
-  {
-    pic: base + "",
-    colors: [""],
-  },
+   {
+     pic: base + "",
+     colors: [""],
+   },
   ],
-},
-//{
-//name: "",
-//capital: "",
-//domain: "",
-//region: [""],
-//flag: {
-//  pic: base + "ax/ax_flag.svg",
-//  proportions: "",
-//  colors: [""],
-//  emblem: "",
-//},
-//sovereignTo: ,
-//onGoogleMaps: ,
-//drivingSide: "",
-//languages: [""],
-//commonWords: {
-// "road": "",
-//  "mountain": "",
-//  "river": "",
-//},
-//bollard: [
-//  {
-//    pic: base + "",
-//    colors: ["",""],
-//    reflector: [""],
-//  }
-//],
-//poleSnow: {},
-//poleTele: {},
-//roadMarkings: {},
-//regPlate: {},
-//signSpeed: [
-//  {
-//    pic: base + "",
-//    colors: ["",""],
-//    border: "",
-//  },
-//],
-//signStop: [
-//  {
-//    pic: base + "",
-//    colors: [""],
-//    border: "",
-//    text: "",
-//  },
-//],
-//signYield: [
-//  {
-//    pic: base + "",
-//    colors: [""],
-//  },
-//],
-//signPedestrianCrossing: [
-//  {
-//    pic: base + "",
-//    colors: [""],
-//    border: "",
-//  },
-//],
-//signChevron: [
-//  {
-//    pic: base + "",
-//    colors: [""],
-//  },
-//],
-//signRailway: [
-//  {
-//    pic: base + "",
-//    colors: [""],
-//  },
-//],
-//},
-//{
-//name: "",
-//capital: "",
-//domain: "",
-//region: [""],
-//flag: {
-//  pic: base + "ax/ax_flag.svg",
-//  proportions: "",
-//  colors: [""],
-//  emblem: "",
-//},
-//sovereignTo: ,
-//onGoogleMaps: ,
-//drivingSide: "",
-//languages: [""],
-//commonWords: {
-// "road": "",
-//  "mountain": "",
-//  "river": "",
-//},
-//bollard: [
-//  {
-//    pic: base + "",
-//    colors: ["",""],
-//    reflector: [""],
-//  }
-//],
-//poleSnow: {},
-//poleTele: {},
-//roadMarkings: {},
-//regPlate: {},
-//signSpeed: [
-//  {
-//    pic: base + "",
-//    colors: ["",""],
-//    border: "",
-//  },
-//],
-//signStop: [
-//  {
-//    pic: base + "",
-//    colors: [""],
-//    border: "",
-//    text: "",
-//  },
-//],
-//signYield: [
-//  {
-//    pic: base + "",
-//    colors: [""],
-//  },
-//],
-//signPedestrianCrossing: [
-//  {
-//    pic: base + "",
-//    colors: [""],
-//    border: "",
-//  },
-//],
-//signChevron: [
-//  {
-//    pic: base + "",
-//    colors: [""],
-//  },
-//],
-//signRailway: [
-//  {
-//    pic: base + "",
-//    colors: [""],
-//  },
-//],
-//},
-//{
-//name: "",
-//capital: "",
-//domain: "",
-//region: [""],
-//flag: {
-//  pic: base + "ax/ax_flag.svg",
-//  proportions: "",
-//  colors: [""],
-//  emblem: "",
-//},
-//sovereignTo: ,
-//onGoogleMaps: ,
-//drivingSide: "",
-//languages: [""],
-//commonWords: {
-// "road": "",
-//  "mountain": "",
-//  "river": "",
-//},
-//bollard: [
-//  {
-//    pic: base + "",
-//    colors: ["",""],
-//    reflector: [""],
-//  }
-//],
-//poleSnow: {},
-//poleTele: {},
-//roadMarkings: {},
-//regPlate: {},
-//signSpeed: [
-//  {
-//    pic: base + "",
-//    colors: ["",""],
-//    border: "",
-//  },
-//],
-//signStop: [
-//  {
-//    pic: base + "",
-//    colors: [""],
-//    border: "",
-//    text: "",
-//  },
-//],
-//signYield: [
-//  {
-//    pic: base + "",
-//    colors: [""],
-//  },
-//],
-//signPedestrianCrossing: [
-//  {
-//    pic: base + "",
-//    colors: [""],
-//    border: "",
-//  },
-//],
-//signChevron: [
-//  {
-//    pic: base + "",
-//    colors: [""],
-//  },
-//],
-//signRailway: [
-//  {
-//    pic: base + "",
-//    colors: [""],
-//  },
-//],
-//},
+  },
+  {
+  name: "Australia",
+  capital: ["Canberra"],
+  domain: ".au",
+  region: ["Oceania", "Austrailia"],
+  flag: {
+   pic: base + "au/au_flag.svg",
+   proportions: "1:2",
+   colors: ["blue", "red", "white"],
+   emblem: "au/au_coat_of_arms.svg",
+  },
+  onGoogleMaps: true,
+  drivingSide: "left",
+  languages: ["English"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Aruba",
+  capital: ["Oranjestad"],
+  domain: ".aw",
+  region: ["North America", "Caribbian"],
+  flag: {
+   pic: base + "aw/aw_flag.svg",
+   proportions: "2:3",
+   colors: ["blue", "red", "white","yellow"],
+   emblem: "",
+  },
+  sovereignTo: "nl",
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["Spanish", "English","Frensh"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
   {
     name: "Åland",
     capital: ["Mariehamn"],
@@ -672,6 +1062,277 @@ export const worldData: worldDataInterface[] = [
       },
     ],
   },
+  {
+  name: "Azerbaijan",
+  capital: ["Baku"],
+  domain: ".az",
+  region: ["Asia", "Caucasus"],
+  flag: {
+   pic: base + "az/az_flag.svg",
+   proportions: "1:2",
+   colors: ["blue", "red", "green","white"],
+   emblem: "az/az_coat_of_arms.svg",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: [""],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  //{
+  //name: "",
+  //capital: [""],
+  //domain: "",
+  //region: [""],
+  //flag: {
+  //  pic: base + "ax/ax_flag.svg",
+  //  proportions: "",
+  //  colors: [""],
+  //  emblem: "",
+  //},
+  //sovereignTo: ,
+  //onGoogleMaps: ,
+  //drivingSide: "",
+  //languages: [""],
+  //commonWords: {
+  // "road": "",
+  //  "mountain": "",
+  //  "river": "",
+  //},
+  //bollard: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    reflector: [""],
+  //  }
+  //],
+  //signSpeed: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    border: "",
+  //  },
+  //],
+  //signStop: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //    text: "",
+  //  },
+  //],
+  //signYield: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  //],
+  //signPedestrianCrossing: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //  },
+  //],
+  //signChevron: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  //],
+  //signRailway: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  //],
+  //},
+  //{
+  //name: "",
+  //capital: [""],
+  //domain: "",
+  //region: [""],
+  //flag: {
+  //  pic: base + "ax/ax_flag.svg",
+  //  proportions: "",
+  //  colors: [""],
+  //  emblem: "",
+  //},
+  //sovereignTo: ,
+  //onGoogleMaps: ,
+  //drivingSide: "",
+  //languages: [""],
+  //commonWords: {
+  // "road": "",
+  //  "mountain": "",
+  //  "river": "",
+  //},
+  //bollard: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    reflector: [""],
+  //  }
+  //],
+  //signSpeed: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    border: "",
+  //  },
+  //],
+  //signStop: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //    text: "",
+  //  },
+  //],
+  //signYield: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  //],
+  //signPedestrianCrossing: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //  },
+  //],
+  //signChevron: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  //],
+  //signRailway: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  //],
+  //},
+  //{
+  //name: "",
+  //capital: [""],
+  //domain: "",
+  //region: [""],
+  //flag: {
+  //  pic: base + "ax/ax_flag.svg",
+  //  proportions: "",
+  //  colors: [""],
+  //  emblem: "",
+  //},
+  //sovereignTo: ,
+  //onGoogleMaps: ,
+  //drivingSide: "",
+  //languages: [""],
+  //commonWords: {
+  // "road": "",
+  //  "mountain": "",
+  //  "river": "",
+  //},
+  //bollard: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    reflector: [""],
+  //  }
+  //],
+  //signSpeed: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    border: "",
+  //  },
+  //],
+  //signStop: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //    text: "",
+  //  },
+  //],
+  //signYield: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  //],
+  //signPedestrianCrossing: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //  },
+  //],
+  //signChevron: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  //],
+  //signRailway: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  //],
+  //},
   {
     name: "Denmark",
     capital: ["Copenhagen"],

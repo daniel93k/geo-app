@@ -7,7 +7,7 @@ export interface worldDataInterface {
 
   sovereignTo?: string;
   onGoogleMaps: boolean;
-  drivingSide: "right" | "left";
+  drivingSide: "right" | "left" | null;
   languages?: string[];
   commonWords?: commonWords;
 

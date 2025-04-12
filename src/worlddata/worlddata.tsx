@@ -5,7 +5,7 @@ export const worldData: worldDataInterface[] = [
   {
     name: "Ascension Island",
     capital: ["Georgetown"],
-    domain: ".ac",
+    domain: "ac",
     region: ["Africa", "Atlantic"],
     flag: {
       pic: base + "ac/ac_flag.svg",
@@ -68,7 +68,7 @@ export const worldData: worldDataInterface[] = [
   {
     name: "Andorra",
     capital: ["Andorra la Vella"],
-    domain: ".ad",
+    domain: "ad",
     region: ["Europa"],
     flag: {
       pic: base + "ad/ad_flag.svg",
@@ -135,7 +135,7 @@ export const worldData: worldDataInterface[] = [
   {
     name: "United Arab Emirates",
     capital: ["Abu Dhabi"],
-    domain: ".ae",
+    domain: "ae",
     region: ["Asia", "Middle East"],
     flag: {
       pic: base + "ae/ae_flag.svg",
@@ -201,7 +201,7 @@ export const worldData: worldDataInterface[] = [
   {
     name: "Afghanistan",
     capital: ["Kabul"],
-    domain: ".af",
+    domain: "af",
     region: ["Asia"],
     flag: {
       pic: base + "af/af_flag.svg",
@@ -268,7 +268,7 @@ export const worldData: worldDataInterface[] = [
   {
     name: "Antigua and Barbuda",
     capital: ["Saint John's"],
-    domain: ".ag",
+    domain: "ag",
     region: ["North America", "Caribbean"],
     flag: {
       pic: base + "ag/ag_flag.svg",
@@ -335,7 +335,7 @@ export const worldData: worldDataInterface[] = [
   {
     name: "Anguilla",
     capital: ["The Valley"],
-    domain: ".ai",
+    domain: "ai",
     region: ["North America", "Caribbean"],
     flag: {
       pic: base + "ai/ai_flag.svg",
@@ -403,7 +403,7 @@ export const worldData: worldDataInterface[] = [
   {
     name: "Albania",
     capital: ["Tirana"],
-    domain: ".al",
+    domain: "al",
     region: ["Europe"],
     flag: {
       pic: base + "al/al_flag.svg",
@@ -470,7 +470,7 @@ export const worldData: worldDataInterface[] = [
   {
   name: "Armenia",
   capital: ["Yerevan"],
-  domain: ".am",
+  domain: "am",
   region: ["Asia", "Caucasus"],
   flag: {
    pic: base + "am/am_flag.svg",
@@ -537,7 +537,7 @@ export const worldData: worldDataInterface[] = [
   {
   name: "Angola",
   capital: ["Luanda"],
-  domain: ".ao",
+  domain: "ao",
   region: ["Africa"],
   flag: {
    pic: base + "ao/ao_flag.svg",
@@ -604,7 +604,7 @@ export const worldData: worldDataInterface[] = [
   {
   name: "Antarctica",
   capital: ["Snow City!"],
-  domain: ".aq",
+  domain: "aq",
   region: ["Antarctica"],
   flag: {
    pic: base + "aq/aq_flag.svg",
@@ -672,7 +672,7 @@ export const worldData: worldDataInterface[] = [
   {
   name: "Argentia",
   capital: ["Buenos Aires"],
-  domain: ".ar",
+  domain: "ar",
   region: ["South America"],
   flag: {
    pic: base + "ar/ar_flag.svg",
@@ -739,7 +739,7 @@ export const worldData: worldDataInterface[] = [
   {
   name: "American Samoa",
   capital: ["Pago Pago", "Fatatogo", "Tafuna"],
-  domain: ".as",
+  domain: "as",
   region: ["Oceania", "Polynesia"],
   flag: {
    pic: base + "as/as_flag.svg",
@@ -807,7 +807,7 @@ export const worldData: worldDataInterface[] = [
   {
   name: "Austria",
   capital: ["Vienna"],
-  domain: ".at",
+  domain: "at",
   region: ["Europe"],
   flag: {
    pic: base + "at/at_flag.svg",
@@ -874,7 +874,7 @@ export const worldData: worldDataInterface[] = [
   {
   name: "Australia",
   capital: ["Canberra"],
-  domain: ".au",
+  domain: "au",
   region: ["Oceania", "Austrailia"],
   flag: {
    pic: base + "au/au_flag.svg",
@@ -941,7 +941,7 @@ export const worldData: worldDataInterface[] = [
   {
   name: "Aruba",
   capital: ["Oranjestad"],
-  domain: ".aw",
+  domain: "aw",
   region: ["North America", "Caribbian"],
   flag: {
    pic: base + "aw/aw_flag.svg",
@@ -1009,7 +1009,7 @@ export const worldData: worldDataInterface[] = [
   {
     name: "Åland",
     capital: ["Mariehamn"],
-    domain: ".ax",
+    domain: "ax",
     region: ["Europe", "Nordic"],
     flag: {
       pic: base + "ax/ax_flag.svg",
@@ -1065,7 +1065,7 @@ export const worldData: worldDataInterface[] = [
   {
   name: "Azerbaijan",
   capital: ["Baku"],
-  domain: ".az",
+  domain: "az",
   region: ["Asia", "Caucasus"],
   flag: {
    pic: base + "az/az_flag.svg",
@@ -1129,142 +1129,140 @@ export const worldData: worldDataInterface[] = [
    },
   ],
   },
-  //{
-  //name: "",
-  //capital: [""],
-  //domain: "",
-  //region: [""],
-  //flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  //},
-  //sovereignTo: ,
-  //onGoogleMaps: ,
-  //drivingSide: "",
-  //languages: [""],
-  //commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  //},
-  //bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  //],
-  //signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  //],
-  //signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  //],
-  //signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  //],
-  //signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  //],
-  //signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  //],
-  //signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  //],
-  //},
-  //{
-  //name: "",
-  //capital: [""],
-  //domain: "",
-  //region: [""],
-  //flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  //},
-  //sovereignTo: ,
-  //onGoogleMaps: ,
-  //drivingSide: "",
-  //languages: [""],
-  //commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  //},
-  //bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  //],
-  //signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  //],
-  //signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  //],
-  //signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  //],
-  //signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  //],
-  //signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  //],
-  //signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  //],
-  //},
+  {
+  name: "Bosnia and Herzegovia",
+  capital: ["Sarajevo"],
+  domain: "ba",
+  region: ["Europe"],
+  flag: {
+   pic: base + "ba/ba_flag.svg",
+   proportions: "1:2",
+   colors: ["blue","yellow", "white"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: [""],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Barbados",
+  capital: ["Bridgetown"],
+  domain: "bb",
+  region: ["North America", "Caribbian"],
+  flag: {
+   pic: base + "bb/bb_flag.svg",
+   proportions: "2:3",
+   colors: ["blue","yellow", "black"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "left",
+  languages: ["English"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
   //{
   //name: "",
   //capital: [""],
@@ -1336,7 +1334,7 @@ export const worldData: worldDataInterface[] = [
   {
     name: "Denmark",
     capital: ["Copenhagen"],
-    domain: ".dk",
+    domain: "dk",
     region: ["Europe", "Nordic"],
     flag: {
       pic: base + "dk/dk_flag.svg",
@@ -1397,7 +1395,7 @@ export const worldData: worldDataInterface[] = [
   {
     name: "Finland",
     capital: ["Helsinki"],
-    domain: ".fi",
+    domain: "fi",
     region: ["Europe", "Nordic"],
     flag: {
       pic: base + "fi/fi_flag.svg",
@@ -1459,7 +1457,7 @@ export const worldData: worldDataInterface[] = [
   {
     name: "Faroe Islands",
     capital: ["Tórshavn"],
-    domain: ".fo",
+    domain: "fo",
     region: ["Europe", "Nordic"],
     flag: {
       pic: base + "fo/fo_flag.svg",
@@ -1514,7 +1512,7 @@ export const worldData: worldDataInterface[] = [
   {
     name: "Greenland",
     capital: ["Nuuk"],
-    domain: ".gl",
+    domain: "gl",
     region: ["Europe", "Nordic"],
     flag: {
       pic: base + "gl/gl_flag.svg",
@@ -1562,7 +1560,7 @@ export const worldData: worldDataInterface[] = [
   {
     name: "Iceland",
     capital: ["Reykjavík"],
-    domain: ".is",
+    domain: "is",
     region: ["Europe", "Nordic"],
     flag: {
       pic: base + "is/is_flag.svg",
@@ -1617,7 +1615,7 @@ export const worldData: worldDataInterface[] = [
   {
     name: "North Korea",
     capital: ["Pyongyang"],
-    domain: ".kp",
+    domain: "kp",
     region: ["Asia"],
     flag: {
       pic: base + "kp/kp_flag.svg",
@@ -1683,7 +1681,7 @@ export const worldData: worldDataInterface[] = [
   {
     name: "Norway",
     capital: ["Oslo"],
-    domain: ".no",
+    domain: "no",
     region: ["Europe", "Nordic"],
     flag: {
       pic: base + "no/no_flag.svg",
@@ -1744,7 +1742,7 @@ export const worldData: worldDataInterface[] = [
   {
     name: "Sweden",
     capital: ["Stockho"],
-    domain: ".se",
+    domain: "se",
     region: ["Europe", "Nordic"],
     flag: {
       pic: base + "se/se_flag.svg",
@@ -1804,75 +1802,71 @@ export const worldData: worldDataInterface[] = [
   },
 ]
 
-//{
-//name: "",
-//capital: "",
-//domain: "",
-//region: [""],
-//flag: {
-//  pic: base + "ax/ax_flag.svg",
-//  proportions: "",
-//  colors: [""],
-//  emblem: "",
-//},
-//sovereignTo: ,
-//onGoogleMaps: ,
-//drivingSide: "",
-//languages: [""],
-//commonWords: {
-// "road": "",
-//  "mountain": "",
-//  "river": "",
-//},
-//bollard: [
-//  {
-//    pic: base + "",
-//    colors: ["",""],
-//    reflector: [""],
-//  }
-//],
-//poleSnow: {},
-//poleTele: {},
-//roadMarkings: {},
-//regPlate: {},
-//signSpeed: [
-//  {
-//    pic: base + "",
-//    colors: ["",""],
-//    border: "",
-//  },
-//],
-//signStop: [
-//  {
-//    pic: base + "",
-//    colors: [""],
-//    border: "",
-//    text: "",
-//  },
-//],
-//signYield: [
-//  {
-//    pic: base + "",
-//    colors: [""],
-//  },
-//],
-//signPedestrianCrossing: [
-//  {
-//    pic: base + "",
-//    colors: [""],
-//    border: "",
-//  },
-//],
-//signChevron: [
-//  {
-//    pic: base + "",
-//    colors: [""],
-//  },
-//],
-//signRailway: [
-//  {
-//    pic: base + "",
-//    colors: [""],
-//  },
-//],
-//}
+  //{
+  //name: "",
+  //capital: [""],
+  //domain: "",
+  //region: [""],
+  //flag: {
+  //  pic: base + "ax/ax_flag.svg",
+  //  proportions: "",
+  //  colors: [""],
+  //  emblem: "",
+  //},
+  //sovereignTo: ,
+  //onGoogleMaps: ,
+  //drivingSide: "",
+  //languages: [""],
+  //commonWords: {
+  // "road": "",
+  //  "mountain": "",
+  //  "river": "",
+  //},
+  //bollard: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    reflector: [""],
+  //  }
+  //],
+  //signSpeed: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    border: "",
+  //  },
+  //],
+  //signStop: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //    text: "",
+  //  },
+  //],
+  //signYield: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  //],
+  //signPedestrianCrossing: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //  },
+  //],
+  //signChevron: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  //],
+  //signRailway: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  //],
+  //},

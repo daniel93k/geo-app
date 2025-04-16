@@ -1263,74 +1263,1147 @@ export const worldData: worldDataInterface[] = [
    },
   ],
   },
-  //{
-  //name: "",
-  //capital: [""],
-  //domain: "",
-  //region: [""],
-  //flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  //},
-  //sovereignTo: ,
-  //onGoogleMaps: ,
-  //drivingSide: "",
-  //languages: [""],
-  //commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  //},
-  //bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  //],
-  //signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  //],
-  //signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  //],
-  //signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  //],
-  //signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  //],
-  //signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  //],
-  //signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  //],
-  //},
+  {
+  name: "Bangladesh",
+  capital: ["Dhaka"],
+  domain: "bd",
+  region: ["Asia"],
+  flag: {
+   pic: base + "bd/bd_flag.svg",
+   proportions: "5:3",
+   colors: ["green","red"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "left",
+  languages: ["Bengali"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ]
+},
+  {
+  name: "Belgium",
+  capital: ["Brussels"],
+  domain: "be",
+  region: ["Europe"],
+  flag: {
+   pic: base + "be/be_flag.svg",
+   proportions: "13:15",
+   colors: ["black","yelloe","red"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["Dutch","French","German"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ]
+},
+  {
+  name: "Burkina Faso",
+  capital: ["Ougadougou"],
+  domain: "bf",
+  region: ["Africa"],
+  flag: {
+   pic: base + "bf/bf_flag.svg",
+   proportions: "2:3",
+   colors: ["red","green","yellow"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: [""],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ]
+},
+  {
+  name: "Bulgaria",
+  capital: ["Sofia"],
+  domain: "bg",
+  region: ["Europe"],
+  flag: {
+   pic: base + "bg/bg_flag.svg",
+   proportions: "3:5",
+   colors: ["white","green","red"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["Bulgarian"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Bahrain",
+  capital: ["Manama"],
+  domain: "bh",
+  region: ["Asia","Middle East"],
+  flag: {
+   pic: base + "bh/bh_flag.svg",
+   proportions: "3:5",
+   colors: ["red","white"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: [""],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Burundi",
+  capital: ["Gitega","Bujumbura"],
+  domain: "bi",
+  region: ["Africa"],
+  flag: {
+   pic: base + "bi/bi_flag.svg",
+   proportions: "3:5",
+   colors: ["red","green","white"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: [""],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Benin",
+  capital: ["Porto-Novo"],
+  domain: "bj",
+  region: ["Africa"],
+  flag: {
+   pic: base + "bj/bj_flag.svg",
+   proportions: "2:3",
+   colors: ["green","yellow","red"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["French"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Bermuda",
+  capital: ["Hamilton"],
+  domain: "bm",
+  region: ["Atlantic"],
+  flag: {
+   pic: base + "bm/bm_flag.svg",
+   proportions: "1:2",
+   colors: ["red","blue","white"],
+   emblem: "bm/bm_emblem.svg",
+  },
+  sovereignTo: "United Kingdom",
+  onGoogleMaps: true,
+  drivingSide: "left",
+  languages: ["English"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Brunei",
+  capital: ["Bandar Seri Begawan"],
+  domain: "bn",
+  region: ["Asia"],
+  flag: {
+   pic: base + "bn/bn_flag.svg",
+   proportions: "1:2",
+   colors: ["yellow","white","black"],
+   emblem: "bn/coat_of_arms.svg",
+  },
+  onGoogleMaps: false,
+  drivingSide: "left",
+  languages: ["Malay"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Bolivia",
+  capital: ["Sucre","La Paz"],
+  domain: "bo",
+  region: ["South America"],
+  flag: {
+   pic: base + "bo/bo_flag.svg",
+   proportions: "15:22",
+   colors: ["red","yellow","green"],
+   emblem: "bo/bo_coat_of_arms.svg",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["Spanish"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Caribbean Netherlands",
+  capital: [""],
+  domain: "bq",
+  region: [""],
+  flag: {
+   pic: base + "",
+   proportions: "",
+   colors: [""],
+   emblem: "",
+  },
+  sovereignTo: "Netherlands",
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["Dutch"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "bq/bq_flag.svg",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Brazil",
+  capital: ["Brasilia"],
+  domain: "br",
+  region: ["South America"],
+  flag: {
+   pic: base + "br/br_flag.svg",
+   proportions: "7:10",
+   colors: ["green","yellow","blue","white"],
+   emblem: "br/coat_of_arms.svg",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: [""],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Bahamas",
+  capital: ["Nassau"],
+  domain: "bs",
+  region: ["North America"],
+  flag: {
+   pic: base + "bs/bs_flag.svg",
+   proportions: "1:2",
+   colors: ["blue","yellow","black"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "left",
+  languages: [""],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Bhutan",
+  capital: ["Thimphu"],
+  domain: "bt",
+  region: ["Asia"],
+  flag: {
+   pic: base + "bt/bt_flag.svg",
+   proportions: "2:3",
+   colors: ["yellow","orange","white"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "left",
+  languages: [""],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Botswana",
+  capital: ["Gaborone"],
+  domain: "bw",
+  region: ["Africa"],
+  flag: {
+   pic: base + "bw/bw_flag.svg",
+   proportions: "2:3",
+   colors: ["blue","white","black"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "left",
+  languages: [""],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Belarus",
+  capital: ["Minsk"],
+  domain: "by",
+  region: ["Europe"],
+  flag: {
+   pic: base + "by/by_flag.svg",
+   proportions: "1:2",
+   colors: ["red","green","white"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: [""],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Belize",
+  capital: ["Belmopan"],
+  domain: "bz",
+  region: ["North America","Central America"],
+  flag: {
+   pic: base + "bz/bz_flag.svg",
+   proportions: "3:5",
+   colors: ["red","blue"],
+   emblem: "bz/bz_coat_of_arms.svg",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: [""],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
   {
     name: "Denmark",
     capital: ["Copenhagen"],
@@ -1613,7 +2686,7 @@ export const worldData: worldDataInterface[] = [
     ],
   },
   {
-    name: "North Korea",
+   name: "North Korea",
     capital: ["Pyongyang"],
     domain: "kp",
     region: ["Asia"],
@@ -1800,73 +2873,73 @@ export const worldData: worldDataInterface[] = [
       },
     ],
   },
-]
-
-  //{
-  //name: "",
-  //capital: [""],
-  //domain: "",
-  //region: [""],
-  //flag: {
+  // {
+  // name: "",
+  // capital: [""],
+  // domain: "",
+  // region: [""],
+  // flag: {
   //  pic: base + "ax/ax_flag.svg",
   //  proportions: "",
   //  colors: [""],
   //  emblem: "",
-  //},
-  //sovereignTo: ,
-  //onGoogleMaps: ,
-  //drivingSide: "",
-  //languages: [""],
-  //commonWords: {
+  // },
+  // sovereignTo: ,
+  // onGoogleMaps: ,
+  // drivingSide: "",
+  // languages: [""],
+  // commonWords: {
   // "road": "",
   //  "mountain": "",
   //  "river": "",
-  //},
-  //bollard: [
+  // },
+  // bollard: [
   //  {
   //    pic: base + "",
   //    colors: ["",""],
   //    reflector: [""],
   //  }
-  //],
-  //signSpeed: [
+  // ],
+  // signSpeed: [
   //  {
   //    pic: base + "",
   //    colors: ["",""],
   //    border: "",
   //  },
-  //],
-  //signStop: [
+  // ],
+  // signStop: [
   //  {
   //    pic: base + "",
   //    colors: [""],
   //    border: "",
   //    text: "",
   //  },
-  //],
-  //signYield: [
+  // ],
+  // signYield: [
   //  {
   //    pic: base + "",
   //    colors: [""],
   //  },
-  //],
-  //signPedestrianCrossing: [
+  // ],
+  // signPedestrianCrossing: [
   //  {
   //    pic: base + "",
   //    colors: [""],
   //    border: "",
   //  },
-  //],
-  //signChevron: [
+  // ],
+  // signChevron: [
   //  {
   //    pic: base + "",
   //    colors: [""],
   //  },
-  //],
-  //signRailway: [
+  // ],
+  // signRailway: [
   //  {
   //    pic: base + "",
   //    colors: [""],
   //  },
-  //],
+  // ],
   //},
+
+  ]

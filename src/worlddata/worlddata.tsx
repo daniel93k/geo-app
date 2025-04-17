@@ -2405,6 +2405,812 @@ export const worldData: worldDataInterface[] = [
   ],
   },
   {
+  name: "Canada",
+  capital: ["Ottawa"],
+  domain: "ca",
+  region: ["North America"],
+  flag: {
+   pic: base + "ca/ca_flag.svg",
+   proportions: "1:2",
+   colors: ["red","white"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["English","French"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Cocos Islands",
+  capital: [""],
+  domain: "cc",
+  region: ["Oceania","Indian Ocean"],
+  flag: {
+   pic: base + "cc/cc_flag.svg",
+   proportions: "1:2",
+   colors: ["green","yellow","brown"],
+   emblem: "",
+  },
+  sovereignTo: "Australia",
+  onGoogleMaps: true,
+  drivingSide: "left",
+  languages: [""],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Democratic Republic of the Congo",
+  capital: ["Kinshasa"],
+  domain: "cd",
+  region: ["Africa"],
+  flag: {
+   pic: base + "cd/cd_flag.svg",
+   proportions: "3:4",
+   colors: ["blue","yellow","red"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["French"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Central African Republic",
+  capital: ["Bangui"],
+  domain: "cf",
+  region: ["Africa"],
+  flag: {
+   pic: base + "cf/cf_flag.svg",
+   proportions: "2:3",
+   colors: ["blue","white","green","yellow","red"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["French"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Republic of the Congo",
+  capital: ["Brazzaville"],
+  domain: "cg",
+  region: ["Africa"],
+  flag: {
+   pic: base + "cg/cg_flag.svg",
+   proportions: "2:3",
+   colors: ["green","yellow","red"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: [""],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Switzerland",
+  capital: ["Bern"],
+  domain: "ch",
+  region: ["Europe"],
+  flag: {
+   pic: base + "ch/ch_flag.svg",
+   proportions: "1:1",
+   colors: ["red","white"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: [""],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Ivory Coast",
+  capital: ["Yamoussoukro"],
+  domain: "ci",
+  region: ["Africa"],
+  flag: {
+   pic: base + "ci/ci_flag.svg",
+   proportions: "2:3",
+   colors: ["orange","white","green"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: [""],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Cook Islands",
+  capital: ["Avarua"],
+  domain: "ck",
+  region: ["Oceania","Polynesia"],
+  flag: {
+   pic: base + "ck/ck_flag.svg",
+   proportions: "1:2",
+   colors: ["blue","red","white"],
+   emblem: "",
+  },
+  sovereignTo: "New Zeeland",
+  onGoogleMaps: false,
+  drivingSide: "left",
+  languages: ["English"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Chile",
+  capital: ["Santiago"],
+  domain: "cl",
+  region: ["South America"],
+  flag: {
+   pic: base + "cl/cl_flag.svg",
+   proportions: "2:3",
+   colors: ["white","red","blue"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: [""],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Cameroon",
+  capital: ["Yaoundé"],
+  domain: "cm",
+  region: ["Africa"],
+  flag: {
+   pic: base + "cm/cm_flag.svg",
+   proportions: "2:3",
+   colors: ["green","red","yellow"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: [""],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "China",
+  capital: ["Beijing"],
+  domain: "cn",
+  region: ["Asia"],
+  flag: {
+   pic: base + "cn/cn_flag.svg",
+   proportions: "2:3",
+   colors: ["red","yellow"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: [""],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Colombia",
+  capital: ["Bogotá"],
+  domain: "co",
+  region: ["South America"],
+  flag: {
+   pic: base + "co/co_flag.svg",
+   proportions: "2:3",
+   colors: ["yellow","blue","red"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: [""],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
     name: "Denmark",
     capital: ["Copenhagen"],
     domain: "dk",

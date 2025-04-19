@@ -1,19 +1,12 @@
 import "./Output.css"
 import {worldDataInterface} from "./interface.tsx"
 
-// const tableHeaders = ["Flag","Name","Domain","Region","Bollard","Signs"]
-// const signHeaders = ["chevron","speed","stop","yield","crossing","railway"]
-
-// const beforeSignsGap = tableHeaders.indexOf("Signs")
-// const signHeadersLength = signHeaders.length
-
 interface props {
-  data: worldDataInterface[]
+  filteredData: worldDataInterface[]
 }
 
 export default function Output(props:props) {
-  console.log(props.data)
-  const tableRows = props.data.map(item => {
+  const tableRows = props.filteredData.map(item => {
     return (
       <tr key={item.flag.pic}>
         <td className="flag"><a href={`./sources/index.html#${item.domain}`} target="_blank" rel="noopener noreferrer"><img src={item.flag.pic} /></a></td>
@@ -35,9 +28,6 @@ export default function Output(props:props) {
   return (
     <div className="Output">
       <table>
-        <thead>
-          {/* <tr key="head"><th></th>{signHeaders.map(item => <th key={item}>{item}</th>)}</tr> */}
-        </thead>
         <tbody>
           {tableRows}
         </tbody>

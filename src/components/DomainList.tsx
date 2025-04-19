@@ -3,12 +3,12 @@ import {worldDataInterface} from ".././interface.tsx"
 import {worldData} from ".././worlddata/worlddata.tsx";
 
 interface props {
-  data: worldDataInterface[]
-  setData: React.Dispatch<React.SetStateAction<worldDataInterface[]>>
+  worldData: worldDataInterface[]
+  filteredData: worldDataInterface[]
 }
 
 export default function DomainList(props:props) {
-  console.log(props.data)
+  console.log(props)
   const options = worldData.map(item => {
     return (
     <div key={item.domain} className="DomainList">

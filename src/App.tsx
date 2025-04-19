@@ -1,26 +1,24 @@
 import {useState} from "react"
 import './App.css'
-import {worldData as dataInput} from "./worlddata/worlddata.tsx"
+import {worldData} from "./worlddata/worlddata.tsx"
 import Options from "./Options.tsx"
 import Output from "./Output.tsx"
 import {worldDataInterface, worldFormInterface, worldFormInit} from "./interface.tsx"
 
 export default function App() {
 
-  const [worldData, setworldData] = useState<worldDataInterface[]>(dataInput)
   const [formData, setFormData] = useState<worldFormInterface>(worldFormInit)
   const filteredWorldData = filterData(worldData, formData)
 
   return (
     <>
-      <Options data={worldData} setData={setworldData} formData={formData} setFormData={setFormData}/>
-      <Output data={filteredWorldData}/>
+      <Options filteredData={filteredWorldData} worldData={worldData} formData={formData} setFormData={setFormData}/>
+      <Output filteredData={filteredWorldData}/>
     </>
   )
 }
 
 function filterData(worldData:worldDataInterface[], formData:worldFormInterface) {
-  console.log(formData)
   let ret = worldData.filter(item => {
     if(formData.soverign)
       if(!item.sovereignTo) return true

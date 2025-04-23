@@ -1,3 +1,6 @@
+// import DomainList from "./components/DomainList";
+import {worldData} from "./worlddata/worlddata.tsx"
+
 export interface worldDataInterface {
   name: string;
   capital: string[];
@@ -46,6 +49,7 @@ export interface worldFormInterface {
   nonSoverign: boolean;
   onGoogleMaps: boolean;
   notOnGoogleMaps: boolean;
+  domainList: worldDataInterface[];
 }
 
 export const worldFormInit = {
@@ -53,4 +57,5 @@ export const worldFormInit = {
   nonSoverign: true,
   onGoogleMaps: true,
   notOnGoogleMaps: false,
+  domainList: worldData,
 }

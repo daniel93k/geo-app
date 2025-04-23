@@ -1,13 +1,16 @@
 .Options {
 
-  & .domain-options {
-    border: 1px solid gray;
-    padding: 1px;
-    border: 1px solid red;
+  & .domain {
+    /* border: 1px solid gray; */
+    /* padding: 1px; */
+    /* border: 1px solid red; */
   }
 
   & .list {
     border: 1px solid green;
+    height: 500px;
+    width: 400px;
+    overflow: scroll;
   }
 
 }

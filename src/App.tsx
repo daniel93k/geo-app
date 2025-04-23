@@ -7,7 +7,10 @@ import {worldDataInterface, worldFormInterface, worldFormInit} from "./interface
 
 export default function App() {
 
+  console.log(worldData.length)
   const [formData, setFormData] = useState<worldFormInterface>(worldFormInit)
+  console.log(formData)
+  formData.domainList = worldData
   const filteredWorldData = filterData(worldData, formData)
 
   return (
@@ -19,7 +22,8 @@ export default function App() {
 }
 
 function filterData(worldData:worldDataInterface[], formData:worldFormInterface) {
-  let ret = worldData.filter(item => {
+  let ret = worldData
+  ret = ret.filter(item => {
     if(formData.soverign)
       if(!item.sovereignTo) return true
     if(formData.nonSoverign)

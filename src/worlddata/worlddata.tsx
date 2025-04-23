@@ -2475,7 +2475,7 @@ export const worldData: worldDataInterface[] = [
   name: "Cocos Islands",
   capital: [""],
   domain: "cc",
-  region: ["Oceania","Indian Ocean"],
+  region: ["Asia","Indian Ocean"],
   flag: {
    pic: base + "cc/cc_flag.svg",
    proportions: "1:2",
@@ -3157,6 +3157,611 @@ export const worldData: worldDataInterface[] = [
   onGoogleMaps: true,
   drivingSide: "right",
   languages: [""],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Costa Rica",
+  capital: ["San José"],
+  domain: "cr",
+  region: ["Central America"],
+  flag: {
+   pic: base + "cr/cr_flag.svg",
+   proportions: "3:5",
+   colors: ["blue","white","red"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["Spanish"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Cuba",
+  capital: [""],
+  domain: "cu",
+  region: ["Northen America"],
+  flag: {
+   pic: base + "cu/cu_flag.svg",
+   proportions: "1:2",
+   colors: ["blue","white","red"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["Spanish"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Cape Verde",
+  capital: ["Praia"],
+  domain: "cv",
+  region: ["Africa"],
+  flag: {
+   pic: base + "cv/cv_flag.svg",
+   proportions: "10:17",
+   colors: ["blue","white","red","yellow"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["portuguese"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Curaçao",
+  capital: ["Willemstad"],
+  domain: "cw",
+  region: ["South America","Caribbian"],
+  flag: {
+   pic: base + "cw/cw_flag.svg",
+   proportions: "2:3",
+   colors: ["blue","yellow","white"],
+   emblem: "",
+  },
+  sovereignTo: "Netherlands",
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["papiamentu"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Christmas Island",
+  capital: ["Flying Fish Cove"],
+  domain: "cx",
+  region: ["Asia","Indian Ocean"],
+  flag: {
+   pic: base + "cx/cx_flag.svg",
+   proportions: "",
+   colors: ["green","blue","yellow","white"],
+   emblem: "",
+  },
+  sovereignTo: "Australia",
+  onGoogleMaps: true,
+  drivingSide: "left",
+  languages: ["English","Malay","Mandarin"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Cyprus",
+  capital: ["Nicosia"],
+  domain: "cy",
+  region: ["Europe"],
+  flag: {
+   pic: base + "cy/cy_flag.svg",
+   proportions: "2:3",
+   colors: ["white","orange","green"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "left",
+  languages: [""],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Czech Republic",
+  capital: ["Prague"],
+  domain: "cz",
+  region: ["Europe"],
+  flag: {
+   pic: base + "cz/cz_flag.svg",
+   proportions: "2:3",
+   colors: ["white","red","blue"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["Czech"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Germany",
+  capital: ["Berlin"],
+  domain: "de",
+  region: ["Europe"],
+  flag: {
+   pic: base + "de/de_flag.svg",
+   proportions: "3:5",
+   colors: ["black","red","yellow"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["German"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Djibouti",
+  capital: ["Djibouti City"],
+  domain: "dj",
+  region: ["Africa"],
+  flag: {
+   pic: base + "dj/dj_flag.svg",
+   proportions: "2:3",
+   colors: ["blue","white","green","red"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["Somali"],
   commonWords: {
   "road": "",
    "mountain": "",

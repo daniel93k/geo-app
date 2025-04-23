@@ -30,20 +30,23 @@ export default function Options(props:props) {
     <div className="Options">
       <form action={formAction} className="form1">
         <section className="domain">
-            <fieldset>
-              <input onChange={handleChange} type="checkbox" id="soverign" name="soverign" checked={props.formData.soverign}/>
-                <label htmlFor="soverign">Soverign</label><br />
-              <input onChange={handleChange} type="checkbox" id="nonSoverign" name="nonSoverign" checked={props.formData.nonSoverign}/>
-                <label htmlFor="nonSoverign">Not soverign</label><br />
-            </fieldset>
-            <fieldset>
-              <input onChange={handleChange} type="checkbox" id="onGoogleMaps" name="onGoogleMaps" checked={props.formData.onGoogleMaps}/>
-                <label htmlFor="onGoogleMaps">On GoogleMaps</label><br />
-              <input onChange={handleChange} type="checkbox" id="notOnGoogleMaps" name="notOnGoogleMaps" checked={props.formData.notOnGoogleMaps}/>
-                <label htmlFor="notOnGoogleMaps">Not on GoogleMaps</label><br />
-            </fieldset>
+          <fieldset>
+            <input onChange={handleChange} type="checkbox" id="soverign" name="soverign" checked={props.formData.soverign}/>
+              <label htmlFor="soverign">Soverign</label><br />
+            <input onChange={handleChange} type="checkbox" id="nonSoverign" name="nonSoverign" checked={props.formData.nonSoverign}/>
+              <label htmlFor="nonSoverign">Not soverign</label><br />
+          </fieldset>
+          <fieldset>
+            <input onChange={handleChange} type="checkbox" id="onGoogleMaps" name="onGoogleMaps" checked={props.formData.onGoogleMaps}/>
+              <label htmlFor="onGoogleMaps">On GoogleMaps</label><br />
+            <input onChange={handleChange} type="checkbox" id="notOnGoogleMaps" name="notOnGoogleMaps" checked={props.formData.notOnGoogleMaps}/>
+              <label htmlFor="notOnGoogleMaps">Not on GoogleMaps</label><br />
+          </fieldset>
           <section className="list">
-            <DomainList worldData={props.worldData} filteredData={props.filteredData}/>
+            <DomainList worldData={props.worldData}
+              filteredData={props.filteredData}
+              setFormData={props.setFormData}
+            />
           </section>
         </section>
       </form>

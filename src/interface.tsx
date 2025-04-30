@@ -1,4 +1,3 @@
-// import DomainList from "./components/DomainList";
 import {worldData} from "./worlddata/worlddata.tsx"
 
 export interface worldDataInterface {
@@ -49,7 +48,8 @@ export interface worldFormInterface {
   nonSoverign: boolean;
   onGoogleMaps: boolean;
   notOnGoogleMaps: boolean;
-  domainList: worldDataInterface[];
+  domainList: {[key: string]:boolean};
+  // domainListFlag: boolean;
 }
 
 export const worldFormInit = {
@@ -57,5 +57,18 @@ export const worldFormInit = {
   nonSoverign: true,
   onGoogleMaps: true,
   notOnGoogleMaps: false,
-  domainList: worldData,
+  domainList: initDomainList(),
+  domainListFlag: false,
+}
+
+function initDomainList() {
+  const ret:{[key: string]:boolean} = {}
+  for (const element of worldData) {
+    ret[element.domain] = false
+  }
+  const data = worldData.filter((item) => item.onGoogleMaps === true)
+  for (const element of data) {
+    ret[element.domain] = true
+  }
+  return ret
 }

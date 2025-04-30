@@ -2,13 +2,14 @@ import "./Output.css"
 import {worldDataInterface} from "./interface.tsx"
 
 interface props {
-  filteredData: worldDataInterface[]
+  data: worldDataInterface[]
 }
 
 export default function Output(props:props) {
-  const tableRows = props.filteredData.map(item => {
+  const tableRows = props.data.map((item,i) => {
     return (
       <tr key={item.flag.pic}>
+        <td>{i+1}</td>
         <td className="flag"><a href={`./sources/index.html#${item.domain}`} target="_blank" rel="noopener noreferrer"><img src={item.flag.pic} /></a></td>
         <td className="name">{item.name}</td>
         <td className="domain">{item.domain}</td>

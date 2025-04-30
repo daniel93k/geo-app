@@ -78,7 +78,7 @@ export const worldData: worldDataInterface[] = [
     },
     onGoogleMaps: true,
     drivingSide: "right",
-    languages: ["Catalan"],
+    languages: ["Catalan","Spanish","French"],
     commonWords: {
       road: "",
       mountain: "",
@@ -144,7 +144,7 @@ export const worldData: worldDataInterface[] = [
     },
     onGoogleMaps: true,
     drivingSide: "right",
-    languages: ["Arabic"],
+    languages: ["Arabic","English"],
     commonWords: {
       road: "",
       mountain: "",
@@ -278,7 +278,7 @@ export const worldData: worldDataInterface[] = [
     },
     onGoogleMaps: false,
     drivingSide: "left",
-    languages: ["Antiguan and Barbudan Creole"],
+    languages: ["English","Antiguan and Barbudan Creole"],
     commonWords: {
       road: "",
       mountain: "",
@@ -346,7 +346,7 @@ export const worldData: worldDataInterface[] = [
     sovereignTo: "uk",
     onGoogleMaps: false,
     drivingSide: "left",
-    languages: [""],
+    languages: ["English","Anguillian Creole"],
     commonWords: {
       road: "",
       mountain: "",
@@ -404,7 +404,7 @@ export const worldData: worldDataInterface[] = [
     name: "Albania",
     capital: ["Tirana"],
     domain: "al",
-    region: ["Europe"],
+    region: ["Europe","Balkans"],
     flag: {
       pic: base + "al/al_flag.svg",
       proportions: "5:7",
@@ -547,7 +547,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: false,
   drivingSide: "right",
-  languages: [""],
+  languages: ["Portuguese"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -615,7 +615,6 @@ export const worldData: worldDataInterface[] = [
   sovereignTo: "many",
   onGoogleMaps: true,
   drivingSide: null,
-  languages: [""],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -817,7 +816,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: true,
   drivingSide: "right",
-  languages: [""],
+  languages: ["German"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -952,7 +951,7 @@ export const worldData: worldDataInterface[] = [
   sovereignTo: "nl",
   onGoogleMaps: false,
   drivingSide: "right",
-  languages: ["Spanish", "English","Frensh"],
+  languages: ["Dutch","Papiamento","Spanish", "English"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -1018,7 +1017,7 @@ export const worldData: worldDataInterface[] = [
     },
     sovereignTo: "fi",
     onGoogleMaps: true,
-    languages: ["finnish", "swedish"],
+    languages: ["Swedish"],
     drivingSide: "right",
     bollard: [
       {
@@ -1075,7 +1074,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: false,
   drivingSide: "right",
-  languages: [""],
+  languages: ["Azerbaijani"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -1130,10 +1129,10 @@ export const worldData: worldDataInterface[] = [
   ],
   },
   {
-  name: "Bosnia and Herzegovia",
+  name: "Bosnia and Herzegovina",
   capital: ["Sarajevo"],
   domain: "ba",
-  region: ["Europe"],
+  region: ["Europe","Balkans"],
   flag: {
    pic: base + "ba/ba_flag.svg",
    proportions: "1:2",
@@ -1142,7 +1141,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: false,
   drivingSide: "right",
-  languages: [""],
+  languages: ["Bosnian","Croatian","Serbian"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -1410,7 +1409,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: false,
   drivingSide: "right",
-  languages: [""],
+  languages: ["French"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -1468,7 +1467,7 @@ export const worldData: worldDataInterface[] = [
   name: "Bulgaria",
   capital: ["Sofia"],
   domain: "bg",
-  region: ["Europe"],
+  region: ["Europe","Balkans"],
   flag: {
    pic: base + "bg/bg_flag.svg",
    proportions: "3:5",
@@ -1544,7 +1543,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: false,
   drivingSide: "right",
-  languages: [""],
+  languages: ["Arabic","English"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -1611,7 +1610,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: false,
   drivingSide: "right",
-  languages: [""],
+  languages: ["Kirundi","French","English"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -1736,7 +1735,7 @@ export const worldData: worldDataInterface[] = [
   name: "Bermuda",
   capital: ["Hamilton"],
   domain: "bm",
-  region: ["Atlantic"],
+  region: ["North America","Atlantic","Caribbean"],
   flag: {
    pic: base + "bm/bm_flag.svg",
    proportions: "1:2",
@@ -1813,7 +1812,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: false,
   drivingSide: "left",
-  languages: ["Malay"],
+  languages: ["Malay","English"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -1938,7 +1937,7 @@ export const worldData: worldDataInterface[] = [
   name: "Caribbean Netherlands",
   capital: [""],
   domain: "bq",
-  region: [""],
+  region: ["North America","Caribbean"],
   flag: {
    pic: base + "",
    proportions: "",
@@ -1948,7 +1947,7 @@ export const worldData: worldDataInterface[] = [
   sovereignTo: "Netherlands",
   onGoogleMaps: false,
   drivingSide: "right",
-  languages: ["Dutch"],
+  languages: ["Dutch","Papiamento","English"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -2015,7 +2014,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: true,
   drivingSide: "right",
-  languages: [""],
+  languages: ["Poruguese"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -2073,7 +2072,7 @@ export const worldData: worldDataInterface[] = [
   name: "Bahamas",
   capital: ["Nassau"],
   domain: "bs",
-  region: ["North America"],
+  region: ["North America","Caribbean"],
   flag: {
    pic: base + "bs/bs_flag.svg",
    proportions: "1:2",
@@ -2082,7 +2081,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: false,
   drivingSide: "left",
-  languages: [""],
+  languages: ["English","Bahamian Creole"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -2149,7 +2148,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: true,
   drivingSide: "left",
-  languages: [""],
+  languages: ["Dzongkha"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -2216,7 +2215,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: true,
   drivingSide: "left",
-  languages: [""],
+  languages: ["English","Setswana"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -2283,7 +2282,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: true,
   drivingSide: "right",
-  languages: [""],
+  languages: ["Belarusian","Russian"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -2350,7 +2349,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: false,
   drivingSide: "right",
-  languages: [""],
+  languages: ["English"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -2475,7 +2474,7 @@ export const worldData: worldDataInterface[] = [
   name: "Cocos Islands",
   capital: [""],
   domain: "cc",
-  region: ["Asia","Indian Ocean"],
+  region: ["Oceania","Indian Ocean"],
   flag: {
    pic: base + "cc/cc_flag.svg",
    proportions: "1:2",
@@ -2485,7 +2484,7 @@ export const worldData: worldDataInterface[] = [
   sovereignTo: "Australia",
   onGoogleMaps: true,
   drivingSide: "left",
-  languages: [""],
+  languages: ["English","Cocos Malay"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -2619,7 +2618,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: false,
   drivingSide: "right",
-  languages: ["French"],
+  languages: ["French","Sango"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -2686,7 +2685,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: false,
   drivingSide: "right",
-  languages: [""],
+  languages: ["French"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -2753,7 +2752,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: true,
   drivingSide: "right",
-  languages: [""],
+  languages: ["German","French","Italian","Romansh"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -2820,7 +2819,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: false,
   drivingSide: "right",
-  languages: [""],
+  languages: ["French"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -2888,7 +2887,7 @@ export const worldData: worldDataInterface[] = [
   sovereignTo: "New Zeeland",
   onGoogleMaps: false,
   drivingSide: "left",
-  languages: ["English"],
+  languages: ["English","Cook Islands Māori"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -2955,7 +2954,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: true,
   drivingSide: "right",
-  languages: [""],
+  languages: ["Spanish"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -3022,7 +3021,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: false,
   drivingSide: "right",
-  languages: [""],
+  languages: ["French","English"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -3089,7 +3088,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: false,
   drivingSide: "right",
-  languages: [""],
+  languages: ["Mandarin"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -3156,7 +3155,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: true,
   drivingSide: "right",
-  languages: [""],
+  languages: ["Spanish"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -3214,7 +3213,7 @@ export const worldData: worldDataInterface[] = [
   name: "Costa Rica",
   capital: ["San José"],
   domain: "cr",
-  region: ["Central America"],
+  region: ["North America","Central America"],
   flag: {
    pic: base + "cr/cr_flag.svg",
    proportions: "3:5",
@@ -3281,7 +3280,7 @@ export const worldData: worldDataInterface[] = [
   name: "Cuba",
   capital: [""],
   domain: "cu",
-  region: ["Northen America"],
+  region: ["Northen America","Caribbean"],
   flag: {
    pic: base + "cu/cu_flag.svg",
    proportions: "1:2",
@@ -3348,7 +3347,7 @@ export const worldData: worldDataInterface[] = [
   name: "Cape Verde",
   capital: ["Praia"],
   domain: "cv",
-  region: ["Africa"],
+  region: ["Africa","Atlantic"],
   flag: {
    pic: base + "cv/cv_flag.svg",
    proportions: "10:17",
@@ -3357,7 +3356,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: false,
   drivingSide: "right",
-  languages: ["portuguese"],
+  languages: ["Portuguese"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -3415,7 +3414,7 @@ export const worldData: worldDataInterface[] = [
   name: "Curaçao",
   capital: ["Willemstad"],
   domain: "cw",
-  region: ["South America","Caribbian"],
+  region: ["North America","Caribbian"],
   flag: {
    pic: base + "cw/cw_flag.svg",
    proportions: "2:3",
@@ -3425,7 +3424,7 @@ export const worldData: worldDataInterface[] = [
   sovereignTo: "Netherlands",
   onGoogleMaps: true,
   drivingSide: "right",
-  languages: ["papiamentu"],
+  languages: ["Dutch","Papiamento"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -3483,7 +3482,7 @@ export const worldData: worldDataInterface[] = [
   name: "Christmas Island",
   capital: ["Flying Fish Cove"],
   domain: "cx",
-  region: ["Asia","Indian Ocean"],
+  region: ["Oceania","Indian Ocean"],
   flag: {
    pic: base + "cx/cx_flag.svg",
    proportions: "",
@@ -3551,7 +3550,7 @@ export const worldData: worldDataInterface[] = [
   name: "Cyprus",
   capital: ["Nicosia"],
   domain: "cy",
-  region: ["Europe"],
+  region: ["Asia"],
   flag: {
    pic: base + "cy/cy_flag.svg",
    proportions: "2:3",
@@ -3560,7 +3559,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: false,
   drivingSide: "left",
-  languages: [""],
+  languages: ["Greek","Turkish","English"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -3761,7 +3760,7 @@ export const worldData: worldDataInterface[] = [
   },
   onGoogleMaps: false,
   drivingSide: "right",
-  languages: ["Somali"],
+  languages: ["Arabic","French","Somali"],
   commonWords: {
   "road": "",
    "mountain": "",
@@ -3826,7 +3825,7 @@ export const worldData: worldDataInterface[] = [
       colors: ["red", "white"],
     },
     onGoogleMaps: true,
-    languages: ["finnish", "swedish"],
+    languages: ["Danish"],
     drivingSide: "right",
     bollard: [
       {
@@ -3887,7 +3886,7 @@ export const worldData: worldDataInterface[] = [
       colors: ["blue, white"],
     },
     onGoogleMaps: true,
-    languages: ["finnish", "swedish"],
+    languages: ["Finnish", "Swedish"],
     drivingSide: "right",
     bollard: [
       {
@@ -3950,6 +3949,7 @@ export const worldData: worldDataInterface[] = [
     },
     sovereignTo: "dk",
     onGoogleMaps: true,
+    languages: ["Faroese", "Danish"],
     drivingSide: "right",
     bollard: [
       {
@@ -3997,7 +3997,7 @@ export const worldData: worldDataInterface[] = [
     name: "Greenland",
     capital: ["Nuuk"],
     domain: "gl",
-    region: ["Europe", "Nordic"],
+    region: ["North America", "Nordic", "Arctic"],
     flag: {
       pic: base + "gl/gl_flag.svg",
       proportions: "2:3",
@@ -4005,6 +4005,7 @@ export const worldData: worldDataInterface[] = [
     },
     sovereignTo: "dk",
     onGoogleMaps: true,
+    languages: ["Greenlandic", "Danish"],
     drivingSide: "right",
     signSpeed: [
       {
@@ -4052,7 +4053,7 @@ export const worldData: worldDataInterface[] = [
       colors: ["blue", "white", "red"],
     },
     onGoogleMaps: true,
-    languages: ["icelandic"],
+    languages: ["Icelandic"],
     drivingSide: "right",
     bollard: [
       {
@@ -4173,6 +4174,7 @@ export const worldData: worldDataInterface[] = [
       colors: ["red", "white", "blue"],
     },
     onGoogleMaps: true,
+    languages: ["Norwegian"],
     drivingSide: "right",
     bollard: [
       {
@@ -4234,7 +4236,7 @@ export const worldData: worldDataInterface[] = [
       colors: ["blue", "yellow"],
     },
     onGoogleMaps: true,
-    languages: ["swedish"],
+    languages: ["Swedish"],
     drivingSide: "right",
     bollard: [
       {

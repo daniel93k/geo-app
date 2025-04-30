@@ -48,8 +48,7 @@ export default function Options(props:props) {
               <label htmlFor="notOnGoogleMaps">Not on GoogleMaps</label><br />
           </fieldset>
           <section className="list">
-            <DomainList data={props.formData} setData={props.setFormData}
-            />
+            <DomainList data={props.formData} setData={props.setFormData} />
           </section>
         </section>
       </form>

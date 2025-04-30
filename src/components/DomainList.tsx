@@ -1,18 +1,13 @@
 import "./DomainList.css"
-import {worldDataInterface, worldFormInterface} from ".././interface.tsx"
+import {worldFormInterface} from ".././interface.tsx"
 import {worldData} from ".././worlddata/worlddata.tsx"
 
 interface props {
-  filteredData: worldDataInterface[],
   data: worldFormInterface,
   setData: React.Dispatch<React.SetStateAction<worldFormInterface>>
 }
 
 export default function DomainList(props: props) {
-  const checked:string[] = []
-  for (const element of props.filteredData) {
-    checked.push(element.domain)
-  }
   function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
     props.setData(d => ({
       ...d,
@@ -30,7 +25,7 @@ export default function DomainList(props: props) {
           type="checkbox"
           id={item.domain}
           name={item.domain}
-          checked={checked.includes(item.domain)}
+          checked={props.data.domainList[item.domain] === true}
           onChange={handleChange}
         />
         <label htmlFor={item.domain}>

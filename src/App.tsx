@@ -13,7 +13,6 @@ export default function App() {
   return (
     <>
       <Options
-        filteredData={filteredData}
         formData={formData}
         setFormData={setFormData}
       />

@@ -1,10 +1,9 @@
 import "./Options.css"
-import {worldDataInterface, worldFormInterface} from "./interface.tsx"
+import {worldFormInterface} from "./interface.tsx"
 import DomainList from "./components/DomainList.tsx";
 import { worldData } from "./worlddata/worlddata.tsx";
 
 interface props {
-  filteredData: worldDataInterface[],
   formData: worldFormInterface,
   setFormData: React.Dispatch<React.SetStateAction<worldFormInterface>>
 }
@@ -49,7 +48,7 @@ export default function Options(props:props) {
               <label htmlFor="notOnGoogleMaps">Not on GoogleMaps</label><br />
           </fieldset>
           <section className="list">
-            <DomainList filteredData={props.filteredData} data={props.formData} setData={props.setFormData}
+            <DomainList data={props.formData} setData={props.setFormData}
             />
           </section>
         </section>

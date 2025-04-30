@@ -49,7 +49,6 @@ export interface worldFormInterface {
   onGoogleMaps: boolean;
   notOnGoogleMaps: boolean;
   domainList: {[key: string]:boolean};
-  // domainListFlag: boolean;
 }
 
 export const worldFormInit = {

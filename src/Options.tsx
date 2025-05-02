@@ -4,7 +4,7 @@ import DomainList from "./components/DomainList.tsx";
 import { worldData } from "./worlddata/worlddata.tsx";
 import {useRef} from "react";
 
-const jumpStops = ["ac","ba","ca","de","fi","gl","is","kp","no","se"]
+const jumpStops = ["ac","ba","ca","de","ec","fi","gl","is","kp","no","se"]
 
 interface props {
   formData: worldFormInterface,

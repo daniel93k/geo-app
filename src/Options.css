@@ -1,16 +1,22 @@
 .Options {
 
-  & .domain {
-    /* border: 1px solid gray; */
-    /* padding: 1px; */
-    /* border: 1px solid red; */
-  }
-
   & .list {
     border: 1px solid green;
-    height: 500px;
+    max-height: 500px;
     width: 400px;
-    overflow: scroll;
+    overflow: auto;
+  }
+
+  & .jump-stops {
+    /* background-color: cyan; */
+    font-size: 120%;
+    font-weight: bold;
+    color:gray;
+    width: 400px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around ;
+    cursor: pointer;
   }
 
 }

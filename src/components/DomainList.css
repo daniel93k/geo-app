@@ -1,8 +1,6 @@
 
 .domain-list-item {
   height: 30px;
-  /* padding: 2px; */
-  /* border: 1px solid red; */
 
   [type="checkbox"] {
     display: none;
@@ -33,28 +31,3 @@
 
 
 } 
-/* #domain div {
-  height: 20px;
-  user-select: none;
-}
-
-#domain div img {
-  height: 100%;
-}
-
-#domain div [type=checkbox] {
-  display: none;
-}
-#domain div [type=checkbox]:checked + label span{
-  background-color: aquamarine;
-}
-#domain div label {
-  display: flex;
-  margin: 2px;
-}
-#domain div label .flag {
-  min-width: 34px;
-}
-#domain div label .dom {
-  min-width: 30px;
-} */

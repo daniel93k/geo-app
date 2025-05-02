@@ -2,6 +2,9 @@ import "./Options.css"
 import {worldFormInterface} from "./interface.tsx"
 import DomainList from "./components/DomainList.tsx";
 import { worldData } from "./worlddata/worlddata.tsx";
+import {useRef} from "react";
+
+const jumpStops = ["ac","ba","ca","de","fi","gl","is","kp","no","se"]
 
 interface props {
   formData: worldFormInterface,
@@ -9,6 +12,8 @@ interface props {
 }
 
 export default function Options(props:props) {
+  const listContainerRef = useRef<HTMLDivElement>(null)
+  const letterRef = useRef<{[key: string]:HTMLDivElement | null}>({})
 
   function handleChange(e: React.ChangeEvent<HTMLInputElement>){
     const type = e.target.type
@@ -27,10 +32,23 @@ export default function Options(props:props) {
     }
   }
 
+  function sortClick(e: React.MouseEvent<HTMLDivElement, MouseEvent>) {
+    const container = listContainerRef.current;
+    const target = letterRef.current;
+    const clicked = e.target as HTMLDivElement
+    console.log(clicked.className)
+    if (container && target) {
+      const topOffset = target[clicked.className]!.offsetTop - container.offsetTop;
+      container.scrollTo({
+        top: topOffset,
+        behavior: 'instant',
+      });
+    }
+  }
+
   function formAction() {
     console.log("formAction")
   }
-
   return (
     <div className="Options">
       <form action={formAction} className="form1">
@@ -47,8 +65,13 @@ export default function Options(props:props) {
             <input onChange={handleChange} type="checkbox" id="notOnGoogleMaps" name="notOnGoogleMaps" checked={props.formData.notOnGoogleMaps}/>
               <label htmlFor="notOnGoogleMaps">Not on GoogleMaps</label><br />
           </fieldset>
-          <section className="list">
-            <DomainList data={props.formData} setData={props.setFormData} />
+            <section className="country-selection">
+            <div className="jump-stops">
+              {jumpStops.map(item => <div key={item} className={item} onClick={sortClick}>{item[0]}</div>)}
+            </div>
+            <section className="list" ref={listContainerRef}>
+              <DomainList refs={letterRef} data={props.formData} setData={props.setFormData} />
+            </section>
           </section>
         </section>
       </form>

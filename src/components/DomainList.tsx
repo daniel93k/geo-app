@@ -1,8 +1,10 @@
 import "./DomainList.css"
 import {worldFormInterface} from ".././interface.tsx"
 import {worldData} from ".././worlddata/worlddata.tsx"
+// import {useRef} from "react"
 
 interface props {
+  refs: React.RefObject<{ [key: string]: HTMLDivElement | null; }>,
   data: worldFormInterface,
   setData: React.Dispatch<React.SetStateAction<worldFormInterface>>
 }
@@ -20,7 +22,13 @@ export default function DomainList(props: props) {
 
   const options = worldData.map((item) => {
     return (
-      <div key={item.domain} className={"domain-list-item" + " " + item.domain}>
+      <div
+        key={item.domain}
+        className={"domain-list-item" + " " + item.domain}
+        ref={(el) => {
+            props.refs.current[item.domain] = el;
+        }}
+      >
         <input
           type="checkbox"
           id={item.domain}
@@ -38,5 +46,9 @@ export default function DomainList(props: props) {
       </div>
     )
   })
-  return <>{options}</>
+  return (
+    <>
+      {options}
+    </>
+  )
 }

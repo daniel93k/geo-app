@@ -4676,6 +4676,208 @@ export const worldData: worldDataInterface[] = [
     ],
   },
   {
+  name: "Fiji",
+  capital: ["Suva"],
+  domain: "fj",
+  region: ["Oceania","Melanesia"],
+  flag: {
+   pic: base + "fj/fj_flag.svg",
+   proportions: "1:2",
+   colors: ["blue"],
+   emblem: "fj/fj_coat_of_arms.svg",
+  },
+  onGoogleMaps: false,
+  drivingSide: "left",
+  languages: ["English","Fijian","Fiji Hindi"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Falkland Islands",
+  capital: ["Stanley"],
+  domain: "fk",
+  region: ["South America","Atlantic"],
+  flag: {
+   pic: base + "fk/fk_flag.svg",
+   proportions: "1:2",
+   colors: ["blue","red","white"],
+   emblem: "",
+  },
+  sovereignTo: "uk",
+  onGoogleMaps: false,
+  drivingSide: "left",
+  languages: ["English","Spanish"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Federated States of Micronesia",
+  capital: ["Palikir"],
+  domain: "fm",
+  region: ["Oceania","Micronesia"],
+  flag: {
+   pic: base + "fm/fm_flag.svg",
+   proportions: "10:19",
+   colors: ["blue","white"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["English"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
     name: "Faroe Islands",
     capital: ["Tórshavn"],
     domain: "fo",
@@ -4730,6 +4932,546 @@ export const worldData: worldDataInterface[] = [
         colors: ["yellow", "black"],
       },
     ],
+  },
+  {
+  name: "France",
+  capital: ["Paris"],
+  domain: "fr",
+  region: ["Europe"],
+  flag: {
+   pic: base + "fr/fr_flag.svg",
+   proportions: "2:3",
+   colors: ["blue","white","red"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["French"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Gabon",
+  capital: ["Libreville"],
+  domain: "ga",
+  region: ["Africa"],
+  flag: {
+   pic: base + "ga/ga_flag.svg",
+   proportions: "3:4",
+   colors: ["green","yellow","blue"],
+   emblem: "ga/ga_coat_of_arms.svg",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["French"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Grenada",
+  capital: ["St. George's"],
+  domain: "gd",
+  region: ["North America","Caribbean"],
+  flag: {
+   pic: base + "gd/gd_flag.svg",
+   proportions: "3:5",
+   colors: ["red","yellow","green"],
+   emblem: "gd/gd_coat_of_arms.svg",
+  },
+  onGoogleMaps: false,
+  drivingSide: "left",
+  languages: ["English"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Georgia",
+  capital: ["Tbilisi"],
+  domain: "ge",
+  region: ["Asia","Caucasus"],
+  flag: {
+   pic: base + "ge/ge_flag.svg",
+   proportions: "2:3",
+   colors: ["red","white"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["Georgian"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "French Guiana",
+  capital: ["Cayenne"],
+  domain: "gf",
+  region: ["South America"],
+  flag: {
+   pic: base + "fr/fr_flag.svg",
+   proportions: "2:3",
+   colors: ["green","yellow","red"],
+   emblem: "",
+  },
+  sovereignTo: "fr",
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["French"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Guernsey",
+  capital: ["Saint Peter Port"],
+  domain: "gg",
+  region: ["Europe"],
+  flag: {
+   pic: base + "gg/gg_flag.svg",
+   proportions: "2:3",
+   colors: ["white","red","yellow"],
+   emblem: "",
+  },
+  sovereignTo: "uk",
+  onGoogleMaps: false,
+  drivingSide: "left",
+  languages: ["English","French"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+
+  name: "Ghana",
+  capital: ["Accra"],
+  domain: "gh",
+  region: ["Africa"],
+  flag: {
+   pic: base + "gh/gh_flag.svg",
+   proportions: "2:3",
+   colors: ["red","yellow","green","black"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["English"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Gibraltar",
+  capital: [""],
+  domain: "gi",
+  region: ["Europe"],
+  flag: {
+   pic: base + "gi/gi_flag.png",
+   proportions: "1:2",
+   colors: ["white","red","yelle","black"],
+   emblem: "",
+  },
+  sovereignTo: "uk",
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["English"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
   },
   {
     name: "Greenland",

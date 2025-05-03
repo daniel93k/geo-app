@@ -4,7 +4,7 @@ import DomainList from "./components/DomainList.tsx";
 import { worldData } from "./worlddata/worlddata.tsx";
 import {useRef} from "react";
 
-const jumpStops = ["ac","ba","ca","de","ec","fi","gl","is","kp","no","se"]
+const jumpStops = ["ac","ba","ca","de","ec","fi","ga","is","kp","no","se"]
 
 interface props {
   formData: worldFormInterface,
@@ -36,7 +36,6 @@ export default function Options(props:props) {
     const container = listContainerRef.current;
     const target = letterRef.current;
     const clicked = e.target as HTMLDivElement
-    console.log(clicked.className)
     if (container && target) {
       const topOffset = target[clicked.className]!.offsetTop - container.offsetTop;
       container.scrollTo({

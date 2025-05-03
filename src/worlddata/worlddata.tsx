@@ -5523,6 +5523,75 @@ export const worldData: worldDataInterface[] = [
     ],
   },
   {
+  name: "Hong Kong",
+  capital: ["Hong Kong"],
+  domain: "hk",
+  region: ["Asia"],
+  flag: {
+   pic: base + "hk/hk_flag.svg",
+   proportions: "2:3",
+   colors: ["red","white"],
+   emblem: "hk/hk_emblem.svg",
+  },
+  sovereignTo: "China",
+  onGoogleMaps: true,
+  drivingSide: "left",
+  languages: [""],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+
+  {
     name: "Iceland",
     capital: ["Reykjavík"],
     domain: "is",

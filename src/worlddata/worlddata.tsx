@@ -6992,278 +6992,73 @@ export const worldData: worldDataInterface[] = [
    },
   ],
   },
-  // {
-  // name: "Panama",
-  // capital: [""],
-  // domain: "pa",
-  // region: [""],
-  // flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  // },
-  // sovereignTo: ,
-  // onGoogleMaps: ,
-  // drivingSide: "",
-  // languages: [""],
-  // commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  // },
-  // bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  // ],
-  // signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  // ],
-  // signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  // ],
-  // signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  // ],
-  // signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  //},
-  // {
-  // name: "",
-  // capital: [""],
-  // domain: "",
-  // region: [""],
-  // flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  // },
-  // sovereignTo: ,
-  // onGoogleMaps: ,
-  // drivingSide: "",
-  // languages: [""],
-  // commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  // },
-  // bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  // ],
-  // signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  // ],
-  // signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  // ],
-  // signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  // ],
-  // signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  //},
-  // {
-  // name: "Qatar",
-  // capital: [""],
-  // domain: "qa",
-  // region: [""],
-  // flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  // },
-  // sovereignTo: ,
-  // onGoogleMaps: ,
-  // drivingSide: "",
-  // languages: [""],
-  // commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  // },
-  // bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  // ],
-  // signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  // ],
-  // signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  // ],
-  // signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  // ],
-  // signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  //},
-  // {
-  // name: "Réunion",
-  // capital: [""],
-  // domain: "re",
-  // region: [""],
-  // flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  // },
-  // sovereignTo: ,
-  // onGoogleMaps: ,
-  // drivingSide: "",
-  // languages: [""],
-  // commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  // },
-  // bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  // ],
-  // signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  // ],
-  // signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  // ],
-  // signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  // ],
-  // signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  //},
+  {
+  name: "Panama",
+  capital: ["Panama City"],
+  domain: "pa",
+  region: ["North America","Central America"],
+  flag: {
+   pic: base + "pa/pa_flag.svg",
+   proportions: "2:3",
+   colors: ["white","red","blue"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["Spanish","English"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
   // {
   // name: "",
   // capital: [""],
@@ -7332,10 +7127,145 @@ export const worldData: worldDataInterface[] = [
   //  },
   // ],
   //},
+  {
+  name: "Qatar",
+  capital: ["Doha"],
+  domain: "qa",
+  region: ["Asia","Middle East"],
+  flag: {
+   pic: base + "qa/qa_flag.svg",
+   proportions: "11:28",
+   colors: ["white","maroon"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["Arabic","English"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Réunion",
+  capital: [""],
+  domain: "re",
+  region: ["Africa","Indian Ocean"],
+  flag: {
+   pic: base + "re/re_flag.svg",
+   proportions: "",
+   colors: ["blue","red","yellow"],
+   emblem: "",
+  },
+  sovereignTo: "France",
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["French"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
   // {
-  // name: "Saudi Arabia",
+  // name: "",
   // capital: [""],
-  // domain: "sa",
+  // domain: "",
   // region: [""],
   // flag: {
   //  pic: base + "ax/ax_flag.svg",
@@ -7400,6 +7330,73 @@ export const worldData: worldDataInterface[] = [
   //  },
   // ],
   //},
+  {
+  name: "Saudi Arabia",
+  capital: ["Riyadh"],
+  domain: "sa",
+  region: ["Asia","Middle East"],
+  flag: {
+   pic: base + "sa/sa_flag.svg",
+   proportions: "2:3",
+   colors: ["green","white"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["Arabic"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
   // {
   // name: "",
   // capital: [""],
@@ -7597,210 +7594,74 @@ export const worldData: worldDataInterface[] = [
   //  },
   // ],
   //},
-  // {
-  // name: "Turks and Caicos Islands",
-  // capital: [""],
-  // domain: "tc",
-  // region: [""],
-  // flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  // },
-  // sovereignTo: ,
-  // onGoogleMaps: ,
-  // drivingSide: "",
-  // languages: [""],
-  // commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  // },
-  // bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  // ],
-  // signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  // ],
-  // signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  // ],
-  // signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  // ],
-  // signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  //},
-  // {
-  // name: "",
-  // capital: [""],
-  // domain: "",
-  // region: [""],
-  // flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  // },
-  // sovereignTo: ,
-  // onGoogleMaps: ,
-  // drivingSide: "",
-  // languages: [""],
-  // commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  // },
-  // bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  // ],
-  // signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  // ],
-  // signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  // ],
-  // signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  // ],
-  // signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  //},
-  // {
-  // name: "Ukraine",
-  // capital: [""],
-  // domain: "ua",
-  // region: [""],
-  // flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  // },
-  // sovereignTo: ,
-  // onGoogleMaps: ,
-  // drivingSide: "",
-  // languages: [""],
-  // commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  // },
-  // bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  // ],
-  // signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  // ],
-  // signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  // ],
-  // signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  // ],
-  // signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  //},
+  {
+  name: "Turks and Caicos Islands",
+  capital: ["Grand Turk (Cockburn Town)"],
+  domain: "tc",
+  region: ["North America","Caribbean"],
+  flag: {
+   pic: base + "tc/tc_flag.svg",
+   proportions: "1:2",
+   colors: ["white","blue","red"],
+   emblem: base + "tc/tc_coat_of_arms.svg",
+  },
+  sovereignTo: "United Kingdom",
+  onGoogleMaps: false,
+  drivingSide: "left",
+  languages: ["English"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
   // {
   // name: "",
   // capital: [""],
@@ -7869,210 +7730,73 @@ export const worldData: worldDataInterface[] = [
   //  },
   // ],
   //},
-  // {
-  // name: "Vatican City",
-  // capital: [""],
-  // domain: "va",
-  // region: [""],
-  // flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  // },
-  // sovereignTo: ,
-  // onGoogleMaps: ,
-  // drivingSide: "",
-  // languages: [""],
-  // commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  // },
-  // bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  // ],
-  // signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  // ],
-  // signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  // ],
-  // signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  // ],
-  // signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  //},
-  // {
-  // name: "",
-  // capital: [""],
-  // domain: "",
-  // region: [""],
-  // flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  // },
-  // sovereignTo: ,
-  // onGoogleMaps: ,
-  // drivingSide: "",
-  // languages: [""],
-  // commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  // },
-  // bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  // ],
-  // signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  // ],
-  // signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  // ],
-  // signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  // ],
-  // signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  //},
-  // {
-  // name: "Wallis and Futura",
-  // capital: [""],
-  // domain: "wf",
-  // region: [""],
-  // flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  // },
-  // sovereignTo: ,
-  // onGoogleMaps: ,
-  // drivingSide: "",
-  // languages: [""],
-  // commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  // },
-  // bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  // ],
-  // signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  // ],
-  // signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  // ],
-  // signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  // ],
-  // signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  //},
+  {
+  name: "Ukraine",
+  capital: ["Kyiv"],
+  domain: "ua",
+  region: ["Europe"],
+  flag: {
+   pic: base + "ua/ua_flag.svg",
+   proportions: "2:3",
+   colors: ["blue","yellow"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["Ukrainian","Russian"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
   // {
   // name: "",
   // capital: [""],
@@ -8141,74 +7865,73 @@ export const worldData: worldDataInterface[] = [
   //  },
   // ],
   //},
-  // {
-  // name: "Yemen",
-  // capital: [""],
-  // domain: "ye",
-  // region: [""],
-  // flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  // },
-  // sovereignTo: ,
-  // onGoogleMaps: ,
-  // drivingSide: "",
-  // languages: [""],
-  // commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  // },
-  // bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  // ],
-  // signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  // ],
-  // signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  // ],
-  // signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  // ],
-  // signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  //},
+  {
+  name: "Vatican City",
+  capital: ["Vatican City"],
+  domain: "va",
+  region: ["Europe"],
+  flag: {
+   pic: base + "va/va_flag.svg",
+   proportions: "1:1",
+   colors: ["yellow","white"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["Latin","Italian"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
   // {
   // name: "",
   // capital: [""],
@@ -8277,10 +8000,78 @@ export const worldData: worldDataInterface[] = [
   //  },
   // ],
   //},
+  {
+  name: "Wallis and Futuna",
+  capital: ["Mata Utu"],
+  domain: "wf",
+  region: ["Oceania","Polynesia"],
+  flag: {
+   pic: base + "wf/wf_flag.svg",
+   proportions: "2:3",
+   colors: ["blue","red","white"],
+   emblem: "",
+  },
+  sovereignTo: "France",
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["French"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
   // {
-  // name: "South Africa",
+  // name: "",
   // capital: [""],
-  // domain: "za",
+  // domain: "",
   // region: [""],
   // flag: {
   //  pic: base + "ax/ax_flag.svg",
@@ -8345,6 +8136,208 @@ export const worldData: worldDataInterface[] = [
   //  },
   // ],
   //},
+  {
+  name: "Yemen",
+  capital: ["Sanaa"],
+  domain: "ye",
+  region: ["Asia","Middle East"],
+  flag: {
+   pic: base + "ye/ye_flag.svg",
+   proportions: "2:3",
+   colors: ["red","white","black"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["Arabic"],
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  // {
+  // name: "",
+  // capital: [""],
+  // domain: "",
+  // region: [""],
+  // flag: {
+  //  pic: base + "ax/ax_flag.svg",
+  //  proportions: "",
+  //  colors: [""],
+  //  emblem: "",
+  // },
+  // sovereignTo: ,
+  // onGoogleMaps: ,
+  // drivingSide: "",
+  // languages: [""],
+  // commonWords: {
+  // "road": "",
+  //  "mountain": "",
+  //  "river": "",
+  // },
+  // bollard: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    reflector: [""],
+  //  }
+  // ],
+  // signSpeed: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    border: "",
+  //  },
+  // ],
+  // signStop: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //    text: "",
+  //  },
+  // ],
+  // signYield: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  // signPedestrianCrossing: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //  },
+  // ],
+  // signChevron: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  // signRailway: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  //},
+  {
+  name: "South Africa",
+  capital: ["Pretoria","Cape Town","Bloemfontein"],
+  domain: "za",
+  region: ["Africa"],
+  flag: {
+   pic: base + "za/za_flag.svg",
+   proportions: "2:3",
+   colors: ["red","green","blue","black","yellow","white"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "left",
+  languages: ["Africaans","English"], // and more
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
   // {
   // name: "",
   // capital: [""],

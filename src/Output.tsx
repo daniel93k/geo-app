@@ -8,7 +8,7 @@ interface props {
 export default function Output(props:props) {
   const tableRows = props.data.map((item,i) => {
     return (
-      <tr key={item.flag.pic}>
+      <tr key={item.domain}>
         <td>{i+1}</td>
         <td className="flag"><a href={`./sources/index.html#${item.domain}`} target="_blank" rel="noopener noreferrer"><img src={item.flag.pic} /></a></td>
         <td className="name">{item.name}</td>

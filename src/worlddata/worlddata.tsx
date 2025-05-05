@@ -17,6 +17,10 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "left",
     languages: ["English"],
+    links: {
+      location: "https://www.google.se/maps/place/Ascension/@-7.9412317,-14.3993217,13z/data=!4m6!3m5!1s0x5b0f4126dd69e2d:0x40d606a7f1eda1e7!8m2!3d-7.9467166!4d-14.3559158!16zL20vMHpiOA?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoASAFQAw%3D%3D",
+      wikipedia: "https://en.wikipedia.org/wiki/Ascension_island",
+    },
     bollard: [
       {
         pic: base + "",
@@ -79,6 +83,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["Catalan", "Spanish", "French"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Andorra",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -145,6 +152,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["Arabic", "English"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/United_Arab_Emiretes",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -212,6 +222,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["Pashto", "Dari"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Afghanistan",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -279,6 +292,10 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "left",
     languages: ["English", "Antiguan and Barbudan Creole"],
+    links: {
+      location: "https://www.google.se/maps/place/Antigua+och+Barbuda/@17.3258296,-62.1753455,11z/data=!4m6!3m5!1s0x8c0d6eb96db8d1c1:0x276a3788e18b7994!8m2!3d17.060816!4d-61.796428!16zL20vMGwzaA?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQwNi4wIKXMDSoASAFQAw%3D%3D",
+      wikipedia: "https://en.wikipedia.org/wiki/Antigua_and_Barbuda",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -347,6 +364,10 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "left",
     languages: ["English", "Anguillian Creole"],
+    links: {
+      location: "https://www.google.se/maps/place/Anguilla/@18.3897972,-63.3652954,11z/data=!3m1!4b1!4m6!3m5!1s0x8c0e63748eef01e5:0x3b9d6ad384e0d481!8m2!3d18.220554!4d-63.068615!16zL20vMG4zZw?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQwNi4wIKXMDSoASAFQAw%3D%3D",
+      wikipedia: "https://en.wikipedia.org/wiki/Anguilla",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -414,6 +435,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["Albanian"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Albania",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -481,6 +505,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["Armenian"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Armenia",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -548,6 +575,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["Portuguese"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Angola",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -669,7 +699,7 @@ export const worldData: worldDataInterface[] = [
     ],
   },
   {
-    name: "Argentia",
+    name: "Argentina",
     capital: ["Buenos Aires"],
     domain: "ar",
     region: ["South America"],
@@ -682,6 +712,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["Spanish"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Argentina",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -750,6 +783,10 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["Samoan", "English"],
+    links: {
+      location: "https://www.google.se/maps/place/Amerikanska+Samoa%C3%B6arna/@-12.8665439,-172.1113239,8z/data=!3m1!4b1!4m6!3m5!1s0x71a684b79248fdc9:0xf3ee739e2dae4bdd!8m2!3d-14.270972!4d-170.132217!16zL20vMGg4ZA?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQwNi4wIKXMDSoASAFQAw%3D%3D",
+      wikipedia: "https://en.wikipedia.org/wiki/American_Samoa",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -817,6 +854,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["German"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Austria",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -884,6 +924,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "left",
     languages: ["English"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Australia",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -952,6 +995,10 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["Dutch", "Papiamento", "Spanish", "English"],
+    links: {
+      location: "https://www.google.se/maps/place/Aruba/@12.5183523,-70.0085739,13z/data=!3m1!4b1!4m6!3m5!1s0x8e8538cfe25a77db:0xf16a8a3e89818c2f!8m2!3d12.52111!4d-69.968338!16zL20vMGoxMQ?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQwNi4wIKXMDSoASAFQAw%3D%3D",
+      wikipedia: "https://en.wikipedia.org/wiki/Aruba",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -1018,6 +1065,9 @@ export const worldData: worldDataInterface[] = [
     sovereignTo: "fi",
     onGoogleMaps: true,
     languages: ["Swedish"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Åland",
+    },
     drivingSide: "right",
     bollard: [
       {
@@ -1075,6 +1125,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["Azerbaijani"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Azerbaijan",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -1142,6 +1195,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["Bosnian", "Croatian", "Serbian"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -1209,6 +1265,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "left",
     languages: ["English"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Barbados",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -1276,6 +1335,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "left",
     languages: ["Bengali"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Bangladesh",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -1343,6 +1405,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["Dutch", "French", "German"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Belgium",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -1410,6 +1475,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["French"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Burkina_Faso",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -1477,6 +1545,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["Bulgarian"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Bulgaria",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -1544,6 +1615,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["Arabic", "English"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Bahrain",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -1611,6 +1685,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["Kirundi", "French", "English"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Burundi",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -1678,6 +1755,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["French"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Benin",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -1746,6 +1826,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "left",
     languages: ["English"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Bermuda",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -1813,6 +1896,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "left",
     languages: ["Malay", "English"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Brunei",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -1880,6 +1966,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["Spanish"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Bolivia",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -1948,6 +2037,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["Dutch", "Papiamento", "English"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Caribbean_Netherlands",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -2015,6 +2107,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["Poruguese"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Brazil",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -2082,6 +2177,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "left",
     languages: ["English", "Bahamian Creole"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Bahamas",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -2149,6 +2247,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "left",
     languages: ["Dzongkha"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Bhutan",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -2216,6 +2317,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "left",
     languages: ["English", "Setswana"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Botswana",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -2283,6 +2387,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["Belarusian", "Russian"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Belarus",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -2350,6 +2457,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["English"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Belize",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -2417,6 +2527,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["English", "French"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Canada",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -2485,6 +2598,10 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "left",
     languages: ["English", "Cocos Malay"],
+    links: {
+      location: "https://www.google.se/maps/place/Kokos%C3%B6arna/@-12.0157321,96.7904927,53955m/data=!3m2!1e3!4b1!4m6!3m5!1s0x2f0ec5897ee869c1:0xdbd142f010e39fa6!8m2!3d-12.164165!4d96.870956!16zL20vMDFwNmw?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
+      wikipedia: "https://en.wikipedia.org/wiki/Cocos_Islands",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -2552,6 +2669,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["French"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -2619,6 +2739,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["French", "Sango"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Central_African_Republic",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -2686,6 +2809,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["French"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Republic_of_the_Congo",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -2753,6 +2879,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["German", "French", "Italian", "Romansh"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Switzerland",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -2820,6 +2949,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["French"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Ivory_Coast",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -2888,6 +3020,10 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "left",
     languages: ["English", "Cook Islands Māori"],
+    links: {
+      location: "https://www.google.se/maps/place/Cook%C3%B6arna/@-15.3880718,-171.0291689,3403933m/data=!3m2!1e3!4b1!4m6!3m5!1s0x71548aefb97bdedd:0x24ca50e8808b4d8!8m2!3d-21.236736!4d-159.777671!16zL20vMDIwcDE?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
+      wikipedia: "https://en.wikipedia.org/wiki/Cook_Islands",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -2955,6 +3091,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["Spanish"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Chile",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -3022,6 +3161,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["French", "English"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Cameroon",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -3089,6 +3231,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["Mandarin"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/China",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -3156,6 +3301,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["Spanish"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Colombia",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -3223,6 +3371,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["Spanish"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Costa_Rica",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -3290,6 +3441,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["Spanish"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Cuba",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -3357,6 +3511,10 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["Portuguese"],
+    links: {
+      location: "https://www.google.se/maps/place/Kap+Verde/@16.0234344,-24.64936,424167m/data=!3m2!1e3!4b1!4m6!3m5!1s0x9358f2159115131:0x6b1af236f918ea1f!8m2!3d16.5388!4d-23.0418!16zL20vMDFucWo?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
+      wikipedia: "https://en.wikipedia.org/wiki/Cape_Verde",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -3425,6 +3583,10 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["Dutch", "Papiamento"],
+    links: {
+      location: "https://www.google.se/maps/place/Cura%C3%A7ao/@12.190652,-69.5602858,215680m/data=!3m2!1e3!4b1!4m6!3m5!1s0x8e849dbe62c7fdc7:0xfc7f9228dbc64723!8m2!3d12.16957!4d-68.99002!16zL20vMGhiZ2g?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
+      wikipedia: "https://en.wikipedia.org/wiki/Curaçao",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -3493,6 +3655,10 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "left",
     languages: ["English", "Malay", "Mandarin"],
+    links: {
+      location: "https://www.google.se/maps/place/Jul%C3%B6arna/@-10.4924282,105.582435,27121m/data=!3m2!1e3!4b1!4m6!3m5!1s0x2ef59a27e3c0a7cf:0x15e7d6090475ea16!8m2!3d-10.447525!4d105.690449!16zL20vMDFwNWw?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
+      wikipedia: "https://en.wikipedia.org/wiki/Christmas_Island",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -3560,6 +3726,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "left",
     languages: ["Greek", "Turkish", "English"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Cyprus",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -3627,6 +3796,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["Czech"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Czech_Republic",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -3694,6 +3866,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["German"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Germany",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -3761,6 +3936,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["Arabic", "French", "Somali"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Djibouti",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -3826,6 +4004,10 @@ export const worldData: worldDataInterface[] = [
     },
     onGoogleMaps: true,
     languages: ["Danish"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Denmark",
+      road_signs: "https://en.wikipedia.org/wiki/Road_signs_in_Denmark",
+    },
     drivingSide: "right",
     bollard: [
       {
@@ -3889,6 +4071,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "left",
     languages: ["English"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Dominica",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -3956,6 +4141,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["Spanish"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Dominican_Republic",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -4023,6 +4211,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["Arabic", "Tamazight"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Algeria",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -4090,6 +4281,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["Spanish"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Ecuador",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -4157,6 +4351,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["Estonian"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Estonia",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -4224,6 +4421,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["Arabic"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Egypt",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -4292,6 +4492,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["Arabic", "Spanish"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Western_Sahara",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -4359,6 +4562,10 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["Tigrinya", "Arabic", "English"],
+    links: {
+      location: "https://www.google.se/maps/place/Eritrea/@15.1863657,38.5105206,914288m/data=!3m2!1e3!4b1!4m6!3m5!1s0x166d5a3f9dba8565:0x17c208f02f120efa!8m2!3d15.179384!4d39.782334!16zL20vMDJraHM?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
+      wikipedia: "https://en.wikipedia.org/wiki/Eritrea",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -4426,6 +4633,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["Spanish"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Spain",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -4493,6 +4703,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["Amharic"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Ethiopia",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -4560,6 +4773,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: null,
     languages: ["many"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/European_Union",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -4625,6 +4841,10 @@ export const worldData: worldDataInterface[] = [
     },
     onGoogleMaps: true,
     languages: ["Finnish", "Swedish"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Finland",
+      road_signs: "https://en.wikipedia.org/wiki/Road_signs_in_Finland",
+    },
     drivingSide: "right",
     bollard: [
       {
@@ -4689,6 +4909,10 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "left",
     languages: ["English", "Fijian", "Fiji Hindi"],
+    links: {
+      location: "https://www.google.se/maps/place/Fiji/@-16.6164085,176.816684,1815619m/data=!3m2!1e3!4b1!4m6!3m5!1s0x6e1990fd703cdc5d:0x9e9c319946ef5b93!8m2!3d-17.713371!4d178.065032!16zL20vMDJ3dDA?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
+      wikipedia: "https://en.wikipedia.org/wiki/Fiji",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -4757,6 +4981,10 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "left",
     languages: ["English", "Spanish"],
+    links: {
+      location: "https://www.google.se/maps/place/FIQQ+1ZZ,+Falklands%C3%B6arna+(Islas+Malvinas)/@-51.724961,-60.18866,293418m/data=!3m2!1e3!4b1!4m6!3m5!1s0xbc2a89b94491e3a3:0x322aaaff8dd9c53a!8m2!3d-51.796253!4d-59.523613!16zL20vMDJ3bXk?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
+      wikipedia: "https://en.wikipedia.org/wiki/Falkland_Islands",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -4824,6 +5052,10 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["English"],
+    links: {
+      location: "https://www.google.se/maps/place/Mikronesiens+federerade+stater/@5.2042249,144.9193772,3773862m/data=!3m2!1e3!4b1!4m6!3m5!1s0x65d9b5c5ac58c813:0x547a8dcdfaa46525!8m2!3d7.425554!4d150.550812!16zL20vMDMxODg?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
+      wikipedia: "https://en.wikipedia.org/wiki/Federated_States_of_Micronesia",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -4890,6 +5122,9 @@ export const worldData: worldDataInterface[] = [
     sovereignTo: "dk",
     onGoogleMaps: true,
     languages: ["Faroese", "Danish"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Faroe_Islands",
+    },
     drivingSide: "right",
     bollard: [
       {
@@ -4947,6 +5182,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["French"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/France",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -5014,6 +5252,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["French"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Gabon",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -5081,6 +5322,10 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "left",
     languages: ["English"],
+    links: {
+      location: "https://www.google.se/maps/place/Grenada/@12.2600887,-61.7554471,115721m/data=!3m2!1e3!4b1!4m6!3m5!1s0x8c381789f4877bd1:0x36d8c7015a1f4f8e!8m2!3d12.1165!4d-61.679!16zL20vMDM1eWc?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
+      wikipedia: "https://en.wikipedia.org/wiki/Grenada",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -5148,6 +5393,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["Georgian"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Georgia",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -5216,6 +5464,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["French"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/French_Guiana",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -5284,6 +5535,10 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "left",
     languages: ["English", "French"],
+    links: {
+      location: "https://www.google.se/maps/place/Guernsey/@49.4631138,-2.6293973,19242m/data=!3m2!1e3!4b1!4m6!3m5!1s0x480d72322e9176df:0xd10063639ec06acb!8m2!3d49.4481982!4d-2.58949!16zL20vMDM2NmM?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
+      wikipedia: "https://en.wikipedia.org/wiki/Guernsey",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -5351,6 +5606,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["English"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Ghana",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -5419,6 +5677,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["English"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Gibraltar",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -5485,6 +5746,9 @@ export const worldData: worldDataInterface[] = [
     sovereignTo: "dk",
     onGoogleMaps: true,
     languages: ["Greenlandic", "Danish"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Greenland",
+    },
     drivingSide: "right",
     signSpeed: [
       {
@@ -5536,6 +5800,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "left",
     languages: [""],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Hong_Kong",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -5671,6 +5938,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "left",
     languages: ["Indonesian"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Indonesia",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -5804,6 +6074,10 @@ export const worldData: worldDataInterface[] = [
     },
     onGoogleMaps: true,
     languages: ["Icelandic"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Iceland",
+      road_signs: "https://en.wikipedia.org/wiki/Road_signs_in_Iceland",
+    },
     drivingSide: "right",
     bollard: [
       {
@@ -5930,6 +6204,10 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "left",
     languages: ["English", "French"],
+    links: {
+      location: "https://www.google.se/maps/place/Jersey/@49.2118067,-2.21973,38680m/data=!3m2!1e3!4b1!4m6!3m5!1s0x480c52a48c927533:0x519c23a30a1a6cc3!8m2!3d49.2137711!4d-2.1357662!16zL20vMDNfeGo?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
+      wikipedia: "https://en.wikipedia.org/wiki/Jersey",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -6065,6 +6343,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "left",
     languages: ["English", "Swahili"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Kenya",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -6200,6 +6481,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["Korean"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/North_Korea",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -6335,6 +6619,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: "right",
     languages: ["Lao"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Laos",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -6471,6 +6758,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: false,
     drivingSide: "right",
     languages: ["Arabic", "Amazigh"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Morocco",
+    },
     commonWords: {
       road: "",
       mountain: "",
@@ -6606,6 +6896,9 @@ export const worldData: worldDataInterface[] = [
   onGoogleMaps: false,
   drivingSide: "left",
   languages: ["English"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Namibia",
+  },
   commonWords: {
   "road": "",
    "mountain": "",
@@ -6807,6 +7100,10 @@ export const worldData: worldDataInterface[] = [
     },
     onGoogleMaps: true,
     languages: ["Norwegian"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Norway",
+      road_signs: "https://en.wikipedia.org/wiki/Road_signs_in_Norway",
+    },
     drivingSide: "right",
     bollard: [
       {
@@ -6939,6 +7236,9 @@ export const worldData: worldDataInterface[] = [
   onGoogleMaps: true,
   drivingSide: "right",
   languages: ["Arabic"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Oman",
+  },
   commonWords: {
   "road": "",
    "mountain": "",
@@ -7006,6 +7306,9 @@ export const worldData: worldDataInterface[] = [
   onGoogleMaps: true,
   drivingSide: "right",
   languages: ["Spanish","English"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Panama",
+  },
   commonWords: {
   "road": "",
    "mountain": "",
@@ -7141,6 +7444,9 @@ export const worldData: worldDataInterface[] = [
   onGoogleMaps: true,
   drivingSide: "right",
   languages: ["Arabic","English"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Qatar",
+  },
   commonWords: {
   "road": "",
    "mountain": "",
@@ -7209,6 +7515,10 @@ export const worldData: worldDataInterface[] = [
   onGoogleMaps: true,
   drivingSide: "right",
   languages: ["French"],
+  links: {
+    location: "https://www.google.se/maps/place/R%C3%A9union/@-21.1349422,55.3621595,110456m/data=!3m2!1e3!4b1!4m6!3m5!1s0x2178778110b8e43b:0x4a7f8e89ecdbeaf9!8m2!3d-21.115141!4d55.536384!16zL20vMGx4aGo?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
+    wikipedia: "https://en.wikipedia.org/wiki/Réunion",
+  },
   commonWords: {
   "road": "",
    "mountain": "",
@@ -7344,6 +7654,9 @@ export const worldData: worldDataInterface[] = [
   onGoogleMaps: false,
   drivingSide: "right",
   languages: ["Arabic"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Saudi_Arabia",
+  },
   commonWords: {
   "road": "",
    "mountain": "",
@@ -7477,6 +7790,10 @@ export const worldData: worldDataInterface[] = [
     },
     onGoogleMaps: true,
     languages: ["Swedish"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Cocos_Islands",
+      road_signs: "https://en.wikipedia.org/wiki/Road_signs_in_Sweden",
+    },
     drivingSide: "right",
     bollard: [
       {
@@ -7609,6 +7926,10 @@ export const worldData: worldDataInterface[] = [
   onGoogleMaps: false,
   drivingSide: "left",
   languages: ["English"],
+  links: {
+    location: "https://www.google.se/maps/place/TKCA+1ZZ,+Turks+och+Caicos+Islands/@21.5704314,-73.0393662,440511m/data=!3m2!1e3!4b1!4m6!3m5!1s0x894b5f55bebb6b75:0x7e11c780028dc1de!8m2!3d21.694025!4d-71.797928!16zL20vMDdmcl8?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
+    wikipedia: "https://en.wikipedia.org/wiki/Turks_and_Caicos_Islands",
+  },
   commonWords: {
   "road": "",
    "mountain": "",
@@ -7744,6 +8065,9 @@ export const worldData: worldDataInterface[] = [
   onGoogleMaps: true,
   drivingSide: "right",
   languages: ["Ukrainian","Russian"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Ukraine",
+  },
   commonWords: {
   "road": "",
    "mountain": "",
@@ -7879,6 +8203,9 @@ export const worldData: worldDataInterface[] = [
   onGoogleMaps: false,
   drivingSide: "right",
   languages: ["Latin","Italian"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Vatican_City",
+  },
   commonWords: {
   "road": "",
    "mountain": "",
@@ -8015,6 +8342,10 @@ export const worldData: worldDataInterface[] = [
   onGoogleMaps: false,
   drivingSide: "right",
   languages: ["French"],
+  links: {
+    location: "https://www.google.se/maps/place/Wallis-+och+Futuna%C3%B6arna/@-13.7722973,-177.8234773,460067m/data=!3m2!1e3!4b1!4m6!3m5!1s0x71c8b1066e1a4b3d:0x16c918ec8fd20a1b!8m2!3d-14.2938!4d-178.1165!16zL20vMDgybnc?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
+    wikipedia: "https://en.wikipedia.org/wiki/Wallis_and_Futuna",
+  },
   commonWords: {
   "road": "",
    "mountain": "",
@@ -8150,6 +8481,9 @@ export const worldData: worldDataInterface[] = [
   onGoogleMaps: false,
   drivingSide: "right",
   languages: ["Arabic"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Yemen",
+  },
   commonWords: {
   "road": "",
    "mountain": "",
@@ -8285,6 +8619,9 @@ export const worldData: worldDataInterface[] = [
   onGoogleMaps: true,
   drivingSide: "left",
   languages: ["Africaans","English"], // and more
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/South_Africa",
+  },
   commonWords: {
   "road": "",
    "mountain": "",

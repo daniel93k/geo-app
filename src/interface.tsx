@@ -11,6 +11,11 @@ export interface worldDataInterface {
   onGoogleMaps: boolean;
   drivingSide: "right" | "left" | null;
   languages?: string[];
+  links?: {
+    location?: string;
+    wikipedia: string;
+    road_signs?: string;
+  }
   commonWords?: commonWords;
 
   bollard?: marker[];

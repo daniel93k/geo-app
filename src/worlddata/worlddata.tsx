@@ -5803,6 +5803,712 @@ export const worldData: worldDataInterface[] = [
     ],
   },
   {
+  name: "The Gambia",
+  capital: ["Banjul"],
+  domain: "gm",
+  region: ["Africa"],
+  flag: {
+   pic: base + "gm/gm_flag.svg",
+   proportions: "2:3",
+   colors: ["red","blue","green","white"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["English"], // and more
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/The_Gambia",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Guinea",
+  capital: ["Conakry"],
+  domain: "gn",
+  region: ["Africa"],
+  flag: {
+   pic: base + "gn/gn_flag.svg",
+   proportions: "2:3",
+   colors: ["red","yellow","green"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["French"],
+  links: {
+    location: "https://www.google.se/maps/place/Guinea/@9.9277745,-14.1052363,1866370m/data=!3m2!1e3!4b1!4m6!3m5!1s0xf01b321bcce953f:0xe8737bcbd75a2df6!8m2!3d9.945587!4d-9.696645!16zL20vMDM2NzY?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
+    wikipedia: "https://en.wikipedia.org/wiki/Guinea",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Guadeloupe",
+  capital: ["Basse-Terre"],
+  domain: "gp",
+  region: ["North America","Caribbean"],
+  flag: {
+   pic: base + "fr/fr_flag.svg",
+   proportions: "2:3",
+   colors: ["blue","white","red"],
+   emblem: "",
+  },
+  sovereignTo: "France",
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["French"],
+  links: {
+    location: "https://www.google.se/maps/place/Guadeloupe/@16.1498959,-61.5621971,113748m/data=!3m2!1e3!4b1!4m6!3m5!1s0x8c0e755a77287d51:0xecbe3e37b74a07ab!8m2!3d16.265!4d-61.551!16zL20vMDM3bm0?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
+    wikipedia: "https://en.wikipedia.org/wiki/Guadeloupe",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Equatorial Guinea",
+  capital: ["Malabo","Ciudad de la Paz"],
+  domain: "gq",
+  region: ["Africa"],
+  flag: {
+   pic: base + "gq/gq_flag.svg",
+   proportions: "2:3",
+   colors: ["green","white","red","blue"],
+   emblem: base + "gq/gq_coat_of_arms.svg",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["Spanish","French","Portuguese"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Equatorial_Guinea",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Greece",
+  capital: ["Athens"],
+  domain: "gr",
+  region: ["Europe","Balkan"],
+  flag: {
+   pic: base + "gr/gr_flag.svg",
+   proportions: "2:3",
+   colors: ["blue","white"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["Greek"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Greece",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "S. Georgia, S. Sandwitch Islands",
+  capital: ["#King Edward Point"],
+  domain: "gs",
+  region: ["Antarctica"],
+  flag: {
+   pic: base + "gs/gs_flag.svg",
+   proportions: "1:2",
+   colors: ["blue","red","white"],
+   emblem: base + "gs/gs_coat_of_arms.svg",
+  },
+  sovereignTo: "United Kingdom",
+  onGoogleMaps: false,
+  drivingSide: null,
+  languages: ["English"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/South_Georgia_and_the_South_Sandwich_Islands",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Guatemala",
+  capital: ["Guatemala City"],
+  domain: "gt",
+  region: ["North America","Central America"],
+  flag: {
+   pic: base + "gt/gt_flag.svg",
+   proportions: "5:8",
+   colors: ["white","blue"],
+   emblem: base + "gt/gt_coat_of_arms.svg",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["Spanish"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Guatemala",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Guam",
+  capital: ["Hagåtña"],
+  domain: "gu",
+  region: ["Oceania","Micronesia"],
+  flag: {
+   pic: base + "gu/gu_flag.svg",
+   proportions: "22:41",
+   colors: ["blue","red"],
+   emblem: base + "gu/gu_emblem.svg",
+  },
+  sovereignTo: "United States",
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["English"],
+  links: {
+    location: "https://www.google.se/maps/place/Guam/@13.4510924,144.6236713,115173m/data=!3m2!1e3!4b1!4m6!3m5!1s0x671f76ff930f24ef:0x5571ae91c5b3e5a6!8m2!3d13.3823791!4d144.6972774!16zL20vMDM0dGw?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
+    wikipedia: "https://en.wikipedia.org/wiki/Guam",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Guinea-Bissau",
+  capital: ["Bissau"],
+  domain: "gw",
+  region: ["Africa"],
+  flag: {
+   pic: base + "gw/gw_flag.svg",
+   proportions: "1:2",
+   colors: ["red","yellow","green","black"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["Portuguese","Kriol"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Guinea-Bissau",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Guyana",
+  capital: ["Georgetown"],
+  domain: "gy",
+  region: ["South America"],
+  flag: {
+   pic: base + "gy/gy_flag.svg",
+   proportions: "3:5",
+   colors: ["red","green","yellow","black","white"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "left",
+  languages: ["English"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Guyana",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
     name: "Hong Kong",
     capital: ["Hong Kong"],
     domain: "hk",
@@ -5874,9 +6580,9 @@ export const worldData: worldDataInterface[] = [
     ],
   },
   // {
-  // name: "",
+  // name: "Heard Island and McDonald Islands",
   // capital: [""],
-  // domain: "",
+  // domain: "hm",
   // region: [""],
   // flag: {
   //  pic: base + "ax/ax_flag.svg",
@@ -5889,7 +6595,291 @@ export const worldData: worldDataInterface[] = [
   // drivingSide: "",
   // languages: [""],
   // links: {
-  //   wikipedia: "https://en.wikipedia.org/wiki/F",
+  //   wikipedia: "https://en.wikipedia.org/wiki/Heard_Island_and_McDonald_Islands",
+  // },
+  // commonWords: {
+  // "road": "",
+  //  "mountain": "",
+  //  "river": "",
+  // },
+  // bollard: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    reflector: [""],
+  //  }
+  // ],
+  // signSpeed: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    border: "",
+  //  },
+  // ],
+  // signStop: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //    text: "",
+  //  },
+  // ],
+  // signYield: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  // signPedestrianCrossing: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //  },
+  // ],
+  // signChevron: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  // signRailway: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  //},
+  // {
+  // name: "Honduras",
+  // capital: [""],
+  // domain: "hn",
+  // region: [""],
+  // flag: {
+  //  pic: base + "ax/ax_flag.svg",
+  //  proportions: "",
+  //  colors: [""],
+  //  emblem: "",
+  // },
+  // sovereignTo: ,
+  // onGoogleMaps: ,
+  // drivingSide: "",
+  // languages: [""],
+  // links: {
+  //   wikipedia: "https://en.wikipedia.org/wiki/Honduras",
+  // },
+  // commonWords: {
+  // "road": "",
+  //  "mountain": "",
+  //  "river": "",
+  // },
+  // bollard: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    reflector: [""],
+  //  }
+  // ],
+  // signSpeed: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    border: "",
+  //  },
+  // ],
+  // signStop: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //    text: "",
+  //  },
+  // ],
+  // signYield: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  // signPedestrianCrossing: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //  },
+  // ],
+  // signChevron: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  // signRailway: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  //},
+  // {
+  // name: "Croatia",
+  // capital: [""],
+  // domain: "hr",
+  // region: [""],
+  // flag: {
+  //  pic: base + "ax/ax_flag.svg",
+  //  proportions: "",
+  //  colors: [""],
+  //  emblem: "",
+  // },
+  // sovereignTo: ,
+  // onGoogleMaps: ,
+  // drivingSide: "",
+  // languages: [""],
+  // links: {
+  //   wikipedia: "https://en.wikipedia.org/wiki/Croatia",
+  // },
+  // commonWords: {
+  // "road": "",
+  //  "mountain": "",
+  //  "river": "",
+  // },
+  // bollard: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    reflector: [""],
+  //  }
+  // ],
+  // signSpeed: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    border: "",
+  //  },
+  // ],
+  // signStop: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //    text: "",
+  //  },
+  // ],
+  // signYield: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  // signPedestrianCrossing: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //  },
+  // ],
+  // signChevron: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  // signRailway: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  //},
+  // {
+  // name: "Haiti",
+  // capital: [""],
+  // domain: "ht",
+  // region: [""],
+  // flag: {
+  //  pic: base + "ax/ax_flag.svg",
+  //  proportions: "",
+  //  colors: [""],
+  //  emblem: "",
+  // },
+  // sovereignTo: ,
+  // onGoogleMaps: ,
+  // drivingSide: "",
+  // languages: [""],
+  // links: {
+  //   wikipedia: "https://en.wikipedia.org/wiki/Haiti",
+  // },
+  // commonWords: {
+  // "road": "",
+  //  "mountain": "",
+  //  "river": "",
+  // },
+  // bollard: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    reflector: [""],
+  //  }
+  // ],
+  // signSpeed: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    border: "",
+  //  },
+  // ],
+  // signStop: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //    text: "",
+  //  },
+  // ],
+  // signYield: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  // signPedestrianCrossing: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //  },
+  // ],
+  // signChevron: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  // signRailway: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  //},
+  // {
+  // name: "Hungary",
+  // capital: [""],
+  // domain: "hu",
+  // region: [""],
+  // flag: {
+  //  pic: base + "ax/ax_flag.svg",
+  //  proportions: "",
+  //  colors: [""],
+  //  emblem: "",
+  // },
+  // sovereignTo: ,
+  // onGoogleMaps: ,
+  // drivingSide: "",
+  // languages: [""],
+  // links: {
+  //   wikipedia: "https://en.wikipedia.org/wiki/Hungary",
   // },
   // commonWords: {
   // "road": "",

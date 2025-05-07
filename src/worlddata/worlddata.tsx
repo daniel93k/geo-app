@@ -6579,361 +6579,357 @@ export const worldData: worldDataInterface[] = [
       },
     ],
   },
-  // {
-  // name: "Heard Island and McDonald Islands",
-  // capital: [""],
-  // domain: "hm",
-  // region: [""],
-  // flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  // },
-  // sovereignTo: ,
-  // onGoogleMaps: ,
-  // drivingSide: "",
-  // languages: [""],
-  // links: {
-  //   wikipedia: "https://en.wikipedia.org/wiki/Heard_Island_and_McDonald_Islands",
-  // },
-  // commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  // },
-  // bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  // ],
-  // signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  // ],
-  // signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  // ],
-  // signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  // ],
-  // signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  //},
-  // {
-  // name: "Honduras",
-  // capital: [""],
-  // domain: "hn",
-  // region: [""],
-  // flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  // },
-  // sovereignTo: ,
-  // onGoogleMaps: ,
-  // drivingSide: "",
-  // languages: [""],
-  // links: {
-  //   wikipedia: "https://en.wikipedia.org/wiki/Honduras",
-  // },
-  // commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  // },
-  // bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  // ],
-  // signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  // ],
-  // signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  // ],
-  // signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  // ],
-  // signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  //},
-  // {
-  // name: "Croatia",
-  // capital: [""],
-  // domain: "hr",
-  // region: [""],
-  // flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  // },
-  // sovereignTo: ,
-  // onGoogleMaps: ,
-  // drivingSide: "",
-  // languages: [""],
-  // links: {
-  //   wikipedia: "https://en.wikipedia.org/wiki/Croatia",
-  // },
-  // commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  // },
-  // bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  // ],
-  // signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  // ],
-  // signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  // ],
-  // signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  // ],
-  // signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  //},
-  // {
-  // name: "Haiti",
-  // capital: [""],
-  // domain: "ht",
-  // region: [""],
-  // flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  // },
-  // sovereignTo: ,
-  // onGoogleMaps: ,
-  // drivingSide: "",
-  // languages: [""],
-  // links: {
-  //   wikipedia: "https://en.wikipedia.org/wiki/Haiti",
-  // },
-  // commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  // },
-  // bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  // ],
-  // signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  // ],
-  // signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  // ],
-  // signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  // ],
-  // signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  //},
-  // {
-  // name: "Hungary",
-  // capital: [""],
-  // domain: "hu",
-  // region: [""],
-  // flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  // },
-  // sovereignTo: ,
-  // onGoogleMaps: ,
-  // drivingSide: "",
-  // languages: [""],
-  // links: {
-  //   wikipedia: "https://en.wikipedia.org/wiki/Hungary",
-  // },
-  // commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  // },
-  // bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  // ],
-  // signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  // ],
-  // signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  // ],
-  // signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  // ],
-  // signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  //},
+  {
+  name: "Heard Is. and McDonald Is.",
+  capital: [""],
+  domain: "hm",
+  region: ["Antarctica"],
+  flag: {
+   pic: base + "hm/hm_flag.svg",
+   proportions: "1:2",
+   colors: ["bleu","red","white"],
+   emblem: "",
+  },
+  sovereignTo: "Australia",
+  onGoogleMaps: false,
+  drivingSide: null,
+  languages: [""],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Heard_Island_and_McDonald_Islands",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Honduras",
+  capital: ["Tegucigalpa"],
+  domain: "hn",
+  region: ["North America","Central America"],
+  flag: {
+   pic: base + "hn/hn_flag.svg",
+   proportions: "1:2",
+   colors: ["blue","white"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["Spanish"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Honduras",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Croatia",
+  capital: ["Zagreb"],
+  domain: "hr",
+  region: ["Europe","Balkans"],
+  flag: {
+   pic: base + "hr/hr_flag.svg",
+   proportions: "1:2",
+   colors: ["red","white","blue"],
+   emblem: base + "hr/hr_coat_of_arms.svg",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["Croatian"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Croatia",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Haiti",
+  capital: ["Port-au-Prince"],
+  domain: "ht",
+  region: ["North America","Caribbean"],
+  flag: {
+   pic: base + "ht/ht_flag.svg",
+   proportions: "3:5",
+   colors: ["blue","red"],
+   emblem: base + "ht/ht_coat_of_arms.svg",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["Haitian Creole","French"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Haiti",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Hungary",
+  capital: ["Budapest"],
+  domain: "hu",
+  region: ["Europe"],
+  flag: {
+   pic: base + "hu/hu_flag.svg",
+   proportions: "1:2",
+   colors: ["red","white","green"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["Hungarian"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Hungary",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
   {
     name: "Indonesia",
     capital: ["Jakarta"],
@@ -7004,77 +7000,499 @@ export const worldData: worldDataInterface[] = [
       },
     ],
   },
-  // {
-  // name: "",
-  // capital: [""],
-  // domain: "",
-  // region: [""],
-  // flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  // },
-  // sovereignTo: ,
-  // onGoogleMaps: ,
-  // drivingSide: "",
-  // languages: [""],
-  // links: {
-  //   wikipedia: "https://en.wikipedia.org/wiki/F",
-  // },
-  // commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  // },
-  // bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  // ],
-  // signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  // ],
-  // signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  // ],
-  // signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  // ],
-  // signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  //},
+  {
+  name: "Ireland",
+  capital: ["Dublin"],
+  domain: "ie",
+  region: ["Europe"],
+  flag: {
+   pic: base + "ie/ie_flag.svg",
+   proportions: "1:2",
+   colors: ["green","white","orange"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "left",
+  languages: ["Irish","English"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Ireland",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Israel",
+  capital: ["Jerusalem"],
+  domain: "il",
+  region: ["Asia","Middle East"],
+  flag: {
+   pic: base + "il/il_flag.svg",
+   proportions: "8:11",
+   colors: ["blue","white"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["Hebrew"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Israel",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Isle of Man",
+  capital: ["Douglas"],
+  domain: "im",
+  region: ["Europe"],
+  flag: {
+   pic: base + "im/im_flag.svg",
+   proportions: "1:2",
+   colors: ["red","white","yellow"],
+   emblem: "",
+  },
+  sovereignTo: "United Kingdom",
+  onGoogleMaps: true,
+  drivingSide: "left",
+  languages: ["English"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Isle_of_Man",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "India",
+  capital: ["New Delhi"],
+  domain: "in",
+  region: ["Asia"],
+  flag: {
+   pic: base + "in/in_flag.svg",
+   proportions: "2:3",
+   colors: ["orange","white","green","blue"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "left",
+  languages: ["Hindi","English"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/India",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "British Indian Ocean Territory",
+  capital: [""],
+  domain: "io",
+  region: ["Asia","Indian Ocean"],
+  flag: {
+   pic: base + "io/io_flag.svg",
+   proportions: "1:2",
+   colors: ["red","white","blue"],
+   emblem: base + "io/io_coat_of_arms.svg",
+  },
+  sovereignTo: "United Kingdom",
+  onGoogleMaps: false,
+  drivingSide: "left",
+  languages: ["English"],
+  links: {
+    location: "https://www.google.se/maps/place/Brittiska+territoriet+i+Indiska+oceanen/@-6.3128671,71.2262745,470813m/data=!3m2!1e3!4b1!4m6!3m5!1s0x249273e0849da387:0xa94f6470101f6be1!8m2!3d-6.343194!4d71.876519!16zL20vMDE2OGI?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
+    wikipedia: "https://en.wikipedia.org/wiki/British_Indian_Ocean_Territory",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Iraq",
+  capital: ["Baghdad"],
+  domain: "iq",
+  region: ["Asia","Middle East"],
+  flag: {
+   pic: base + "iq/iq_flag.svg",
+   proportions: "2:3",
+   colors: ["red","white","black","green"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["Arabic"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Iraq",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Iran",
+  capital: ["Tehran"],
+  domain: "ir",
+  region: ["Asia","Middle East"],
+  flag: {
+   pic: base + "ir/ir_flag.svg",
+   proportions: "4:7",
+   colors: ["green","white","red"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["Persian (Farsi)"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Iran",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
   {
     name: "Iceland",
     capital: ["Reykjavík"],
@@ -7134,77 +7552,76 @@ export const worldData: worldDataInterface[] = [
       },
     ],
   },
-  // {
-  // name: "",
-  // capital: [""],
-  // domain: "",
-  // region: [""],
-  // flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  // },
-  // sovereignTo: ,
-  // onGoogleMaps: ,
-  // drivingSide: "",
-  // languages: [""],
-  // links: {
-  //   wikipedia: "https://en.wikipedia.org/wiki/F",
-  // },
-  // commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  // },
-  // bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  // ],
-  // signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  // ],
-  // signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  // ],
-  // signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  // ],
-  // signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  //},
+  {
+  name: "Italy",
+  capital: ["Rome"],
+  domain: "it",
+  region: ["Europe"],
+  flag: {
+   pic: base + "it/it_flag.svg",
+   proportions: "2:3",
+   colors: ["green","white","red"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["Italian"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Italy",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
   {
     name: "Jersey",
     capital: ["St Helier"],
@@ -7278,77 +7695,216 @@ export const worldData: worldDataInterface[] = [
       },
     ],
   },
-  // {
-  // name: "",
-  // capital: [""],
-  // domain: "",
-  // region: [""],
-  // flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  // },
-  // sovereignTo: ,
-  // onGoogleMaps: ,
-  // drivingSide: "",
-  // languages: [""],
-  // links: {
-  //   wikipedia: "https://en.wikipedia.org/wiki/F",
-  // },
-  // commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  // },
-  // bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  // ],
-  // signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  // ],
-  // signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  // ],
-  // signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  // ],
-  // signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  //},
+  {
+  name: "Jamaica",
+  capital: ["Kingston"],
+  domain: "jm",
+  region: ["North America","Caribbean"],
+  flag: {
+   pic: base + "jm/jm_flag.svg",
+   proportions: "1:2",
+   colors: ["green","black","yellow"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "left",
+  languages: ["English"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Jamaica",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Jordan",
+  capital: ["Amman"],
+  domain: "jo",
+  region: ["Asia","Middle East"],
+  flag: {
+   pic: base + "jo/jo_flag.svg",
+   proportions: "1:2",
+   colors: ["black","white","green","red"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["Arabic"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Jordan",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Japan",
+  capital: ["Tokyo"],
+  domain: "jp",
+  region: ["Asia"],
+  flag: {
+   pic: base + "jp/jp_flag.svg",
+   proportions: "2:3",
+   colors: ["white","red"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "left",
+  languages: ["Japanese"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Japan",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
   {
     name: "Kenya",
     capital: ["Nairobi"],
@@ -7419,11 +7975,10 @@ export const worldData: worldDataInterface[] = [
       },
     ],
   },
-
   // {
-  // name: "",
+  // name: "Kyrgyzstan",
   // capital: [""],
-  // domain: "",
+  // domain: "kg",
   // region: [""],
   // flag: {
   //  pic: base + "ax/ax_flag.svg",
@@ -7436,7 +7991,291 @@ export const worldData: worldDataInterface[] = [
   // drivingSide: "",
   // languages: [""],
   // links: {
-  //   wikipedia: "https://en.wikipedia.org/wiki/F",
+  //   wikipedia: "https://en.wikipedia.org/wiki/Kyrgyzstan",
+  // },
+  // commonWords: {
+  // "road": "",
+  //  "mountain": "",
+  //  "river": "",
+  // },
+  // bollard: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    reflector: [""],
+  //  }
+  // ],
+  // signSpeed: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    border: "",
+  //  },
+  // ],
+  // signStop: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //    text: "",
+  //  },
+  // ],
+  // signYield: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  // signPedestrianCrossing: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //  },
+  // ],
+  // signChevron: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  // signRailway: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  //},
+  // {
+  // name: "Cambodia",
+  // capital: [""],
+  // domain: "kh",
+  // region: [""],
+  // flag: {
+  //  pic: base + "ax/ax_flag.svg",
+  //  proportions: "",
+  //  colors: [""],
+  //  emblem: "",
+  // },
+  // sovereignTo: ,
+  // onGoogleMaps: ,
+  // drivingSide: "",
+  // languages: [""],
+  // links: {
+  //   wikipedia: "https://en.wikipedia.org/wiki/Cambodia",
+  // },
+  // commonWords: {
+  // "road": "",
+  //  "mountain": "",
+  //  "river": "",
+  // },
+  // bollard: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    reflector: [""],
+  //  }
+  // ],
+  // signSpeed: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    border: "",
+  //  },
+  // ],
+  // signStop: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //    text: "",
+  //  },
+  // ],
+  // signYield: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  // signPedestrianCrossing: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //  },
+  // ],
+  // signChevron: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  // signRailway: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  //},
+  // {
+  // name: "Kiribati",
+  // capital: [""],
+  // domain: "ki",
+  // region: [""],
+  // flag: {
+  //  pic: base + "ax/ax_flag.svg",
+  //  proportions: "",
+  //  colors: [""],
+  //  emblem: "",
+  // },
+  // sovereignTo: ,
+  // onGoogleMaps: ,
+  // drivingSide: "",
+  // languages: [""],
+  // links: {
+  //   wikipedia: "https://en.wikipedia.org/wiki/Kiribati",
+  // },
+  // commonWords: {
+  // "road": "",
+  //  "mountain": "",
+  //  "river": "",
+  // },
+  // bollard: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    reflector: [""],
+  //  }
+  // ],
+  // signSpeed: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    border: "",
+  //  },
+  // ],
+  // signStop: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //    text: "",
+  //  },
+  // ],
+  // signYield: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  // signPedestrianCrossing: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //  },
+  // ],
+  // signChevron: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  // signRailway: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  //},
+  // {
+  // name: "Comoros",
+  // capital: [""],
+  // domain: "km",
+  // region: [""],
+  // flag: {
+  //  pic: base + "ax/ax_flag.svg",
+  //  proportions: "",
+  //  colors: [""],
+  //  emblem: "",
+  // },
+  // sovereignTo: ,
+  // onGoogleMaps: ,
+  // drivingSide: "",
+  // languages: [""],
+  // links: {
+  //   wikipedia: "https://en.wikipedia.org/wiki/Comoros",
+  // },
+  // commonWords: {
+  // "road": "",
+  //  "mountain": "",
+  //  "river": "",
+  // },
+  // bollard: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    reflector: [""],
+  //  }
+  // ],
+  // signSpeed: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    border: "",
+  //  },
+  // ],
+  // signStop: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //    text: "",
+  //  },
+  // ],
+  // signYield: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  // signPedestrianCrossing: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //  },
+  // ],
+  // signChevron: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  // signRailway: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  //},
+  // {
+  // name: "Saint Kitts and Nevis",
+  // capital: [""],
+  // domain: "kn",
+  // region: [""],
+  // flag: {
+  //  pic: base + "ax/ax_flag.svg",
+  //  proportions: "",
+  //  colors: [""],
+  //  emblem: "",
+  // },
+  // sovereignTo: ,
+  // onGoogleMaps: ,
+  // drivingSide: "",
+  // languages: [""],
+  // links: {
+  //   wikipedia: "https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis",
   // },
   // commonWords: {
   // "road": "",
@@ -7561,9 +8400,9 @@ export const worldData: worldDataInterface[] = [
     ],
   },
   // {
-  // name: "",
+  // name: "South Korea",
   // capital: [""],
-  // domain: "",
+  // domain: "kr",
   // region: [""],
   // flag: {
   //  pic: base + "ax/ax_flag.svg",
@@ -7576,7 +8415,220 @@ export const worldData: worldDataInterface[] = [
   // drivingSide: "",
   // languages: [""],
   // links: {
-  //   wikipedia: "https://en.wikipedia.org/wiki/F",
+  //   wikipedia: "https://en.wikipedia.org/wiki/South_Korea",
+  // },
+  // commonWords: {
+  // "road": "",
+  //  "mountain": "",
+  //  "river": "",
+  // },
+  // bollard: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    reflector: [""],
+  //  }
+  // ],
+  // signSpeed: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    border: "",
+  //  },
+  // ],
+  // signStop: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //    text: "",
+  //  },
+  // ],
+  // signYield: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  // signPedestrianCrossing: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //  },
+  // ],
+  // signChevron: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  // signRailway: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  //},
+  // {
+  // name: "Kuwait",
+  // capital: [""],
+  // domain: "kw",
+  // region: [""],
+  // flag: {
+  //  pic: base + "ax/ax_flag.svg",
+  //  proportions: "",
+  //  colors: [""],
+  //  emblem: "",
+  // },
+  // sovereignTo: ,
+  // onGoogleMaps: ,
+  // drivingSide: "",
+  // languages: [""],
+  // links: {
+  //   wikipedia: "https://en.wikipedia.org/wiki/Kuwait",
+  // },
+  // commonWords: {
+  // "road": "",
+  //  "mountain": "",
+  //  "river": "",
+  // },
+  // bollard: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    reflector: [""],
+  //  }
+  // ],
+  // signSpeed: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    border: "",
+  //  },
+  // ],
+  // signStop: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //    text: "",
+  //  },
+  // ],
+  // signYield: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  // signPedestrianCrossing: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //  },
+  // ],
+  // signChevron: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  // signRailway: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  //},
+  // {
+  // name: "Cayman Islands",
+  // capital: [""],
+  // domain: "ky",
+  // region: [""],
+  // flag: {
+  //  pic: base + "ax/ax_flag.svg",
+  //  proportions: "",
+  //  colors: [""],
+  //  emblem: "",
+  // },
+  // sovereignTo: ,
+  // onGoogleMaps: ,
+  // drivingSide: "",
+  // languages: [""],
+  // links: {
+  //   wikipedia: "https://en.wikipedia.org/wiki/Cayman_Islands",
+  // },
+  // commonWords: {
+  // "road": "",
+  //  "mountain": "",
+  //  "river": "",
+  // },
+  // bollard: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    reflector: [""],
+  //  }
+  // ],
+  // signSpeed: [
+  //  {
+  //    pic: base + "",
+  //    colors: ["",""],
+  //    border: "",
+  //  },
+  // ],
+  // signStop: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //    text: "",
+  //  },
+  // ],
+  // signYield: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  // signPedestrianCrossing: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //    border: "",
+  //  },
+  // ],
+  // signChevron: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  // signRailway: [
+  //  {
+  //    pic: base + "",
+  //    colors: [""],
+  //  },
+  // ],
+  //},
+  // {
+  // name: "Kazakhstan",
+  // capital: [""],
+  // domain: "kz",
+  // region: [""],
+  // flag: {
+  //  pic: base + "ax/ax_flag.svg",
+  //  proportions: "",
+  //  colors: [""],
+  //  emblem: "",
+  // },
+  // sovereignTo: ,
+  // onGoogleMaps: ,
+  // drivingSide: "",
+  // languages: [""],
+  // links: {
+  //   wikipedia: "https://en.wikipedia.org/wiki/Kazakhstan",
   // },
   // commonWords: {
   // "road": "",
@@ -9255,7 +10307,7 @@ export const worldData: worldDataInterface[] = [
     domain: "uk",
     region: ["Europe"],
     flag: {
-      pic: base + "ax/ax_flag.svg",
+      pic: base + "uk/uk_flag.svg",
       proportions: "1:2",
       colors: ["red", "white", "blue"],
       emblem: "",

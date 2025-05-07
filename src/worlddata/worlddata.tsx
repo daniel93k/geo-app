@@ -11065,148 +11065,429 @@ export const worldData: worldDataInterface[] = [
       },
     ],
   },
-  // {
-  // name: "",
-  // capital: [""],
-  // domain: "",
-  // region: [""],
-  // flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  // },
-  // sovereignTo: ,
-  // onGoogleMaps: ,
-  // drivingSide: "",
-  // languages: [""],
-  // links: {
-  //   wikipedia: "https://en.wikipedia.org/wiki/F",
-  // },
-  // commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  // },
-  // bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  // ],
-  // signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  // ],
-  // signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  // ],
-  // signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  // ],
-  // signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  //},
-  // {
-  // name: "",
-  // capital: [""],
-  // domain: "",
-  // region: [""],
-  // flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  // },
-  // sovereignTo: ,
-  // onGoogleMaps: ,
-  // drivingSide: "",
-  // languages: [""],
-  // links: {
-  //   wikipedia: "https://en.wikipedia.org/wiki/F",
-  // },
-  // commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  // },
-  // bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  // ],
-  // signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  // ],
-  // signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  // ],
-  // signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  // ],
-  // signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  //},
+  {
+  name: "New Caledonia",
+  capital: ["Nouméa"],
+  domain: "nc",
+  region: ["Oceania","Melanesia"],
+  flag: {
+   pic: base + "nc/nc_flag.svg",
+   proportions: "1:2",
+   colors: ["blue","red","green","yellow","black"],
+   emblem: "",
+  },
+  sovereignTo: "France",
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["French"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/New_Caledonia",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Niger",
+  capital: ["Niamey"],
+  domain: "ne",
+  region: ["Africa"],
+  flag: {
+   pic: base + "ne/ne_flag.svg",
+   proportions: "6:7",
+   colors: ["orange","white","green"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["French"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Niger",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Norfolk Island",
+  capital: ["Kingston"],
+  domain: "nf",
+  region: ["Oceania"],
+  flag: {
+   pic: base + "nf/nf_flag.svg",
+   proportions: "1:2",
+   colors: ["green","white"],
+   emblem: "",
+  },
+  sovereignTo: "Australia",
+  onGoogleMaps: false,
+  drivingSide: "left",
+  languages: ["English"],
+  links: {
+    location: "https://www.google.se/maps/place/Norfolk+Island/@-29.0651224,167.9146953,25910m/data=!3m2!1e3!4b1!4m6!3m5!1s0x6c4bd11fadbac939:0xb97a9823335d1552!8m2!3d-29.040835!4d167.954712!16zL20vMDVjcW0?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
+    wikipedia: "https://en.wikipedia.org/wiki/Norfolk_Island",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Nigeria",
+  capital: ["Abuja"],
+  domain: "ng",
+  region: ["Africa"],
+  flag: {
+   pic: base + "ng/ng_flag.svg",
+   proportions: "1:2",
+   colors: ["green","white"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["English","Pidgin English"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Nigeria",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Nicaragua",
+  capital: ["Managua"],
+  domain: "ni",
+  region: ["North America","Central America"],
+  flag: {
+   pic: base + "ni/ni_flag.svg",
+   proportions: "3:5",
+   colors: ["blue","white"],
+   emblem: base + "ni/ni_coat_of_arms.svg",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["Spanish"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Nicaragua",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Netherlands",
+  capital: ["Amsterdam","The Hague"],
+  domain: "nl",
+  region: ["Europe"],
+  flag: {
+   pic: base + "nl/nl_flag.svg",
+   proportions: "2:3",
+   colors: ["red","white","blue"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["Dutch"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Netherlands",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
   {
     name: "Norway",
     capital: ["Oslo"],
@@ -11273,77 +11554,288 @@ export const worldData: worldDataInterface[] = [
       },
     ],
   },
-  // {
-  // name: "",
-  // capital: [""],
-  // domain: "",
-  // region: [""],
-  // flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  // },
-  // sovereignTo: ,
-  // onGoogleMaps: ,
-  // drivingSide: "",
-  // languages: [""],
-  // links: {
-  //   wikipedia: "https://en.wikipedia.org/wiki/F",
-  // },
-  // commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  // },
-  // bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  // ],
-  // signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  // ],
-  // signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  // ],
-  // signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  // ],
-  // signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  //},
+  {
+  name: "Nepal",
+  capital: ["Kathmandu"],
+  domain: "np",
+  region: ["Asia"],
+  flag: {
+   pic: base + "np/np_flag.svg",
+   proportions: "1.22:1",
+   colors: ["blue","red","white"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "left",
+  languages: ["Nepali"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Nepal",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Nauru",
+  capital: ["Yaren"],
+  domain: "nr",
+  region: ["Oceania"],
+  flag: {
+   pic: base + "nr/nr_flag.svg",
+   proportions: "1:2",
+   colors: ["blue","yellow","white"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "left",
+  languages: ["Nauruan","English"],
+  links: {
+    location: "https://www.google.se/maps/place/Nauru/@-0.5279585,166.9248318,7411m/data=!3m2!1e3!4b1!4m6!3m5!1s0x6f7d1c1f1de45b4d:0x59d99df4c5d40a81!8m2!3d-0.522778!4d166.931503!16zL20vMDVicjI?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
+    wikipedia: "https://en.wikipedia.org/wiki/Nauru",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Niue",
+  capital: ["Alofi"],
+  domain: "nu",
+  region: ["Oceania"],
+  flag: {
+   pic: base + "nu/nu_flag.svg",
+   proportions: "1:2",
+   colors: ["blue","red","white","yellow"],
+   emblem: "",
+  },
+  sovereignTo: "New Zealand",
+  onGoogleMaps: false,
+  drivingSide: "left",
+  languages: ["Niuean","English"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Niue",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "New Zealand",
+  capital: ["Wellington"],
+  domain: "nz",
+  region: ["Oceania"],
+  flag: {
+   pic: base + "nz/nz_flag.svg",
+   proportions: "1:2",
+   colors: ["red","blue","white"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "left",
+  languages: ["English","Māori"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/New_Zealand",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
   {
     name: "Oman",
     capital: ["Muscat"],

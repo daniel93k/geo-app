@@ -14857,77 +14857,1059 @@ export const worldData: worldDataInterface[] = [
       },
     ],
   },
-  // {
-  // name: "",
-  // capital: [""],
-  // domain: "",
-  // region: [""],
-  // flag: {
-  //  pic: base + "ax/ax_flag.svg",
-  //  proportions: "",
-  //  colors: [""],
-  //  emblem: "",
-  // },
-  // sovereignTo: ,
-  // onGoogleMaps: ,
-  // drivingSide: "",
-  // languages: [""],
-  // links: {
-  //   wikipedia: "https://en.wikipedia.org/wiki/F",
-  // },
-  // commonWords: {
-  // "road": "",
-  //  "mountain": "",
-  //  "river": "",
-  // },
-  // bollard: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    reflector: [""],
-  //  }
-  // ],
-  // signSpeed: [
-  //  {
-  //    pic: base + "",
-  //    colors: ["",""],
-  //    border: "",
-  //  },
-  // ],
-  // signStop: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //    text: "",
-  //  },
-  // ],
-  // signYield: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signPedestrianCrossing: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //    border: "",
-  //  },
-  // ],
-  // signChevron: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  // signRailway: [
-  //  {
-  //    pic: base + "",
-  //    colors: [""],
-  //  },
-  // ],
-  //},
+  {
+  name: "Chad",
+  capital: ["N'Djamena"],
+  domain: "td",
+  region: ["Africa"],
+  flag: {
+   pic: base + "td/td_flag.svg",
+   proportions: "2:3",
+   colors: ["blue","yellow","red"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["French","Arabic"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Chad",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "French Southern and Antarctic Lands",
+  capital: ["Saint-Pierre"],
+  domain: "tf",
+  region: ["Africa","Antarictica"],
+  flag: {
+   pic: base + "tf/tf_flag.svg",
+   proportions: "2:3",
+   colors: ["blue","white","red"],
+   emblem: "",
+  },
+  sovereignTo: "France",
+  onGoogleMaps: false,
+  drivingSide: null,
+  languages: ["French"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/French_Southern_and_Antarctic_Lands",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Togo",
+  capital: ["Lomé"],
+  domain: "tg",
+  region: ["Africa"],
+  flag: {
+   pic: base + "tg/tg_flag.svg",
+   proportions: "3:5", // and more
+   colors: ["red","green","yellow","white"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["French"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Togo",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Thailand",
+  capital: ["Bangkok"],
+  domain: "th",
+  region: ["Asia"],
+  flag: {
+   pic: base + "th/th_flag.svg",
+   proportions: "2:3",
+   colors: ["red","white","blue"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "left",
+  languages: ["Thai"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Thailand",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Tajikistan",
+  capital: ["Dushanbe"],
+  domain: "tj",
+  region: ["Asia"],
+  flag: {
+   pic: base + "tj/tj_flag.svg",
+   proportions: "1:2",
+   colors: ["red","white","green","yellow"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["Tajik","Russian"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Tajikistan",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Tokelau",
+  capital: [""],
+  domain: "tk",
+  region: ["Oceania","Polynesia"],
+  flag: {
+   pic: base + "tk/tk_flag.svg",
+   proportions: "1:2",
+   colors: ["blue","yellow","white"],
+   emblem: "",
+  },
+  sovereignTo: "New Zealand",
+  onGoogleMaps: false,
+  drivingSide: "left",
+  languages: ["Tokelauan","English"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Tokelau",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "East Timor",
+  capital: ["Dili"],
+  domain: "tl",
+  region: ["Asia"],
+  flag: {
+   pic: base + "tl/tl_flag.svg",
+   proportions: "1:2",
+   colors: ["red","yellow","black","white"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "left",
+  languages: ["Tetum","Portuguese"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/East_Timor",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Turkmenistan",
+  capital: ["Ashgabat"],
+  domain: "tm",
+  region: ["Asia"],
+  flag: {
+   pic: base + "tm/tm_flag.svg",
+   proportions: "2:3",
+   colors: ["green","white","red","yellow"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "right",
+  languages: ["Turkmen","Russian"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Turkmenistan",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Tunisia",
+  capital: ["Tunis"],
+  domain: "tn",
+  region: ["Africas"],
+  flag: {
+   pic: base + "tn/tn_flag.svg",
+   proportions: "2:3",
+   colors: ["red","white"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["Arabic"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Tunisia",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Tonga",
+  capital: ["Nukuʻalofa"],
+  domain: "to",
+  region: ["Oceania","Polynesia"],
+  flag: {
+   pic: base + "to/to_flag.svg",
+   proportions: "1:2",
+   colors: ["red","white"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "left",
+  languages: ["Tongan","English"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Tonga",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Turkey",
+  capital: ["Ankara"],
+  domain: "tr",
+  region: ["Asia","Europe"],
+  flag: {
+   pic: base + "tr/tr_flag.svg",
+   proportions: "2:3",
+   colors: ["red","white"],
+   emblem: "",
+  },
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["Turkish"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Turkey",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Trinidad and Tobago",
+  capital: ["Port of Spain"],
+  domain: "tt",
+  region: ["Caribbean"],
+  flag: {
+   pic: base + "tt/tt_flag.svg",
+   proportions: "3:5",
+   colors: ["red","white","black"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "left",
+  languages: ["English"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Trinidad_and_Tobago",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Tuvalu",
+  capital: ["Funafuti"],
+  domain: "tv",
+  region: ["Oceania","Polynesia"],
+  flag: {
+   pic: base + "tv/tv_flag.svg",
+   proportions: "1:2",
+   colors: ["blue","red","white","yellow"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "left",
+  languages: ["Tuvaluan","English"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Tuvalu",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Taiwan",
+  capital: ["Taipei"],
+  domain: "tw",
+  region: ["Asia"],
+  flag: {
+   pic: base + "tw/tw_flag.svg",
+   proportions: "2:3",
+   colors: ["red","blue","white"],
+   emblem: "",
+  },
+  sovereignTo: "???",
+  onGoogleMaps: true,
+  drivingSide: "right",
+  languages: ["Chinese"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Taiwan",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
+  {
+  name: "Tanzania",
+  capital: ["Dodoma","Dar es Salaam"],
+  domain: "tz",
+  region: ["Africa"],
+  flag: {
+   pic: base + "tz/tz_flag.svg",
+   proportions: "2:3",
+   colors: ["green","yellow","black","blue"],
+   emblem: "",
+  },
+  onGoogleMaps: false,
+  drivingSide: "left",
+  languages: ["Swahili","English"],
+  links: {
+    wikipedia: "https://en.wikipedia.org/wiki/Tanzania",
+  },
+  commonWords: {
+  "road": "",
+   "mountain": "",
+   "river": "",
+  },
+  bollard: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     reflector: [""],
+   }
+  ],
+  signSpeed: [
+   {
+     pic: base + "",
+     colors: ["",""],
+     border: "",
+   },
+  ],
+  signStop: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+     text: "",
+   },
+  ],
+  signYield: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signPedestrianCrossing: [
+   {
+     pic: base + "",
+     colors: [""],
+     border: "",
+   },
+  ],
+  signChevron: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  signRailway: [
+   {
+     pic: base + "",
+     colors: [""],
+   },
+  ],
+  },
   {
     name: "Ukraine",
     capital: ["Kyiv"],

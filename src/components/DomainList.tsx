@@ -1,7 +1,6 @@
 import "./DomainList.css"
 import {worldFormInterface} from ".././interface.tsx"
 import {worldData} from ".././worlddata/worlddata.tsx"
-// import {useRef} from "react"
 
 interface props {
   refs: React.RefObject<{ [key: string]: HTMLDivElement | null; }>,

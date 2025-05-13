@@ -1,4 +1,5 @@
 import {worldData} from "./worlddata/worlddata.tsx"
+import {regions} from "./worlddata/regions.tsx"
 
 export interface worldDataInterface {
   name: string;
@@ -49,20 +50,21 @@ interface commonWords {
 }
 
 export interface worldFormInterface {
+  domainList: {[key: string]:boolean};
   soverign: boolean;
   nonSoverign: boolean;
   onGoogleMaps: boolean;
   notOnGoogleMaps: boolean;
-  domainList: {[key: string]:boolean};
+  regionList: {[key: string]:boolean};
 }
 
 export const worldFormInit = {
+  domainList: initDomainList(),
   soverign: true,
   nonSoverign: true,
   onGoogleMaps: true,
   notOnGoogleMaps: false,
-  domainList: initDomainList(),
-  domainListFlag: false,
+  regionList: initRegionList(),
 }
 
 function initDomainList() {
@@ -73,6 +75,15 @@ function initDomainList() {
   const data = worldData.filter((item) => item.onGoogleMaps === true)
   for (const element of data) {
     ret[element.domain] = true
+  }
+  return ret
+}
+function initRegionList() {
+  const ret:{[key: string]:boolean} = {}
+  for(const element of regions) {
+    for(const reg of element) {
+      ret[reg] = true
+    }
   }
   return ret
 }

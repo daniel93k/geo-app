@@ -2,6 +2,7 @@ import "./Options.css"
 import {worldFormInterface} from "./interface.tsx"
 import DomainList from "./components/DomainList.tsx";
 import { worldData } from "./worlddata/worlddata.tsx";
+import { regions } from "./worlddata/regions.tsx";
 import {useRef} from "react";
 
 const jumpStops = ["ac","ba","ca","de","ec","fi","ga","hk","id","je","ke","la","ma","na","om","pa","qa","re","sa","tc","ua","va"] //,"wf","ye","za"]
@@ -15,17 +16,31 @@ export default function Options(props:props) {
   const listContainerRef = useRef<HTMLDivElement>(null)
   const letterRef = useRef<{[key: string]:HTMLDivElement | null}>({})
 
-  function handleChange(e: React.ChangeEvent<HTMLInputElement>){
-    const type = e.target.type
+  function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
     const name = e.target.name
     const checked = e.target.checked
     const newData = {...props.formData, [name]: checked} as worldFormInterface
     const newDomainList = filterData(newData)
-    if (type === "checkbox") {
-      props.setFormData(d => {
+    const basicNames = ["soverign","nonSoverign","onGoogleMaps","notOnGoogleMaps"]
+    const basicRegions = regions.flat()
+    if(basicNames.includes(name)) {
+      props.setFormData((d) => {
         return {
           ...d,
           [name]: checked,
+          domainList: newDomainList,
+        }
+      })
+    }
+    if(basicRegions.includes(name)) {
+      props.setFormData((d) => {
+        // console.log(d)
+        return {
+          ...d,
+          regionList: {
+            ...d.regionList,
+            [name]: checked,
+          },
           domainList: newDomainList,
         }
       })
@@ -37,7 +52,8 @@ export default function Options(props:props) {
     const target = letterRef.current;
     const clicked = e.target as HTMLDivElement
     if (container && target) {
-      const topOffset = target[clicked.className]!.offsetTop - container.offsetTop;
+      let topOffset = target[clicked.className]!.offsetTop - container.offsetTop;
+      topOffset -= 30;
       container.scrollTo({
         top: topOffset,
         behavior: 'instant',
@@ -49,32 +65,50 @@ export default function Options(props:props) {
     console.log("formAction")
   }
   return (
-    <div className="Options">
+    <section className="Options">
       <form action={formAction} className="form1">
-        <section className="domain">
-          <fieldset>
+        <section className="domain-list" ref={listContainerRef}>
+          <div className="jump-stops">
+            {jumpStops.map(item => <div key={item} className={item} onClick={sortClick}>{item[0]}</div>)}
+          </div>
+          <div className="cctld-list">
+            <DomainList refs={letterRef} data={props.formData} setData={props.setFormData} />
+          </div>
+        </section>
+        <section className="check-options">
+          <div className="soverign">
             <input onChange={handleChange} type="checkbox" id="soverign" name="soverign" checked={props.formData.soverign}/>
               <label htmlFor="soverign">Soverign</label><br />
             <input onChange={handleChange} type="checkbox" id="nonSoverign" name="nonSoverign" checked={props.formData.nonSoverign}/>
               <label htmlFor="nonSoverign">Not soverign</label><br />
-          </fieldset>
-          <fieldset>
+          </div>
+          <div className="on-google-maps">
             <input onChange={handleChange} type="checkbox" id="onGoogleMaps" name="onGoogleMaps" checked={props.formData.onGoogleMaps}/>
               <label htmlFor="onGoogleMaps">On GoogleMaps</label><br />
             <input onChange={handleChange} type="checkbox" id="notOnGoogleMaps" name="notOnGoogleMaps" checked={props.formData.notOnGoogleMaps}/>
               <label htmlFor="notOnGoogleMaps">Not on GoogleMaps</label><br />
-          </fieldset>
-            <section className="country-selection">
-            <div className="jump-stops">
-              {jumpStops.map(item => <div key={item} className={item} onClick={sortClick}>{item[0]}</div>)}
-            </div>
-            <section className="list" ref={listContainerRef}>
-              <DomainList refs={letterRef} data={props.formData} setData={props.setFormData} />
-            </section>
-          </section>
+          </div>
+          <div className="regions">
+            {regions.map(item => {
+              const ret = item.map((reg,i) => {
+                // console.log(reg,i)
+                return (
+                  <div key={reg}>
+                    {i !== 0?<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>:""}
+                    <input onChange={handleChange} className={reg} id={reg} type="checkbox" name={reg} checked={props.formData.regionList[reg]}/>
+                    <label htmlFor={reg}>{reg}</label><br />
+                  </div>
+                )
+              })
+              // console.log(ret)
+              return (
+                <div key={item[0]}>{ret}</div>
+              )
+            })}
+          </div>
         </section>
       </form>
-    </div>
+    </section>
   )
 }
 

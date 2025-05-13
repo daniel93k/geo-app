@@ -1,21 +1,40 @@
-.Options {
+.form1 {
+  display: flex;
+}
 
-  & .list {
-    border: 1px solid green;
-    max-height: 500px;
-    width: 460px;
-    overflow: auto;
-  }
+.domain-list {
+  position: relative;
+  height: 500px;
+  width: 460px;
+  overflow: auto;
 
   & .jump-stops {
+    position: sticky;
+    top: 0px;
     font-size: 120%;
+    background-color: white;
+
     font-weight: bold;
     color:gray;
-    width: 460px;
+    height: 28px;
     text-transform: uppercase;
     display: flex;
     justify-content: space-around ;
     cursor: pointer;
   }
 
+  & .cctlt-list {
+    padding-top: 10px;
+  }
+}
+
+.check-options {
+
+  & .soverign {
+    border-bottom: solid 1px gray;
+  }
+
+  & .regions {
+    border-top: solid 1px black;
+  }
 }

@@ -10,7 +10,7 @@ export default function Output(props:props) {
     return (
       <tr key={item.domain}>
         <td>{i+1}</td>
-        <td className="flag"><a href={`./sources/index.html#${item.domain}`} target="_blank" rel="noopener noreferrer"><img src={item.flag.pic} /></a></td>
+        <td className="flag"><a href={item.links?.wikipedia} target="_blank" rel="noopener noreferrer"><img src={item.flag.pic} /></a></td>
         <td className="name">{item.name}</td>
         <td className="domain">{item.domain}</td>
         <td className="region">{item.region.map(item => <div key={item}>{item}</div>)}</td>

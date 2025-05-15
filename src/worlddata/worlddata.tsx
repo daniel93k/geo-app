@@ -498,7 +498,7 @@ export const worldData: worldDataInterface[] = [
     name: "Armenia",
     capital: ["Yerevan"],
     domain: "am",
-    region: ["Asia", "Caucasus"],
+    region: ["Europe","Asia", "Caucasus"],
     flag: {
       pic: base + "am/am_flag.svg",
       proportions: "1:2",
@@ -1120,7 +1120,7 @@ export const worldData: worldDataInterface[] = [
     name: "Azerbaijan",
     capital: ["Baku"],
     domain: "az",
-    region: ["Asia", "Caucasus"],
+    region: ["Europe","Asia", "Caucasus"],
     flag: {
       pic: base + "az/az_flag.svg",
       proportions: "1:2",
@@ -5399,7 +5399,7 @@ export const worldData: worldDataInterface[] = [
     name: "Georgia",
     capital: ["Tbilisi"],
     domain: "ge",
-    region: ["Asia", "Caucasus"],
+    region: ["Europe","Asia", "Caucasus"],
     flag: {
       pic: base + "ge/ge_flag.svg",
       proportions: "2:3",
@@ -5754,7 +5754,7 @@ export const worldData: worldDataInterface[] = [
     name: "Greenland",
     capital: ["Nuuk"],
     domain: "gl",
-    region: ["North America", "Nordic", "Arctic"],
+    region: ["North America", "Nordic"],
     flag: {
       pic: base + "gl/gl_flag.svg",
       proportions: "2:3",
@@ -10232,7 +10232,7 @@ export const worldData: worldDataInterface[] = [
     name: "Northern Mariana Islands",
     capital: ["Saipan"],
     domain: "mp",
-    region: [""],
+    region: ["Oceania","Micronesia"],
     flag: {
       pic: base + "mp/mp_flag.svg",
       proportions: "20:39",
@@ -11641,7 +11641,7 @@ export const worldData: worldDataInterface[] = [
     name: "Nauru",
     capital: ["Yaren"],
     domain: "nr",
-    region: ["Oceania"],
+    region: ["Oceania","Micronesia"],
     flag: {
       pic: base + "nr/nr_flag.svg",
       proportions: "1:2",
@@ -11713,7 +11713,7 @@ export const worldData: worldDataInterface[] = [
     name: "Niue",
     capital: ["Alofi"],
     domain: "nu",
-    region: ["Oceania"],
+    region: ["Oceania","Polynesia"],
     flag: {
       pic: base + "nu/nu_flag.svg",
       proportions: "1:2",

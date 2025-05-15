@@ -1,5 +1,5 @@
 import {worldData} from "./worlddata/worlddata.tsx"
-import {regions} from "./worlddata/regions.tsx"
+import {worldRegions} from "./worlddata/regions.tsx"
 
 export interface worldDataInterface {
   name: string;
@@ -80,9 +80,18 @@ function initDomainList() {
 }
 function initRegionList() {
   const ret:{[key: string]:boolean} = {}
-  for(const element of regions) {
+  for(const element of worldRegions) {
     for(const reg of element) {
-      ret[reg] = true
+      if(reg === "Europe" ||
+         reg === "Asia" ||
+         reg === "Africa" ||
+         reg === "South America" ||
+         reg === "North America" ||
+         reg === "Oceania" ||
+         reg === "Antarctica"
+      )
+        ret[reg] = true
+      else ret[reg] = false
     }
   }
   return ret

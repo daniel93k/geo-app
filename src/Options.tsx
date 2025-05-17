@@ -2,8 +2,10 @@ import "./Options.css"
 import {worldFormInterface} from "./interface.tsx"
 import DomainList from "./components/DomainList.tsx";
 import { worldData } from "./worlddata/worlddata.tsx";
-import { worldRegions } from "./worlddata/regions.tsx";
+import { worldRegions } from "./worlddata/misc.tsx";
 import React, {useRef} from "react";
+
+//TODO flag color, drivingside:right/left, language(french,spanish)
 
 const jumpStops = ["ac","ba","ca","de","ec","fi","ga","hk","id","je","ke","la","ma","na","om","pa","qa","re","sa","tc","ua","va"] //,"wf","ye","za"]
 

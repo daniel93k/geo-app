@@ -9,3 +9,23 @@ export const worldRegions = [
   ["Atlantic"],
   ["Indian Ocean"],
 ]
+
+export const worldTableColumns = [
+  "flag",
+  "flagProprortion",
+  "name", 
+  "domain",
+  "soverignTo",
+  "region",
+  "bollard",
+  "snowPole",
+  "telePole",
+  "roadMarkings",
+  "signChevron",
+  "signSpeed",
+  "signStop",
+  "signYield",
+  "signCrossing",
+  "signRailway",
+  "signRoads",
+]

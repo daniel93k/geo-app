@@ -1,5 +1,5 @@
 import {worldData} from "./worlddata/worlddata.tsx"
-import {worldRegions} from "./worlddata/regions.tsx"
+import {worldRegions, worldTableColumns} from "./worlddata/misc.tsx"
 
 export interface worldDataInterface {
   name: string;
@@ -30,11 +30,12 @@ export interface worldDataInterface {
   signPedestrianCrossing?: marker[];
   signChevron?: marker[];
   signRailway?: marker[];
+  signRoads?: marker[];
 };
 
 interface marker {
   pic: string;
-  proportions?: string; // x:y
+  proportions?: string; // y:x
   colors?: string[];
   emblem?: string;
   text?: string;
@@ -56,6 +57,10 @@ export interface worldFormInterface {
   onGoogleMaps: boolean;
   notOnGoogleMaps: boolean;
   regionList: {[key: string]:boolean};
+}
+
+export interface worldColumnInterface {
+  [key:string]: boolean;
 }
 
 export const worldFormInit = {
@@ -96,3 +101,32 @@ function initRegionList() {
   }
   return ret
 }
+export function initWorldColumns() {
+  const ret:{[key: string]:boolean} = {}
+  for(const element of worldTableColumns) {
+    // console.log(element)
+    ret[element] = true
+  }
+  return ret
+}
+
+// console.log(worldTableColumns)
+// export const worldColumnsInit = {
+//   flag: true
+//   flagProprortion: true,
+//   name: true,
+//   domain: true,
+//   soverignTo: true,
+//   region: true,
+//   bollard: true,
+//   snowPole: true,
+//   telePole: true,
+//   roadMarkings: true,
+//   signChevron: true,
+//   signSpeed: true,
+//   signStop: true,
+//   signYield: true,
+//   signCrossing: true,
+//   signRailway: true,
+//   signRoads: true,
+// }

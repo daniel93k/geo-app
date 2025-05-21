@@ -51,7 +51,6 @@ interface commonWords {
 }
 
 export interface worldFormInterface {
-  domainList: {[key: string]:boolean};
   soverign: boolean;
   nonSoverign: boolean;
   onGoogleMaps: boolean;
@@ -59,12 +58,15 @@ export interface worldFormInterface {
   regionList: {[key: string]:boolean};
 }
 
+export interface domainListInterface {
+  [key: string]:boolean;
+}
+
 export interface worldColumnInterface {
   [key:string]: boolean;
 }
 
-export const worldFormInit = {
-  domainList: initDomainList(),
+export const initWorldForm = {
   soverign: true,
   nonSoverign: true,
   onGoogleMaps: true,
@@ -72,7 +74,7 @@ export const worldFormInit = {
   regionList: initRegionList(),
 }
 
-function initDomainList() {
+export function initDomainList() {
   const ret:{[key: string]:boolean} = {}
   for (const element of worldData) {
     ret[element.domain] = false
@@ -104,29 +106,7 @@ function initRegionList() {
 export function initWorldColumns() {
   const ret:{[key: string]:boolean} = {}
   for(const element of worldTableColumns) {
-    // console.log(element)
     ret[element] = true
   }
   return ret
 }
-
-// console.log(worldTableColumns)
-// export const worldColumnsInit = {
-//   flag: true
-//   flagProprortion: true,
-//   name: true,
-//   domain: true,
-//   soverignTo: true,
-//   region: true,
-//   bollard: true,
-//   snowPole: true,
-//   telePole: true,
-//   roadMarkings: true,
-//   signChevron: true,
-//   signSpeed: true,
-//   signStop: true,
-//   signYield: true,
-//   signCrossing: true,
-//   signRailway: true,
-//   signRoads: true,
-// }

@@ -8,7 +8,7 @@ interface props {
 }
 
 export default function OutputOptions(props:props) {
-  console.log(props.options, worldTableColumns)
+  // console.log(props.options, worldTableColumns)
   return (
     <section className="OutputOptions">
       OutputOptions

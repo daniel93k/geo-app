@@ -1,7 +1,6 @@
 import "./Options.css"
-import {worldFormInterface} from "./interface.tsx"
+import {domainListInterface, worldFormInterface} from "./interface.tsx"
 import DomainList from "./components/DomainList.tsx";
-import { worldData } from "./worlddata/worlddata.tsx";
 import { worldRegions } from "./worlddata/misc.tsx";
 import React, {useRef} from "react";
 
@@ -12,6 +11,8 @@ const jumpStops = ["ac","ba","ca","de","ec","fi","ga","hk","id","je","ke","la","
 interface props {
   formData: worldFormInterface,
   setFormData: React.Dispatch<React.SetStateAction<worldFormInterface>>
+  domainList: domainListInterface,
+  setDomainList: React.Dispatch<React.SetStateAction<domainListInterface>>
 }
 
 export default function Options(props:props) {
@@ -21,21 +22,16 @@ export default function Options(props:props) {
   function handleBasicChange(e: React.ChangeEvent<HTMLInputElement>) {
     const name = e.target.name
     const checked = e.target.checked
-    const newData = {...props.formData, [name]: checked} as worldFormInterface
-    const newDomainList = filterData(newData)
     props.setFormData((d) => {
       return {
         ...d,
         [name]: checked,
-        domainList: newDomainList,
       }
     })
   }
   function handleRegionChange(e:React.ChangeEvent<HTMLInputElement>) {
     const name = e.target.name
     const checked = e.target.checked
-    const newData = {...props.formData, regionList:{...props.formData.regionList,[name]: checked}} as worldFormInterface
-    const newDomainList = filterData(newData)
     props.setFormData((d) => {
       return {
         ...d,
@@ -43,10 +39,8 @@ export default function Options(props:props) {
           ...d.regionList,
           [name]: checked,
         },
-        domainList: newDomainList,
       }
     })
-
   }
 
   function sortClick(e: React.MouseEvent<HTMLDivElement, MouseEvent>) {
@@ -74,7 +68,7 @@ export default function Options(props:props) {
             {jumpStops.map(item => <div key={item} className={item} onClick={sortClick}>{item[0]}</div>)}
           </div>
           <div className="cctld-list">
-            <DomainList refs={letterRef} data={props.formData} setData={props.setFormData} />
+            <DomainList refs={letterRef} data={props.domainList} setData={props.setDomainList} />
           </div>
         </section>
         <section className="check-options">
@@ -110,40 +104,4 @@ export default function Options(props:props) {
       </form>
     </section>
   )
-}
-
-function filterData(formData:worldFormInterface) {
-  let ret = worldData
-  ret = ret.filter(item => {
-    if(formData.soverign)
-      if(!item.sovereignTo) return true
-    if(formData.nonSoverign)
-      if(item.sovereignTo) return true
-    return false
-  })
-
-  ret = ret.filter(item => {
-    if(formData.onGoogleMaps) 
-      if(item.onGoogleMaps) return true
-    if(formData.notOnGoogleMaps) 
-      if(!item.onGoogleMaps) return true
-    return false
-  })
-
-  const selectedRegions:string[] = []
-  for(const [key,value] of Object.entries(formData.regionList)) {
-    if(value) selectedRegions.push(key)
-  }
-  ret = ret.filter(item => {
-    return item.region.some(reg => selectedRegions.includes(reg))
-  })
-
-  const trueDomainArr = ret.map(item => item.domain)
-  const retObj:{[key: string]:boolean} = {}
-  for (const element of worldData) {
-    retObj[element.domain] = trueDomainArr.includes(element.domain)
-  }
-
-  return retObj
-
 }

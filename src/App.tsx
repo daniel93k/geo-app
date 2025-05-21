@@ -16,7 +16,6 @@ export default function App() {
   useEffect(() => {
     setDomainList(d => {
       d = filterData(formData)
-      console.log(d)
       return d
     })
 
@@ -38,6 +37,7 @@ export default function App() {
 
 function filterData(formData:worldFormInterface) {
   let ret = worldData
+  // soverign?
   ret = ret.filter(item => {
     if(formData.soverign)
       if(!item.sovereignTo) return true
@@ -45,7 +45,7 @@ function filterData(formData:worldFormInterface) {
       if(item.sovereignTo) return true
     return false
   })
-
+  //on Google streetview?
   ret = ret.filter(item => {
     if(formData.onGoogleMaps) 
       if(item.onGoogleMaps) return true
@@ -53,7 +53,7 @@ function filterData(formData:worldFormInterface) {
       if(!item.onGoogleMaps) return true
     return false
   })
-
+  //world Region
   const selectedRegions:string[] = []
   for(const [key,value] of Object.entries(formData.regionList)) {
     if(value) selectedRegions.push(key)
@@ -62,6 +62,7 @@ function filterData(formData:worldFormInterface) {
     return item.region.some(reg => selectedRegions.includes(reg))
   })
 
+  //ret
   const trueDomainArr = ret.map(item => item.domain)
   const retObj:{[key: string]:boolean} = {}
   for (const element of worldData) {

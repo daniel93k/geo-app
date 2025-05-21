@@ -19,28 +19,36 @@ export default function Options(props:props) {
   const listContainerRef = useRef<HTMLDivElement>(null)
   const letterRef = useRef<{[key: string]:HTMLDivElement | null}>({})
 
-  function handleBasicChange(e: React.ChangeEvent<HTMLInputElement>) {
+  function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
     const name = e.target.name
     const checked = e.target.checked
-    props.setFormData((d) => {
-      return {
-        ...d,
-        [name]: checked,
+    const parentName = e.target.parentElement?.className as string
+    console.log(parentName)
+    switch (parentName) {
+      case "soverign":
+      case "on-google-maps":
+        props.setFormData((d) => {
+          return {
+            ...d,
+            [name]: checked,
+          }
+        })
+        break;
+      case "regions-check":
+        props.setFormData((d) => {
+          return {
+            ...d,
+            regionList: {
+              ...d.regionList,
+              [name]: checked,
+            },
+          }
+        })
+        break;
+      default: {
+        console.log("asdfasdfasdf")
       }
-    })
-  }
-  function handleRegionChange(e:React.ChangeEvent<HTMLInputElement>) {
-    const name = e.target.name
-    const checked = e.target.checked
-    props.setFormData((d) => {
-      return {
-        ...d,
-        regionList: {
-          ...d.regionList,
-          [name]: checked,
-        },
-      }
-    })
+    }
   }
 
   function sortClick(e: React.MouseEvent<HTMLDivElement, MouseEvent>) {
@@ -73,24 +81,24 @@ export default function Options(props:props) {
         </section>
         <section className="check-options">
           <div className="soverign">
-            <input onChange={handleBasicChange} type="checkbox" id="soverign" name="soverign" checked={props.formData.soverign}/>
+            <input onChange={handleChange} type="checkbox" id="soverign" name="soverign" checked={props.formData.soverign}/>
               <label htmlFor="soverign">Soverign</label><br />
-            <input onChange={handleBasicChange} type="checkbox" id="nonSoverign" name="nonSoverign" checked={props.formData.nonSoverign}/>
+            <input onChange={handleChange} type="checkbox" id="nonSoverign" name="nonSoverign" checked={props.formData.nonSoverign}/>
               <label htmlFor="nonSoverign">Not soverign</label><br />
           </div>
           <div className="on-google-maps">
-            <input onChange={handleBasicChange} type="checkbox" id="onGoogleMaps" name="onGoogleMaps" checked={props.formData.onGoogleMaps}/>
+            <input onChange={handleChange} type="checkbox" id="onGoogleMaps" name="onGoogleMaps" checked={props.formData.onGoogleMaps}/>
               <label htmlFor="onGoogleMaps">On GoogleMaps</label><br />
-            <input onChange={handleBasicChange} type="checkbox" id="notOnGoogleMaps" name="notOnGoogleMaps" checked={props.formData.notOnGoogleMaps}/>
+            <input onChange={handleChange} type="checkbox" id="notOnGoogleMaps" name="notOnGoogleMaps" checked={props.formData.notOnGoogleMaps}/>
               <label htmlFor="notOnGoogleMaps">Not on GoogleMaps</label><br />
           </div>
           <div className="regions">
             {worldRegions.map(item => {
               const ret = item.map((reg,i) => {
                 return (
-                  <div key={reg}>
+                  <div key={reg} className="regions-check">
                     {i !== 0?<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>:""}
-                    <input onChange={handleRegionChange} className={reg} id={reg} type="checkbox" name={reg} checked={props.formData.regionList[reg]}/>
+                    <input onChange={handleChange} className={reg} id={reg} type="checkbox" name={reg} checked={props.formData.regionList[reg]}/>
                     <label htmlFor={reg}>{reg}</label><br />
                   </div>
                 )

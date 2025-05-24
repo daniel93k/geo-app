@@ -79,7 +79,7 @@ function filterData(formData:worldFormInterface) {
   }
   ret = ret.filter(item => {
     if(selectedLanguages.length === 0) return true
-    return item.languages?.some(lang => selectedLanguages.includes(lang))  // bug. vill ha other som uppsamlare
+    return item.languages?.some(lang => selectedLanguages.includes(lang))
   })
 
   //ret

@@ -14954,7 +14954,7 @@ export const worldData: worldDataInterface[] = [
     ],
   },
   {
-    name: "French Southern and Antarctic Lands",
+    name: "French S. & Antarctic Lands",
     capital: ["Saint-Pierre"],
     domain: "tf",
     region: ["Africa", "Antarctica"],

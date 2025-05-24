@@ -1,10 +1,16 @@
+.Options {
+  height: 530px;
+  margin: 4px;
+}
 .form1 {
   display: flex;
+  height: 530px;
 }
 
 .domain-list {
+  border: 1px solid black;
   position: relative;
-  height: 500px;
+  height: 527px;
   width: 460px;
   overflow: auto;
 
@@ -26,19 +32,23 @@
   & .cctlt-list {
     padding-top: 10px;
   }
+
 }
 
 .check-options {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 
-  & .soverign {
-    border-bottom: solid 1px gray;
+
+  & fieldset {
+    border: 1px solid gray;
+    padding: 0 2px;
+    margin-left: 5px;
   }
 
-  & .regions {
-    border-top: solid 1px black;
+  & legend {
+    font-size: small;
   }
 
-  & .driving-side {
-    border-top: solid 1px black;
-  }
 }

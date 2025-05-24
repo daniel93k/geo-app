@@ -93,19 +93,22 @@ export default function Options(props:props) {
           </div>
         </section>
         <section className="check-options">
-          <div className="soverign">
+          <fieldset className="soverign">
+            <legend>soverignity</legend>
             <input onChange={handleChange} type="checkbox" id="soverign" name="soverign" checked={props.formData.soverign}/>
               <label htmlFor="soverign">Soverign</label><br />
             <input onChange={handleChange} type="checkbox" id="nonSoverign" name="nonSoverign" checked={props.formData.nonSoverign}/>
               <label htmlFor="nonSoverign">Not soverign</label><br />
-          </div>
-          <div className="on-google-maps">
+          </fieldset>
+          <fieldset className="on-google-maps">
+            <legend>streetview?</legend>
             <input onChange={handleChange} type="checkbox" id="onGoogleMaps" name="onGoogleMaps" checked={props.formData.onGoogleMaps}/>
               <label htmlFor="onGoogleMaps">On GoogleMaps</label><br />
             <input onChange={handleChange} type="checkbox" id="notOnGoogleMaps" name="notOnGoogleMaps" checked={props.formData.notOnGoogleMaps}/>
               <label htmlFor="notOnGoogleMaps">Not on GoogleMaps</label><br />
-          </div>
-          <div className="regions">
+          </fieldset>
+          <fieldset className="regions">
+            <legend>areas</legend>
             {worldRegions.map(item => {
               const ret = item.map((reg,i) => {
                 return (
@@ -120,21 +123,23 @@ export default function Options(props:props) {
                 <div key={item[0]}>{ret}</div>
               )
             })}
-          </div>
-          <div className="driving-side">
+          </fieldset>
+          <fieldset className="driving-side">
+            <legend>drivingside</legend>
             <input onChange={handleChange} type="checkbox" id="driveRight" name="driveRight" checked={props.formData.driveRight}/>
               <label htmlFor="driveRight">right</label><br />
             <input onChange={handleChange} type="checkbox" id="driveLeft" name="driveLeft" checked={props.formData.driveLeft}/>
               <label htmlFor="driveLeft">left</label><br />
-          </div>
-          <div className="language">
+          </fieldset>
+          <fieldset className="language">
+            <legend>only language</legend>
             <input onChange={handleChange} type="checkbox" id="lang-english" name="english" checked={props.formData.languagesToShow.english}/>
               <label htmlFor="lang-english">English</label><br />
             <input onChange={handleChange} type="checkbox" id="lang-spanish" name="spanish" checked={props.formData.languagesToShow.spanish}/>
               <label htmlFor="lang-spanish">Spanish</label><br />
             <input onChange={handleChange} type="checkbox" id="lang-french" name="french" checked={props.formData.languagesToShow.french}/>
               <label htmlFor="lang-french">French</label><br />
-          </div>
+          </fieldset>
         </section>
       </form>
     </section>

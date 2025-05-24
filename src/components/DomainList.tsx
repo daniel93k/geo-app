@@ -10,7 +10,6 @@ interface props {
 
 export default function DomainList(props: props) {
   function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
-    console.log(e.target.id)
     props.setData(d => ({
       ...d,
       [e.target.id]: !d[e.target.id],

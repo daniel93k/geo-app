@@ -37,4 +37,8 @@
   & .regions {
     border-top: solid 1px black;
   }
+
+  & .driving-side {
+    border-top: solid 1px black;
+  }
 }

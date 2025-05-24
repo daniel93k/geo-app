@@ -55,7 +55,10 @@ export interface worldFormInterface {
   nonSoverign: boolean;
   onGoogleMaps: boolean;
   notOnGoogleMaps: boolean;
+  driveRight: boolean;
+  driveLeft: boolean;
   regionList: {[key: string]:boolean};
+  languagesToShow: {[key: string]:boolean};
 }
 
 export interface domainListInterface {
@@ -71,7 +74,10 @@ export const initWorldForm = {
   nonSoverign: true,
   onGoogleMaps: true,
   notOnGoogleMaps: false,
+  driveRight: true,
+  driveLeft: true,
   regionList: initRegionList(),
+  languagesToShow: {english: false, spanish: false, french: false}
 }
 
 export function initDomainList() {

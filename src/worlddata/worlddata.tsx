@@ -154,7 +154,7 @@ export const worldData: worldDataInterface[] = [
     drivingSide: "right",
     languages: ["Arabic", "English"],
     links: {
-      wikipedia: "https://en.wikipedia.org/wiki/United_Arab_Emiretes",
+      wikipedia: "https://en.wikipedia.org/wiki/United_Arab_Emirates",
     },
     commonWords: {
       road: "",
@@ -648,6 +648,7 @@ export const worldData: worldDataInterface[] = [
     sovereignTo: "many",
     onGoogleMaps: true,
     drivingSide: null,
+    languages: [""],
     commonWords: {
       road: "",
       mountain: "",
@@ -6526,7 +6527,7 @@ export const worldData: worldDataInterface[] = [
     sovereignTo: "cn",
     onGoogleMaps: true,
     drivingSide: "left",
-    languages: [""],
+    languages: ["Cantonese","English"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Hong_Kong",
     },

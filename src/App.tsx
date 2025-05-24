@@ -12,7 +12,7 @@ export default function App() {
   const [domainList, setDomainList] = useState<domainListInterface>(initDomainList())
   const [columnData, setColumnData] = useState<worldColumnInterface>(initWorldColumns())
   const filteredData = worldData.filter(data => domainList[data.domain])
-
+  console.log(filteredData.length)
   useEffect(() => {
     setDomainList(d => {
       d = filterData(formData)
@@ -62,13 +62,31 @@ function filterData(formData:worldFormInterface) {
     return item.region.some(reg => selectedRegions.includes(reg))
   })
 
+  // driving side
+  ret = ret.filter(item => {
+    if(item.drivingSide === null) return true
+    if(formData.driveLeft)
+      if(item.drivingSide === "left") return true
+    if(formData.driveRight)
+      if(item.drivingSide === "right") return true
+    return false
+  })
+
+  //languages
+  const selectedLanguages:string[] = []
+  for(const [key,value] of Object.entries(formData.languagesToShow)) {
+    if(value === true && key !== "other") selectedLanguages.push(key.charAt(0).toUpperCase() + key.slice(1))
+  }
+  ret = ret.filter(item => {
+    if(selectedLanguages.length === 0) return true
+    return item.languages?.some(lang => selectedLanguages.includes(lang))  // bug. vill ha other som uppsamlare
+  })
+
   //ret
   const trueDomainArr = ret.map(item => item.domain)
   const retObj:{[key: string]:boolean} = {}
   for (const element of worldData) {
     retObj[element.domain] = trueDomainArr.includes(element.domain)
   }
-
   return retObj
-
 }

@@ -18,6 +18,7 @@ export default function Output(props:props) {
         <td className="soverign-to">{item.sovereignTo}</td>
         <td className="region">{item.region.map(item => <div key={item}>{item}</div>)}</td>
         <td className="driving-side">{item.drivingSide?.slice(0,2)}</td>
+        <td className="">{item.languages?.map(item => <div key={item}>{item}</div>)}</td>
         <td className="bollard">{item.bollard?item.bollard.map(item => <a key={item.pic} href={item.pic} target="_blank" rel="noopener noreferren"><img src={item.pic} /></a>):"n/a"}</td>
         <td className="snow-pole">{item.poleSnow?item.poleSnow.map(item => <a key={item.pic} href={item.pic} target="_blank" rel="noopener noreferren"><img src={item.pic} /></a>):"n/a"}</td>
         <td className="tele-pole">{item.poleTele?item.poleTele.map(item => <a key={item.pic} href={item.pic} target="_blank" rel="noopener noreferren"><img src={item.pic} /></a>):"n/a"}</td>

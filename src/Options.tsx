@@ -64,6 +64,18 @@ export default function Options(props:props) {
     }
   }
 
+function removeRegionChecks() {
+  props.setFormData((d) => {
+    const resetRegionList = Object.fromEntries(
+      Object.keys(d.regionList).map((key) => [key, false])
+    );
+    return {
+      ...d,
+      regionList: resetRegionList,
+    };
+  });
+}
+
   function sortClick(e: React.MouseEvent<HTMLDivElement, MouseEvent>) {
     const container = listContainerRef.current;
     const target = letterRef.current;
@@ -108,12 +120,14 @@ export default function Options(props:props) {
               <label htmlFor="notOnGoogleMaps">Not on GoogleMaps</label><br />
           </fieldset>
           <fieldset className="regions">
-            <legend>areas</legend>
+            <legend>regions</legend>
+            <span style={{fontSize:"small",cursor:"pointer",textDecoration:"underline"}} onClick={removeRegionChecks}>uncheck all</span>
             {worldRegions.map(item => {
               const ret = item.map((reg,i) => {
                 return (
                   <div key={reg} className="regions-check">
                     {i !== 0?<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>:""}
+                    {reg === "Atlantic"?<hr />:""}
                     <input onChange={handleChange} className={reg} id={reg} type="checkbox" name={reg} checked={props.formData.regionList[reg]}/>
                     <label htmlFor={reg}>{reg}</label><br />
                   </div>

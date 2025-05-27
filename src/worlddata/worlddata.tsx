@@ -505,7 +505,7 @@ export const worldData: worldDataInterface[] = [
       colors: ["red", "blue", "yellow"],
       emblem: "am/am_coat_of_arms.svg",
     },
-    onGoogleMaps: false,
+    onGoogleMaps: true,
     drivingSide: "right",
     languages: ["Armenian"],
     links: {
@@ -1128,7 +1128,7 @@ export const worldData: worldDataInterface[] = [
       colors: ["blue", "red", "green", "white"],
       emblem: "az/az_coat_of_arms.svg",
     },
-    onGoogleMaps: false,
+    onGoogleMaps: true,
     drivingSide: "right",
     languages: ["Azerbaijani"],
     links: {
@@ -1618,7 +1618,7 @@ export const worldData: worldDataInterface[] = [
       colors: ["red", "white"],
       emblem: "",
     },
-    onGoogleMaps: false,
+    onGoogleMaps: true,
     drivingSide: "right",
     languages: ["Arabic", "English"],
     links: {
@@ -1899,7 +1899,7 @@ export const worldData: worldDataInterface[] = [
       colors: ["yellow", "white", "black"],
       emblem: "bn/coat_of_arms.svg",
     },
-    onGoogleMaps: false,
+    onGoogleMaps: true,
     drivingSide: "left",
     languages: ["Malay", "English"],
     links: {
@@ -4784,7 +4784,7 @@ export const worldData: worldDataInterface[] = [
       emblem: "",
     },
     onGoogleMaps: true,
-    drivingSide: null,
+    drivingSide: "right",
     languages: ["many"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/European_Union",
@@ -5407,7 +5407,7 @@ export const worldData: worldDataInterface[] = [
       colors: ["red", "white"],
       emblem: "",
     },
-    onGoogleMaps: false,
+    onGoogleMaps: true,
     drivingSide: "right",
     languages: ["Georgian"],
     links: {
@@ -5549,7 +5549,7 @@ export const worldData: worldDataInterface[] = [
       emblem: "",
     },
     sovereignTo: "uk",
-    onGoogleMaps: false,
+    onGoogleMaps: true,
     drivingSide: "left",
     languages: ["English", "French"],
     links: {
@@ -10669,7 +10669,7 @@ export const worldData: worldDataInterface[] = [
       colors: ["red", "green", "white"],
       emblem: "",
     },
-    onGoogleMaps: false,
+    onGoogleMaps: true,
     drivingSide: "left",
     languages: ["Dhivehi"],
     links: {
@@ -10942,7 +10942,7 @@ export const worldData: worldDataInterface[] = [
     name: "Mozambique",
     capital: ["Maputo"],
     domain: "mz",
-    region: ["Europe"],
+    region: ["Africa"],
     flag: {
       pic: base + "mz/mz_flag.svg",
       proportions: "2:3",
@@ -11579,7 +11579,7 @@ export const worldData: worldDataInterface[] = [
       colors: ["blue", "red", "white"],
       emblem: "",
     },
-    onGoogleMaps: false,
+    onGoogleMaps: true,
     drivingSide: "left",
     languages: ["Nepali"],
     links: {
@@ -14459,76 +14459,76 @@ export const worldData: worldDataInterface[] = [
       },
     ],
   },
-  {
-    name: "Soviet Union",
-    capital: ["Moscow"],
-    domain: "su",
-    region: ["Europe", "Asia"],
-    flag: {
-      pic: base + "su/su_flag.svg",
-      proportions: "1:2",
-      colors: ["red", "yellow"],
-      emblem: "",
-    },
-    onGoogleMaps: false,
-    drivingSide: "right",
-    languages: ["Russian"],
-    links: {
-      wikipedia: "https://en.wikipedia.org/wiki/Soviet_Union",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-  },
+  // {
+  //   name: "Soviet Union",
+  //   capital: ["Moscow"],
+  //   domain: "su",
+  //   region: ["Europe", "Asia"],
+  //   flag: {
+  //     pic: base + "su/su_flag.svg",
+  //     proportions: "1:2",
+  //     colors: ["red", "yellow"],
+  //     emblem: "",
+  //   },
+  //   onGoogleMaps: false,
+  //   drivingSide: "right",
+  //   languages: ["Russian"],
+  //   links: {
+  //     wikipedia: "https://en.wikipedia.org/wiki/Soviet_Union",
+  //   },
+  //   commonWords: {
+  //     road: "",
+  //     mountain: "",
+  //     river: "",
+  //   },
+  //   bollard: [
+  //     {
+  //       pic: base + "",
+  //       colors: ["", ""],
+  //       reflector: [""],
+  //     },
+  //   ],
+  //   signSpeed: [
+  //     {
+  //       pic: base + "",
+  //       colors: ["", ""],
+  //       border: "",
+  //     },
+  //   ],
+  //   signStop: [
+  //     {
+  //       pic: base + "",
+  //       colors: [""],
+  //       border: "",
+  //       text: "",
+  //     },
+  //   ],
+  //   signYield: [
+  //     {
+  //       pic: base + "",
+  //       colors: [""],
+  //     },
+  //   ],
+  //   signPedestrianCrossing: [
+  //     {
+  //       pic: base + "",
+  //       colors: [""],
+  //       border: "",
+  //     },
+  //   ],
+  //   signChevron: [
+  //     {
+  //       pic: base + "",
+  //       colors: [""],
+  //     },
+  //   ],
+  //   signRailway: [
+  //     {
+  //       pic: base + "",
+  //       colors: [""],
+  //     },
+  //   ],
+  // },
   {
     name: "El Salvador",
     capital: ["San Salvador"],
@@ -16721,7 +16721,7 @@ export const worldData: worldDataInterface[] = [
       colors: ["red", "yellow"],
       emblem: "",
     },
-    onGoogleMaps: false,
+    onGoogleMaps: true,
     drivingSide: "right",
     languages: ["Vietnamese"],
     links: {

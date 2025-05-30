@@ -15,13 +15,13 @@ export interface worldDataInterface {
   links?: {
     location?: string;
     wikipedia: string;
+    plonkit?: string;
     road_signs?: string;
   }
-  commonWords?: commonWords;
 
   bollard?: marker[];
-  poleSnow?: marker[];
-  poleTele?: marker[];
+  snowPole?: marker[];
+  telePole?: marker[];
   roadMarkings?: marker[];
   regPlate?: marker[];
   signSpeed?: marker[];
@@ -44,10 +44,12 @@ interface marker {
   shape?: string[];
   continous?: boolean;
 }
-interface commonWords {
-  "road"?: string;
-  "mountain"?: string;
-  "river"?: string;
+export interface languageFeatures {
+  alphabet: string[];
+  alphabetFeatures?: string[];
+  road?: string[];
+  mountain?: string[];
+  river?: string[];
 }
 
 export interface worldFormInterface {

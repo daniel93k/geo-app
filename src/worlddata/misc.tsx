@@ -29,3 +29,15 @@ export const worldTableColumns = [
   "signRailway",
   "signRoads",
 ]
+
+export const languageFeatures = {
+  swedish: {
+    alphabet: "latin",
+    alphabetFeatures: ["Å","Ä","Ö","å","ä","ö"],
+    road: ["väg", "gata"],
+    mountain: ["berg", "kulle"],
+    river: ["flod","älv","å"],
+  }
+}
+
+

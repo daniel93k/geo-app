@@ -6,6 +6,8 @@ interface props {
   columns: worldColumnInterface;
 }
 
+const columnHeads = ["#","flag","y:x","name","dom.","sov","area","ds","lang","bollard","snow","tele","road","chev","speed","stop","yield","cross","rail","sign"]
+
 export default function Output(props:props) {
   const tableRows = props.data.map((item,i) => {
     return (
@@ -20,10 +22,9 @@ export default function Output(props:props) {
         <td className="driving-side">{item.drivingSide?.slice(0,2)}</td>
         <td className="">{item.languages?.map(item => <div key={item}>{item}</div>)}</td>
         <td className="bollard">{item.bollard?item.bollard.map(item => <a key={item.pic} href={item.pic} target="_blank" rel="noopener noreferren"><img src={item.pic} /></a>):"n/a"}</td>
-        <td className="snow-pole">{item.poleSnow?item.poleSnow.map(item => <a key={item.pic} href={item.pic} target="_blank" rel="noopener noreferren"><img src={item.pic} /></a>):"n/a"}</td>
-        <td className="tele-pole">{item.poleTele?item.poleTele.map(item => <a key={item.pic} href={item.pic} target="_blank" rel="noopener noreferren"><img src={item.pic} /></a>):"n/a"}</td>
+        <td className="snow-pole">{item.snowPole?item.snowPole.map(item => <a key={item.pic} href={item.pic} target="_blank" rel="noopener noreferren"><img src={item.pic} /></a>):"n/a"}</td>
+        <td className="tele-pole">{item.telePole?item.telePole.map(item => <a key={item.pic} href={item.pic} target="_blank" rel="noopener noreferren"><img src={item.pic} /></a>):"n/a"}</td>
         <td className="road-markings">{item.roadMarkings?item.roadMarkings.map(item => <a key={item.pic} href={item.pic} target="_blank" rel="noopener noreferren"><img src={item.pic} /></a>):"n/a"}</td>
-
         <td className="sign-chevron">{item.signChevron?.map(item => <a key={item.pic} href={item.pic} target="_blank" rel="noopener noreferrer"><img src={item.pic} /></a>)}</td>
         <td className="sign-speed">{item.signSpeed?.map(item => <a key={item.pic} href={item.pic} target="_blank" rel="noopener noreferrer"><img src={item.pic} /></a>)}</td>
         <td className="sign-stop">{item.signStop?.map(item => <a key={item.pic} href={item.pic} target="_blank" rel="noopener noreferrer"><img src={item.pic} /></a>)}</td>
@@ -38,6 +39,11 @@ export default function Output(props:props) {
   return (
     <div className="Output">
       <table>
+        <thead>
+          <tr>
+            {columnHeads.map(item => <th key={item}>{item}</th>)}
+          </tr>
+        </thead>
         <tbody>
           {tableRows}
         </tbody>

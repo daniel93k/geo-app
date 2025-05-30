@@ -22,53 +22,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Ascension/@-7.9412317,-14.3993217,13z/data=!4m6!3m5!1s0x5b0f4126dd69e2d:0x40d606a7f1eda1e7!8m2!3d-7.9467166!4d-14.3559158!16zL20vMHpiOA?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Ascension_island",
     },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Andorra",
@@ -86,11 +39,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Catalan"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Andorra",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -155,11 +103,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Arabic", "English"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/United_Arab_Emirates",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -226,58 +169,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Afghanistan",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Antigua and Barbuda",
@@ -298,58 +189,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Antigua+och+Barbuda/@17.3258296,-62.1753455,11z/data=!4m6!3m5!1s0x8c0d6eb96db8d1c1:0x276a3788e18b7994!8m2!3d17.060816!4d-61.796428!16zL20vMGwzaA?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQwNi4wIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Antigua_and_Barbuda",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Anguilla",
@@ -371,58 +210,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Anguilla/@18.3897972,-63.3652954,11z/data=!3m1!4b1!4m6!3m5!1s0x8c0e63748eef01e5:0x3b9d6ad384e0d481!8m2!3d18.220554!4d-63.068615!16zL20vMG4zZw?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQwNi4wIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Anguilla",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Albania",
@@ -440,11 +227,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Albanian"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Albania",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -511,11 +293,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Armenia",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -581,58 +358,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Angola",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Antarctica",
@@ -649,58 +374,6 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: null,
     languages: [""],
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Argentina",
@@ -718,11 +391,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Spanish"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Argentina",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -792,11 +460,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Amerikanska+Samoa%C3%B6arna/@-12.8665439,-172.1113239,8z/data=!3m1!4b1!4m6!3m5!1s0x71a684b79248fdc9:0xf3ee739e2dae4bdd!8m2!3d-14.270972!4d-170.132217!16zL20vMGg4ZA?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQwNi4wIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/American_Samoa",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -862,11 +525,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Austria",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -931,11 +589,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["English"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Australia",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -1005,58 +658,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Aruba/@12.5183523,-70.0085739,13z/data=!3m1!4b1!4m6!3m5!1s0x8e8538cfe25a77db:0xf16a8a3e89818c2f!8m2!3d12.52111!4d-69.968338!16zL20vMGoxMQ?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQwNi4wIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Aruba",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Åland",
@@ -1134,11 +735,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Azerbaijan",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -1203,11 +799,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Bosnian", "Croatian", "Serbian"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -1274,58 +865,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Barbados",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Bangladesh",
@@ -1343,11 +882,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Bengali"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Bangladesh",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -1414,11 +948,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Belgium",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -1484,58 +1013,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Burkina_Faso",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Bulgaria",
@@ -1553,11 +1030,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Bulgarian"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Bulgaria",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -1624,11 +1096,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Bahrain",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -1694,58 +1161,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Burundi",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Benin",
@@ -1764,58 +1179,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Benin",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Bermuda",
@@ -1834,11 +1197,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["English"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Bermuda",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -1905,11 +1263,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Brunei",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -1974,11 +1327,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Spanish"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Bolivia",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -2046,58 +1394,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Caribbean_Netherlands",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "bq/bq_flag.svg",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Brazil",
@@ -2115,11 +1411,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Poruguese"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Brazil",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -2186,58 +1477,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Bahamas",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Bhutan",
@@ -2255,11 +1494,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Dzongkha"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Bhutan",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -2326,11 +1560,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Botswana",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -2395,11 +1624,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Belarusian", "Russian"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Belarus",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -2466,58 +1690,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Belize",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Canada",
@@ -2535,11 +1707,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["English", "French"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Canada",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -2609,11 +1776,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Kokos%C3%B6arna/@-12.0157321,96.7904927,53955m/data=!3m2!1e3!4b1!4m6!3m5!1s0x2f0ec5897ee869c1:0xdbd142f010e39fa6!8m2!3d-12.164165!4d96.870956!16zL20vMDFwNmw?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Cocos_Islands",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -2680,58 +1842,6 @@ export const worldData: worldDataInterface[] = [
       wikipedia:
         "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Central African Republic",
@@ -2750,58 +1860,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Central_African_Republic",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Republic of the Congo",
@@ -2820,58 +1878,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Republic_of_the_Congo",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Switzerland",
@@ -2889,11 +1895,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["German", "French", "Italian", "Romansh"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Switzerland",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -2960,58 +1961,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Ivory_Coast",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Cook Islands",
@@ -3033,58 +1982,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Cook%C3%B6arna/@-15.3880718,-171.0291689,3403933m/data=!3m2!1e3!4b1!4m6!3m5!1s0x71548aefb97bdedd:0x24ca50e8808b4d8!8m2!3d-21.236736!4d-159.777671!16zL20vMDIwcDE?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Cook_Islands",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Chile",
@@ -3102,11 +1999,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Spanish"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Chile",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -3173,58 +2065,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Cameroon",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "China",
@@ -3243,58 +2083,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/China",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Colombia",
@@ -3312,11 +2100,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Spanish"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Colombia",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -3383,11 +2166,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Costa_Rica",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -3453,58 +2231,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Cuba",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Cape Verde",
@@ -3525,58 +2251,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Kap+Verde/@16.0234344,-24.64936,424167m/data=!3m2!1e3!4b1!4m6!3m5!1s0x9358f2159115131:0x6b1af236f918ea1f!8m2!3d16.5388!4d-23.0418!16zL20vMDFucWo?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Cape_Verde",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Curaçao",
@@ -3597,11 +2271,6 @@ export const worldData: worldDataInterface[] = [
       location:
         "https://www.google.se/maps/place/Cura%C3%A7ao/@12.190652,-69.5602858,215680m/data=!3m2!1e3!4b1!4m6!3m5!1s0x8e849dbe62c7fdc7:0xfc7f9228dbc64723!8m2!3d12.16957!4d-68.99002!16zL20vMGhiZ2g?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Curaçao",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -3671,11 +2340,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Jul%C3%B6arna/@-10.4924282,105.582435,27121m/data=!3m2!1e3!4b1!4m6!3m5!1s0x2ef59a27e3c0a7cf:0x15e7d6090475ea16!8m2!3d-10.447525!4d105.690449!16zL20vMDFwNWw?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Christmas_Island",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -3741,58 +2405,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Cyprus",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Czech Republic",
@@ -3810,11 +2422,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Czech"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Czech_Republic",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -3881,11 +2488,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Germany",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -3951,58 +2553,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Djibouti",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Denmark",
@@ -4086,58 +2636,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Dominica",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Dominican Republic",
@@ -4155,11 +2653,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Spanish"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Dominican_Republic",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -4226,58 +2719,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Algeria",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Ecuador",
@@ -4295,11 +2736,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Spanish"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Ecuador",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -4366,11 +2802,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Estonia",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -4436,58 +2867,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Egypt",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Western Sahara",
@@ -4507,58 +2886,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Western_Sahara",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Eritrea",
@@ -4579,58 +2906,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Eritrea/@15.1863657,38.5105206,914288m/data=!3m2!1e3!4b1!4m6!3m5!1s0x166d5a3f9dba8565:0x17c208f02f120efa!8m2!3d15.179384!4d39.782334!16zL20vMDJraHM?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Eritrea",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Spain",
@@ -4648,11 +2923,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Spanish"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Spain",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -4719,64 +2989,13 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Ethiopia",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "European Union",
     capital: [""],
     domain: "eu",
     region: ["Europe"],
+    sovereignTo: "many",
     flag: {
       pic: base + "eu/eu_flag.svg",
       proportions: "2:3",
@@ -4784,63 +3003,11 @@ export const worldData: worldDataInterface[] = [
       emblem: "",
     },
     onGoogleMaps: true,
-    drivingSide: "right",
+    drivingSide: null,
     languages: ["many"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/European_Union",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Finland",
@@ -4927,58 +3094,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Fiji/@-16.6164085,176.816684,1815619m/data=!3m2!1e3!4b1!4m6!3m5!1s0x6e1990fd703cdc5d:0x9e9c319946ef5b93!8m2!3d-17.713371!4d178.065032!16zL20vMDJ3dDA?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Fiji",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Falkland Islands",
@@ -5000,58 +3115,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/FIQQ+1ZZ,+Falklands%C3%B6arna+(Islas+Malvinas)/@-51.724961,-60.18866,293418m/data=!3m2!1e3!4b1!4m6!3m5!1s0xbc2a89b94491e3a3:0x322aaaff8dd9c53a!8m2!3d-51.796253!4d-59.523613!16zL20vMDJ3bXk?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Falkland_Islands",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Federated States of Micronesia",
@@ -5072,58 +3135,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Mikronesiens+federerade+stater/@5.2042249,144.9193772,3773862m/data=!3m2!1e3!4b1!4m6!3m5!1s0x65d9b5c5ac58c813:0x547a8dcdfaa46525!8m2!3d7.425554!4d150.550812!16zL20vMDMxODg?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Federated_States_of_Micronesia",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Faroe Islands",
@@ -5201,11 +3212,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/France",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -5271,58 +3277,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Gabon",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Grenada",
@@ -5343,58 +3297,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Grenada/@12.2600887,-61.7554471,115721m/data=!3m2!1e3!4b1!4m6!3m5!1s0x8c381789f4877bd1:0x36d8c7015a1f4f8e!8m2!3d12.1165!4d-61.679!16zL20vMDM1eWc?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Grenada",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Georgia",
@@ -5412,11 +3314,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Georgian"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Georgia",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -5484,58 +3381,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/French_Guiana",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Guernsey",
@@ -5556,11 +3401,6 @@ export const worldData: worldDataInterface[] = [
       location:
         "https://www.google.se/maps/place/Guernsey/@49.4631138,-2.6293973,19242m/data=!3m2!1e3!4b1!4m6!3m5!1s0x480d72322e9176df:0xd10063639ec06acb!8m2!3d49.4481982!4d-2.58949!16zL20vMDM2NmM?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Guernsey",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -5627,11 +3467,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Ghana",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -5697,11 +3532,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["English"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Gibraltar",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -5820,58 +3650,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/The_Gambia",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Guinea",
@@ -5892,58 +3670,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Guinea/@9.9277745,-14.1052363,1866370m/data=!3m2!1e3!4b1!4m6!3m5!1s0xf01b321bcce953f:0xe8737bcbd75a2df6!8m2!3d9.945587!4d-9.696645!16zL20vMDM2NzY?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Guinea",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Guadeloupe",
@@ -5965,58 +3691,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Guadeloupe/@16.1498959,-61.5621971,113748m/data=!3m2!1e3!4b1!4m6!3m5!1s0x8c0e755a77287d51:0xecbe3e37b74a07ab!8m2!3d16.265!4d-61.551!16zL20vMDM3bm0?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Guadeloupe",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Equatorial Guinea",
@@ -6035,58 +3709,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Equatorial_Guinea",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Greece",
@@ -6104,11 +3726,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Greek"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Greece",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -6177,58 +3794,6 @@ export const worldData: worldDataInterface[] = [
       wikipedia:
         "https://en.wikipedia.org/wiki/South_Georgia_and_the_South_Sandwich_Islands",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Guatemala",
@@ -6246,11 +3811,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Spanish"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Guatemala",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -6320,11 +3880,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Guam/@13.4510924,144.6236713,115173m/data=!3m2!1e3!4b1!4m6!3m5!1s0x671f76ff930f24ef:0x5571ae91c5b3e5a6!8m2!3d13.3823791!4d144.6972774!16zL20vMDM0dGw?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Guam",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -6390,58 +3945,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Guinea-Bissau",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Guyana",
@@ -6460,58 +3963,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Guyana",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Hong Kong",
@@ -6530,11 +3981,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Cantonese","English"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Hong_Kong",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -6603,58 +4049,6 @@ export const worldData: worldDataInterface[] = [
       wikipedia:
         "https://en.wikipedia.org/wiki/Heard_Island_and_McDonald_Islands",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Honduras",
@@ -6673,58 +4067,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Honduras",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Croatia",
@@ -6742,11 +4084,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Croatian"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Croatia",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -6813,58 +4150,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Haiti",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Hungary",
@@ -6882,11 +4167,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Hungarian"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Hungary",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -6953,11 +4233,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Indonesia",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -7023,11 +4298,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Ireland",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -7092,11 +4362,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Hebrew"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Israel",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -7164,11 +4429,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Isle_of_Man",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -7233,11 +4493,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Hindi", "English"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/India",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -7307,58 +4562,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Brittiska+territoriet+i+Indiska+oceanen/@-6.3128671,71.2262745,470813m/data=!3m2!1e3!4b1!4m6!3m5!1s0x249273e0849da387:0xa94f6470101f6be1!8m2!3d-6.343194!4d71.876519!16zL20vMDE2OGI?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/British_Indian_Ocean_Territory",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Iraq",
@@ -7377,58 +4580,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Iraq",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Iran",
@@ -7447,58 +4598,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Iran",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Iceland",
@@ -7576,11 +4675,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Italy",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -7649,11 +4743,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Jersey/@49.2118067,-2.21973,38680m/data=!3m2!1e3!4b1!4m6!3m5!1s0x480c52a48c927533:0x519c23a30a1a6cc3!8m2!3d49.2137711!4d-2.1357662!16zL20vMDNfeGo?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Jersey",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -7719,58 +4808,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Jamaica",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Jordan",
@@ -7788,11 +4825,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Arabic"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Jordan",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -7859,11 +4891,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Japan",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -7928,11 +4955,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["English", "Swahili"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Kenya",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -7999,11 +5021,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Kyrgyzstan",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -8068,11 +5085,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Khmer"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Cambodia",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -8141,58 +5153,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Kiribati/@-3.7331894,-178.8001301,7562885m/data=!3m2!1e3!4b1!4m6!3m5!1s0x65647c91c2028703:0x84327d040152c307!8m2!3d1.44213!4d172.9829763!16zL20vMDQ3dF8?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Kiribati",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Comoros",
@@ -8213,58 +5173,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Komorerna/@-11.902182,43.5504564,231751m/data=!3m2!1e3!4b1!4m6!3m5!1s0x1898e3036408a48d:0xf70a7fbee4dfd4db!8m2!3d-11.6455!4d43.3333!16zL20vMDFuNmM?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Comoros",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Saint Kitts and Nevis",
@@ -8283,58 +5191,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "North Korea",
@@ -8352,58 +5208,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/North_Korea",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "South Korea",
@@ -8421,11 +5225,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Korean"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/South_Korea",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -8492,58 +5291,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Kuwait",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Cayman Islands",
@@ -8563,58 +5310,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Cayman_Islands",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Kazakhstan",
@@ -8632,11 +5327,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Kazakh", "Russian"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Kazakhstan",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -8703,11 +5393,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Laos",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -8772,11 +5457,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Arabic"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Lebanon",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -8843,58 +5523,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Saint_Licia",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Liechtenstein",
@@ -8912,11 +5540,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["German"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Liechtenstein",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -8983,11 +5606,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Sri_Lanka",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -9053,58 +5671,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Liberia",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Lesotho",
@@ -9122,11 +5688,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Sesotho", "English"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Lesotho",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -9193,11 +5754,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Lithuania",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -9262,11 +5818,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Luxembourgish", "French", "German"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Luxembourg",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -9333,11 +5884,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Latvia",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -9403,58 +5949,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Libya",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Morocco",
@@ -9473,58 +5967,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Morocco",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Monaco",
@@ -9542,11 +5984,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["French"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Monaco",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -9613,58 +6050,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Moldova",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Montenegro",
@@ -9682,11 +6067,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Montenegrin", "Serbian"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Montenegro",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -9752,11 +6132,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Malagasy", "French"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Madagascar",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -9825,58 +6200,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Marshall%C3%B6arna/@9.4547488,156.1335093,3742826m/data=!3m2!1e3!4b1!4m6!3m5!1s0x650119b22129ca2b:0x8b3e03e8aa09b776!8m2!3d7.131474!4d171.184478!16zL20vMDR2NnY?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Marshall_Islands",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "North Macedonia",
@@ -9894,11 +6217,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Macedonian"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/North_Macedonia",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -9965,58 +6283,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Mali",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Myanmar",
@@ -10035,58 +6301,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Myanmar",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Mongolia",
@@ -10104,11 +6318,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Mongolian"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Mongolia",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -10175,11 +6384,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Chinese", "Portuguese"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Macau",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -10249,11 +6453,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Nordmarianerna/@17.313227,144.164708,905614m/data=!3m2!1e3!4b1!4m6!3m5!1s0x66d8b13490995c51:0x9db7ebab7c3a0e32!8m2!3d15.0979!4d145.6739!16zL20vMDVjbnI?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Northern_Mariana_Islands",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -10322,58 +6521,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Martinique/@14.6343636,-61.1789219,114727m/data=!3m2!1e3!4b1!4m6!3m5!1s0x8c6aa0f90066070d:0xe1001b1217afe7b0!8m2!3d14.641528!4d-61.024174!16zL20vMDR2Zzg?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Martinique",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Mauritania",
@@ -10392,58 +6539,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Mauritania",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Montserrat",
@@ -10463,58 +6558,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Montserrat",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Malta",
@@ -10532,11 +6575,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Maltese", "English"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Malta",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -10605,58 +6643,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Mauritius/@-15.4048409,56.3740781,1829025m/data=!3m2!1e3!4b1!4m6!3m5!1s0x217c504df94474c9:0x4203d9c2116bd031!8m2!3d-20.348404!4d57.552152!16zL20vMDR2czk?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Mauritius",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Maldives",
@@ -10674,11 +6660,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Dhivehi"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Maldives",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -10745,58 +6726,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Malawi",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Mexico",
@@ -10814,11 +6743,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Spanish"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Mexico",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -10885,11 +6809,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Malaysia",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -10955,58 +6874,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Mozambique",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Namibia",
@@ -11024,11 +6891,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["English"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Namibia",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -11096,58 +6958,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/New_Caledonia",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Niger",
@@ -11166,58 +6976,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Niger",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Norfolk Island",
@@ -11239,58 +6997,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Norfolk+Island/@-29.0651224,167.9146953,25910m/data=!3m2!1e3!4b1!4m6!3m5!1s0x6c4bd11fadbac939:0xb97a9823335d1552!8m2!3d-29.040835!4d167.954712!16zL20vMDVjcW0?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Norfolk_Island",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Nigeria",
@@ -11308,11 +7014,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["English", "Pidgin English"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Nigeria",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -11379,58 +7080,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Nicaragua",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Netherlands",
@@ -11448,11 +7097,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Dutch"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Netherlands",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -11585,11 +7229,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Nepal",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -11657,58 +7296,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Nauru/@-0.5279585,166.9248318,7411m/data=!3m2!1e3!4b1!4m6!3m5!1s0x6f7d1c1f1de45b4d:0x59d99df4c5d40a81!8m2!3d-0.522778!4d166.931503!16zL20vMDVicjI?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Nauru",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Niue",
@@ -11728,58 +7315,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Niue",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "New Zealand",
@@ -11797,11 +7332,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["English", "Māori"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/New_Zealand",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     roadMarkings: [
       {
@@ -11874,11 +7404,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Oman",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -11944,11 +7469,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Panama",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -12013,11 +7533,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Spanish"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Peru",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -12085,58 +7600,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/French_Polynesia",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Papa New Guinea",
@@ -12155,58 +7618,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Papa_New_Guinea",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Philippines",
@@ -12224,11 +7635,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Filipino", "English"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Philippines",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -12295,58 +7701,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Pakistan",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Poland",
@@ -12364,11 +7718,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Polish"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Poland",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -12438,11 +7787,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Saint-Pierre-et-Miquelon/@46.9581656,-56.4180448,80931m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4b6c4b4bfb0e57d1:0x9c716737ea6c5c11!8m2!3d46.8852!4d-56.3159!16zL20vMDZzNGM?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -12511,11 +7855,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Pitcairn+Islands/@-24.3976088,-132.7438623,1727768m/data=!3m2!1e3!4b1!4m6!3m5!1s0x9e380f7fdca8078b:0x469c8cc719159ac8!8m2!3d-24.3767537!4d-128.3242376!16zL20vMDV2ZDU?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Pitcairn_Islands",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -12582,11 +7921,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Puerto_Rico",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -12651,11 +7985,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Arabic"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Palestine",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -12722,11 +8051,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Portugal",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -12792,58 +8116,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Palau",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Paraguay",
@@ -12861,11 +8133,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Spanish", "Guarani"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Paraguay",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -12931,11 +8198,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Arabic", "English"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Qatar",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -13005,11 +8267,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/R%C3%A9union/@-21.1349422,55.3621595,110456m/data=!3m2!1e3!4b1!4m6!3m5!1s0x2178778110b8e43b:0x4a7f8e89ecdbeaf9!8m2!3d-21.115141!4d55.536384!16zL20vMGx4aGo?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Réunion",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -13074,11 +8331,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Romanian"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Romania",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -13145,11 +8397,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Serbia",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -13214,11 +8461,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Russian"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Russia",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -13285,11 +8527,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Rwanda",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -13355,58 +8592,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Saudi_Arabia",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Solomon Islands",
@@ -13427,58 +8612,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Solomon+Islands/@-8.7493052,157.3678978,3750216m/data=!3m2!1e3!4b1!4m6!3m5!1s0x68d351e0555009d1:0xb44cc0a017442980!8m2!3d-9.64571!4d160.156194!16zL20vMDFuOHFn?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Solomon_Islands",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Seychelles",
@@ -13497,58 +8630,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Seychelles",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Sudan",
@@ -13567,58 +8648,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Sudan",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Sweden",
@@ -13631,12 +8660,13 @@ export const worldData: worldDataInterface[] = [
       colors: ["blue", "yellow"],
     },
     onGoogleMaps: true,
+    drivingSide: "right",
     languages: ["Swedish"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Cocos_Islands",
+      plonkit: "https://www.plonkit.net/sweden",
       road_signs: "https://en.wikipedia.org/wiki/Road_signs_in_Sweden",
     },
-    drivingSide: "right",
     bollard: [
       {
         pic: base + "se/se_bollard.png",
@@ -13701,11 +8731,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["English", "Chinese", "Malay", "Tamil"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Singapore",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -13774,58 +8799,6 @@ export const worldData: worldDataInterface[] = [
       wikipedia:
         "https://en.wikipedia.org/wiki/Saint_Helena_and_Tristan_da_Cunha",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Slovenia",
@@ -13843,11 +8816,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Slovenian"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Slovenia",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -13914,11 +8882,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Slovakia",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -13984,58 +8947,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Sierra_Leone",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "San Marino",
@@ -14053,11 +8964,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Italian"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/San_Marino",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -14124,11 +9030,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Senegal",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -14194,58 +9095,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Somalia",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Suriname",
@@ -14264,58 +9113,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Suriname",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "South Sudan",
@@ -14334,58 +9131,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/South_Sudan",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "São Tomé and Príncipe",
@@ -14406,11 +9151,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/S%C3%A3o+Tom%C3%A9+och+Pr%C3%ADncipe/@0.8985862,6.3327693,447671m/data=!3m2!1e3!4b1!4m6!3m5!1s0x1070ecf90b9ad889:0x6251230c557630ea!8m2!3d0.18636!4d6.613081!16zL20vMGo2ODE?hl=sv&entry=ttu&g_ep=EgoyMDI1MDUwNS4wIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/São_Tomé_and_Príncipe",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -14459,76 +9199,25 @@ export const worldData: worldDataInterface[] = [
       },
     ],
   },
-  // {
-  //   name: "Soviet Union",
-  //   capital: ["Moscow"],
-  //   domain: "su",
-  //   region: ["Europe", "Asia"],
-  //   flag: {
-  //     pic: base + "su/su_flag.svg",
-  //     proportions: "1:2",
-  //     colors: ["red", "yellow"],
-  //     emblem: "",
-  //   },
-  //   onGoogleMaps: false,
-  //   drivingSide: "right",
-  //   languages: ["Russian"],
-  //   links: {
-  //     wikipedia: "https://en.wikipedia.org/wiki/Soviet_Union",
-  //   },
-  //   commonWords: {
-  //     road: "",
-  //     mountain: "",
-  //     river: "",
-  //   },
-  //   bollard: [
-  //     {
-  //       pic: base + "",
-  //       colors: ["", ""],
-  //       reflector: [""],
-  //     },
-  //   ],
-  //   signSpeed: [
-  //     {
-  //       pic: base + "",
-  //       colors: ["", ""],
-  //       border: "",
-  //     },
-  //   ],
-  //   signStop: [
-  //     {
-  //       pic: base + "",
-  //       colors: [""],
-  //       border: "",
-  //       text: "",
-  //     },
-  //   ],
-  //   signYield: [
-  //     {
-  //       pic: base + "",
-  //       colors: [""],
-  //     },
-  //   ],
-  //   signPedestrianCrossing: [
-  //     {
-  //       pic: base + "",
-  //       colors: [""],
-  //       border: "",
-  //     },
-  //   ],
-  //   signChevron: [
-  //     {
-  //       pic: base + "",
-  //       colors: [""],
-  //     },
-  //   ],
-  //   signRailway: [
-  //     {
-  //       pic: base + "",
-  //       colors: [""],
-  //     },
-  //   ],
-  // },
+  {
+    name: "Soviet Union",
+    capital: ["Moscow"],
+    domain: "su",
+    region: ["Europe", "Asia"],
+    flag: {
+      pic: base + "su/su_flag.svg",
+      proportions: "1:2",
+      colors: ["red", "yellow"],
+      emblem: "",
+    },
+    sovereignTo: "none",
+    onGoogleMaps: false,
+    drivingSide: "right",
+    languages: ["Russian"],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Soviet_Union",
+    },
+  },
   {
     name: "El Salvador",
     capital: ["San Salvador"],
@@ -14546,58 +9235,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/El_Salvador",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Sint Maarten",
@@ -14617,58 +9254,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Sint_Maarten",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Syria",
@@ -14687,58 +9272,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Syria",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Eswatini",
@@ -14756,11 +9289,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["SiSwati", "English"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Eswatini",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -14830,58 +9358,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/TKCA+1ZZ,+Turks+och+Caicos+Islands/@21.5704314,-73.0393662,440511m/data=!3m2!1e3!4b1!4m6!3m5!1s0x894b5f55bebb6b75:0x7e11c780028dc1de!8m2!3d21.694025!4d-71.797928!16zL20vMDdmcl8?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Turks_and_Caicos_Islands",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Chad",
@@ -14900,58 +9376,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Chad",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "French S. & Antarctic Lands",
@@ -14972,58 +9396,6 @@ export const worldData: worldDataInterface[] = [
       wikipedia:
         "https://en.wikipedia.org/wiki/French_Southern_and_Antarctic_Lands",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Togo",
@@ -15042,58 +9414,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Togo",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Thailand",
@@ -15111,11 +9431,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Thai"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Thailand",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -15182,58 +9497,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Tajikistan",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Tokelau",
@@ -15253,58 +9516,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Tokelau",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "East Timor",
@@ -15323,58 +9534,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/East_Timor",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Turkmenistan",
@@ -15393,58 +9552,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Turkmenistan",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Tunisia",
@@ -15462,11 +9569,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Arabic"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Tunisia",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -15533,58 +9635,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Tonga",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Turkey",
@@ -15602,11 +9652,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Turkish"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Turkey",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -15673,58 +9718,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Trinidad_and_Tobago",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Tuvalu",
@@ -15743,58 +9736,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Tuvalu",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Taiwan",
@@ -15813,11 +9754,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Chinese"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Taiwan",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -15884,58 +9820,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Tanzania",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Ukraine",
@@ -15953,11 +9837,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Ukrainian", "Russian"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Ukraine",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -16024,11 +9903,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Uganda",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -16093,11 +9967,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["English"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/United_Kingdom",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -16164,11 +10033,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/United_States",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -16233,11 +10097,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Spanish"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Uruguay",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -16304,58 +10163,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Uzbekistan",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Vatican City",
@@ -16374,58 +10181,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Vatican_City",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Saint Vincent and the Grenadines",
@@ -16445,58 +10200,6 @@ export const worldData: worldDataInterface[] = [
       wikipedia:
         "https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Venezuela",
@@ -16515,58 +10218,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Venezuela",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "British Virgin Islands",
@@ -16586,58 +10237,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/British_Virgin_Islands",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "United States Virgin Islands",
@@ -16656,11 +10255,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["English"],
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/United_States_Virgin_Islands",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -16727,11 +10321,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Vietnam",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
     bollard: [
       {
         pic: base + "",
@@ -16797,58 +10386,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Vanuatu",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Wallis and Futuna",
@@ -16870,58 +10407,6 @@ export const worldData: worldDataInterface[] = [
         "https://www.google.se/maps/place/Wallis-+och+Futuna%C3%B6arna/@-13.7722973,-177.8234773,460067m/data=!3m2!1e3!4b1!4m6!3m5!1s0x71c8b1066e1a4b3d:0x16c918ec8fd20a1b!8m2!3d-14.2938!4d-178.1165!16zL20vMDgybnc?hl=sv&entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
       wikipedia: "https://en.wikipedia.org/wiki/Wallis_and_Futuna",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Samoa",
@@ -16940,58 +10425,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Samoa",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Yemen",
@@ -17010,58 +10443,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Yemen",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Mayotte",
@@ -17081,58 +10462,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Mayotte",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "South Africa",
@@ -17150,11 +10479,6 @@ export const worldData: worldDataInterface[] = [
     languages: ["Africaans", "English"], // and more
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/South_Africa",
-    },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
     },
     bollard: [
       {
@@ -17221,58 +10545,6 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Zambia",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
   {
     name: "Zimbabwe",
@@ -17291,57 +10563,5 @@ export const worldData: worldDataInterface[] = [
     links: {
       wikipedia: "https://en.wikipedia.org/wiki/Zimbabwe",
     },
-    commonWords: {
-      road: "",
-      mountain: "",
-      river: "",
-    },
-    bollard: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        reflector: [""],
-      },
-    ],
-    signSpeed: [
-      {
-        pic: base + "",
-        colors: ["", ""],
-        border: "",
-      },
-    ],
-    signStop: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-        text: "",
-      },
-    ],
-    signYield: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signPedestrianCrossing: [
-      {
-        pic: base + "",
-        colors: [""],
-        border: "",
-      },
-    ],
-    signChevron: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
-    signRailway: [
-      {
-        pic: base + "",
-        colors: [""],
-      },
-    ],
   },
 ]

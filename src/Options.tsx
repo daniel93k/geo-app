@@ -67,11 +67,32 @@ export default function Options(props:props) {
 function removeRegionChecks() {
   props.setFormData((d) => {
     const resetRegionList = Object.fromEntries(
-      Object.keys(d.regionList).map((key) => [key, false])
-    );
+      Object.keys(d.regionList).map(key => [key, false])
+    )
     return {
       ...d,
       regionList: resetRegionList,
+    };
+  });
+}
+function addRegionChecks() {
+  props.setFormData((d) => {
+    const addRegionList = Object.fromEntries(
+      Object.keys(d.regionList).map(key => {
+        let retBool = false
+        if(key === "Europe" ||
+           key === "Asia" ||
+           key === "Africa" ||
+           key === "North America" ||
+           key === "South America" ||
+           key === "Oceania" ||
+           key === "Antarctica"
+        ) retBool = true
+        return [key, retBool]
+      }))
+    return {
+      ...d,
+      regionList: addRegionList,
     };
   });
 }
@@ -121,7 +142,8 @@ function removeRegionChecks() {
           </fieldset>
           <fieldset className="regions">
             <legend>regions</legend>
-            <span style={{fontSize:"small",cursor:"pointer",textDecoration:"underline"}} onClick={removeRegionChecks}>uncheck all</span>
+            <span style={{fontSize:"small",cursor:"pointer",textDecoration:"underline"}} onClick={removeRegionChecks}>none</span>&nbsp;
+            <span style={{fontSize:"small",cursor:"pointer",textDecoration:"underline"}} onClick={addRegionChecks}>all</span>
             {worldRegions.map(item => {
               const ret = item.map((reg,i) => {
                 return (

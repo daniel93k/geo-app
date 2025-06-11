@@ -1,5 +1,5 @@
 .Output {
-   /* height: 400px; */
+   border: 1px solid black;
 }
 .Output img {
    max-height: 80px;
@@ -9,17 +9,22 @@
    border: 2px solid black;
    border-collapse: collapse;
    margin: 5px;
+   overflow: auto;
 }
 
 .Output table th {
    font-weight: bold;
    border: 2px solid black;
    padding: 2px;
+
 }
 
 .Output table td {
-   /* font-weight: bold; */
    border: 1px solid black;
    padding: 2px;
    text-align: center;
+}
+
+.sign-roads a {
+   display: inline-block;
 }

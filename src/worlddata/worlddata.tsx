@@ -873,7 +873,7 @@ export const worldData: worldDataInterface[] = [
     region: ["Asia"],
     flag: {
       pic: base + "bd/bd_flag.svg",
-      proportions: "5:3",
+      proportions: "3:5",
       colors: ["green", "red"],
       emblem: "",
     },
@@ -2327,7 +2327,7 @@ export const worldData: worldDataInterface[] = [
     region: ["Oceania", "Indian Ocean"],
     flag: {
       pic: base + "cx/cx_flag.svg",
-      proportions: "",
+      proportions: "1:2",
       colors: ["green", "blue", "yellow", "white"],
       emblem: "",
     },
@@ -8254,7 +8254,7 @@ export const worldData: worldDataInterface[] = [
     region: ["Africa", "Indian Ocean"],
     flag: {
       pic: base + "re/re_flag.svg",
-      proportions: "",
+      proportions: "2:3",
       colors: ["blue", "red", "yellow"],
       emblem: "",
     },
@@ -8674,6 +8674,26 @@ export const worldData: worldDataInterface[] = [
         reflector: ["white"],
       },
     ],
+    roadMarkings: [
+      {
+        pic: base + "se/se_road.png",
+        middleStyle: "dashed",
+        middleColor: " white",
+        sideStyle: "dashed",
+        sideColor: "white"
+      }
+    ],
+    snowPole: [
+      {
+        pic: base + "se/se_snowpole.png",
+        colors: ["orange","white"]
+      }
+    ],
+    telePole: [
+      {
+        pic: base + "se/se_telepole.png",
+      }
+    ],
     signSpeed: [
       {
         pic: base + "se/se_sign-speed.svg",
@@ -8714,6 +8734,16 @@ export const worldData: worldDataInterface[] = [
         colors: ["yellow", "red"],
       },
     ],
+    signRoads: [
+      {
+        pic: base + "se/se_road1.png",
+        colors: ["green","white"],
+      },
+      {
+        pic: base + "se/se_road2.png",
+        colors: ["blue","white"],
+      }
+    ]
   },
   {
     name: "Singapore",

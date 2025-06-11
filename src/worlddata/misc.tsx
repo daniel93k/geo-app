@@ -33,10 +33,17 @@ export const worldTableColumns = [
 export const languageFeatures = {
   swedish: {
     alphabet: "latin",
-    alphabetFeatures: ["Å","Ä","Ö","å","ä","ö"],
+    alphabetFeatures: ["Å","å","Ä","ä","Ö","ö"],
     road: ["väg", "gata"],
     mountain: ["berg", "kulle"],
     river: ["flod","älv","å"],
+  },
+  catalan: {
+    alphabet: "latin",
+    alphabetFeatures: ["À","à","É","é","È","è","Í","í","Ï","ï","Ó","ó","Ò","ò","Ú","ú","Ü","ü","Ç","ç"],
+    road: ["carrer"],
+    mountain: ["muntanya"],
+    river: ["riu"],
   }
 }
 

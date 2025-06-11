@@ -37,6 +37,10 @@ interface marker {
   pic: string;
   proportions?: string; // y:x
   colors?: string[];
+  middleColor?: string;
+  middleStyle?: string;
+  sideColor?: string;
+  sideStyle?: string;
   emblem?: string;
   text?: string;
   border?: string;

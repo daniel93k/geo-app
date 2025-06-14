@@ -48,12 +48,15 @@ interface marker {
   shape?: string[];
   continous?: boolean;
 }
-export interface languageFeatures {
+export interface languageFeaturesInterface {
+  region: string[];
   alphabet: string[];
   alphabetFeatures?: string[];
-  road?: string[];
-  mountain?: string[];
-  river?: string[];
+  words: {
+    road?: string[];
+    mountain?: string[];
+    river?: string[];
+  }
 }
 
 export interface worldFormInterface {

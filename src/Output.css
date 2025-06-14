@@ -1,5 +1,6 @@
 .Output {
    border: 1px solid black;
+   overflow: scroll;
 }
 .Output img {
    max-height: 80px;

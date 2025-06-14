@@ -7170,6 +7170,26 @@ export const worldData: worldDataInterface[] = [
         reflector: ["white"],
       },
     ],
+    roadMarkings: [
+      {
+        pic: base + "no/no_road.png",
+        middleStyle: "dashed",
+        middleColor: "yellow",
+        sideStyle: "filled",
+        sideColor: "white"
+      }
+    ],
+    snowPole: [
+      {
+        pic: base + "no/no_snowpole.png",
+        colors: ["orange","white"]
+      }
+    ],
+    telePole: [
+      {
+        pic: base + "no/no_telepole.png",
+      }
+    ],
     signSpeed: [
       {
         pic: base + "no/no_sign-speed.svg",
@@ -7211,6 +7231,16 @@ export const worldData: worldDataInterface[] = [
         colors: ["white", "red"],
       },
     ],
+    signRoads: [
+      {
+        pic: base + "no/no_sign_road1.png",
+        colors: ["blue","white"],
+      },
+      {
+        pic: base + "no/no_sign_road2.png",
+        colors: ["yellow","black"],
+      },
+    ]
   },
   {
     name: "Nepal",
@@ -8678,7 +8708,7 @@ export const worldData: worldDataInterface[] = [
       {
         pic: base + "se/se_road.png",
         middleStyle: "dashed",
-        middleColor: " white",
+        middleColor: "white",
         sideStyle: "dashed",
         sideColor: "white"
       }
@@ -8736,11 +8766,11 @@ export const worldData: worldDataInterface[] = [
     ],
     signRoads: [
       {
-        pic: base + "se/se_road1.png",
+        pic: base + "se/se_sign_road1.png",
         colors: ["green","white"],
       },
       {
-        pic: base + "se/se_road2.png",
+        pic: base + "se/se_sign_road2.png",
         colors: ["blue","white"],
       }
     ]

@@ -374,6 +374,9 @@ export const worldData: worldDataInterface[] = [
     onGoogleMaps: true,
     drivingSide: null,
     languages: [""],
+    links: {
+      wikipedia: "https://en.wikipedia.org/wiki/Antarctica",
+    },
   },
   {
     name: "Argentina",
@@ -939,7 +942,7 @@ export const worldData: worldDataInterface[] = [
     flag: {
       pic: base + "be/be_flag.svg",
       proportions: "13:15",
-      colors: ["black", "yelloe", "red"],
+      colors: ["black", "yellow", "red"],
       emblem: "",
     },
     onGoogleMaps: true,
@@ -3017,7 +3020,7 @@ export const worldData: worldDataInterface[] = [
     flag: {
       pic: base + "fi/fi_flag.svg",
       proportions: "11:18",
-      colors: ["blue, white"],
+      colors: ["blue", "white"],
     },
     onGoogleMaps: true,
     languages: ["Finnish", "Swedish"],
@@ -3523,8 +3526,8 @@ export const worldData: worldDataInterface[] = [
     flag: {
       pic: base + "gi/gi_flag.png",
       proportions: "1:2",
-      colors: ["white", "red", "yelle", "black"],
-      emblem: "",
+      colors: ["white", "red", "yellow", "black"],
+      emblem: base + "gi/gi_Coat_of_Arms.svg",
     },
     sovereignTo: "uk",
     onGoogleMaps: true,
@@ -4038,7 +4041,7 @@ export const worldData: worldDataInterface[] = [
     flag: {
       pic: base + "hm/hm_flag.svg",
       proportions: "1:2",
-      colors: ["bleu", "red", "white"],
+      colors: ["blue", "red", "white"],
       emblem: "",
     },
     sovereignTo: "au",
@@ -5142,7 +5145,7 @@ export const worldData: worldDataInterface[] = [
     flag: {
       pic: base + "ki/ki_flag.svg",
       proportions: "1:2",
-      colors: ["red", "yelle", "white", "blue"],
+      colors: ["red", "yellow", "white", "blue"],
       emblem: "",
     },
     onGoogleMaps: false,
@@ -5162,7 +5165,7 @@ export const worldData: worldDataInterface[] = [
     flag: {
       pic: base + "km/km_flag.svg",
       proportions: "3:5",
-      colors: ["yelloe", "white", "red", "blue", "green"],
+      colors: ["yellow", "white", "red", "blue", "green"],
       emblem: "",
     },
     onGoogleMaps: false,

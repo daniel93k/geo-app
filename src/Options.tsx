@@ -22,17 +22,28 @@ export default function Options(props:props) {
   function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
     const name = e.target.name
     const checked = e.target.checked
+    const value = e.target.value
     const parentName = e.target.parentElement?.className as string
-    // console.log(parentName)
-    // console.log(name)
+    console.log("parent:",parentName)
+    console.log("name:",name)
+    console.log("value:",e.target.value)
     switch (parentName) {
       case "soverign":
       case "on-google-maps":
       case "driving-side":
+      case "emblem-or-not":
         props.setFormData((d) => {
           return {
             ...d,
             [name]: checked,
+          }
+        })
+        break;
+      case "flag-colors-restriction":
+        props.setFormData((d) => {
+          return {
+            ...d,
+            [name]: value,
           }
         })
         break;
@@ -53,6 +64,17 @@ export default function Options(props:props) {
             ...d,
             languagesToShow: {
               ...d.languagesToShow,
+              [name]: checked,
+            },
+          }
+        })
+        break;
+      case "flag-colors":
+        props.setFormData((d) => {
+          return {
+            ...d,
+            flagColors: {
+              ...d.flagColors,
               [name]: checked,
             },
           }
@@ -163,9 +185,9 @@ function addRegionChecks() {
           <fieldset className="driving-side">
             <legend>drivingside</legend>
             <input onChange={handleChange} type="checkbox" id="driveRight" name="driveRight" checked={props.formData.driveRight}/>
-              <label htmlFor="driveRight">right</label><br />
+              <label htmlFor="driveRight">Right</label><br />
             <input onChange={handleChange} type="checkbox" id="driveLeft" name="driveLeft" checked={props.formData.driveLeft}/>
-              <label htmlFor="driveLeft">left</label><br />
+              <label htmlFor="driveLeft">Left</label><br />
           </fieldset>
           <fieldset className="language">
             <legend>only language</legend>
@@ -175,6 +197,44 @@ function addRegionChecks() {
               <label htmlFor="lang-spanish">Spanish</label><br />
             <input onChange={handleChange} type="checkbox" id="lang-french" name="french" checked={props.formData.languagesToShow.french}/>
               <label htmlFor="lang-french">French</label><br />
+          </fieldset>
+          <fieldset className="flag">
+            <legend>flag</legend>
+            <div className="emblem-or-not">
+              <input onChange={handleChange} type="checkbox" id="flag-emblem" name="flagEmblem" checked={props.formData.flagEmblem}/>
+                <label htmlFor="flag-emblem">Emblem</label><br />
+              <input onChange={handleChange} type="checkbox" id="flag-noemblem" name="noflagEmblem" checked={props.formData.noflagEmblem}/>
+                <label htmlFor="flag-noemblem">no Emblem</label><br />
+              <hr />
+            </div>
+            <div className="flag-colors-restriction">
+              <input onChange={handleChange} type="radio" id="flag-only" value="only" name="flagColorsRestriction" checked={props.formData.flagColorsRestriction === "only"}/>
+                <label htmlFor="flag-only">Only</label><br />
+              <input onChange={handleChange} type="radio" id="flag-contains" value="contains" name="flagColorsRestriction" checked={props.formData.flagColorsRestriction === "contains"}/>
+                <label htmlFor="flag-contains">Contains</label><br />
+              <hr />
+            </div>
+            <div className="flag-colors">
+              <input onChange={handleChange} type="checkbox" id="flag-black" name="black" checked={props.formData.flagColors.black}/>
+                <label htmlFor="flag-black">Black</label><br />
+              <input onChange={handleChange} type="checkbox" id="flag-blue" name="blue" checked={props.formData.flagColors.blue}/>
+                <label htmlFor="flag-blue">Blue</label><br />
+              <input onChange={handleChange} type="checkbox" id="flag-brown" name="brown" checked={props.formData.flagColors.brown}/>
+                <label htmlFor="flag-brown">Brown</label><br />
+              <input onChange={handleChange} type="checkbox" id="flag-green" name="green" checked={props.formData.flagColors.green}/>
+                <label htmlFor="flag-green">Green</label><br />
+              <input onChange={handleChange} type="checkbox" id="flag-maroon" name="maroon" checked={props.formData.flagColors.maroon}/>
+                <label htmlFor="flag-maroon">Maroon</label><br />
+              <input onChange={handleChange} type="checkbox" id="flag-orange" name="orange" checked={props.formData.flagColors.orange}/>
+                <label htmlFor="flag-orange">Orange</label><br />
+              <input onChange={handleChange} type="checkbox" id="flag-red" name="red" checked={props.formData.flagColors.red}/>
+                <label htmlFor="flag-red">Red</label><br />
+              <input onChange={handleChange} type="checkbox" id="flag-white" name="white" checked={props.formData.flagColors.white}/>
+                <label htmlFor="flag-white">White</label><br />
+              <input onChange={handleChange} type="checkbox" id="flag-yellow" name="yellow" checked={props.formData.flagColors.yellow}/>
+                <label htmlFor="flag-yellow">Yellow</label><br />
+            </div>
+
           </fieldset>
         </section>
       </form>

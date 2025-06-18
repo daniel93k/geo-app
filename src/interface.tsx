@@ -68,6 +68,10 @@ export interface worldFormInterface {
   driveLeft: boolean;
   regionList: {[key: string]:boolean};
   languagesToShow: {[key: string]:boolean};
+  flagEmblem: boolean;
+  noflagEmblem: boolean;
+  flagColorsRestriction: string;
+  flagColors: {[key: string]:boolean};
 }
 
 export interface domainListInterface {
@@ -86,7 +90,21 @@ export const initWorldForm = {
   driveRight: true,
   driveLeft: true,
   regionList: initRegionList(),
-  languagesToShow: {english: false, spanish: false, french: false}
+  languagesToShow: {english: false, spanish: false, french: false},
+  flagEmblem: true,
+  noflagEmblem: true,
+  flagColorsRestriction: "contains",
+  flagColors: {
+    black: true,
+    blue: true,
+    brown: true,
+    green: true,
+    maroon: true,
+    orange: true,
+    red: true,
+    white: true,
+    yellow: true,
+  }
 }
 
 export function initDomainList() {

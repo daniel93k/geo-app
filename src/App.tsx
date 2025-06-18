@@ -5,14 +5,15 @@ import Options from "./Options.tsx"
 import Output from "./Output.tsx"
 import {worldFormInterface, initWorldForm, worldColumnInterface, initWorldColumns, domainListInterface, initDomainList} from "./interface.tsx"
 import OutputOptions from "./components/OutputOptions.tsx"
+// import {getFlagColors} from "./helpers.tsx"
 
 export default function App() {
-
+  // console.log(getFlagColors())
   const [formData, setFormData] = useState<worldFormInterface>(initWorldForm)
   const [domainList, setDomainList] = useState<domainListInterface>(initDomainList())
   const [columnData, setColumnData] = useState<worldColumnInterface>(initWorldColumns())
   const filteredData = worldData.filter(data => domainList[data.domain])
-  console.log(filteredData.length)
+  console.log(formData.flagColors)
   useEffect(() => {
     setDomainList(d => {
       d = filterData(formData)
@@ -29,7 +30,7 @@ export default function App() {
         domainList={domainList}
         setDomainList={setDomainList}
       />
-      <OutputOptions options={columnData} setOptions={setColumnData}/>
+      <OutputOptions options={columnData} setOptions={setColumnData} length={filteredData.length}/>
       <Output data={filteredData} columns={columnData}/>
     </>
   )

@@ -13,7 +13,6 @@ export default function Output(props:props) {
   const tableRows = props.data.map((item,i) => {
     const flagTopNr = Number(item.flag.proportions?.match(/(?<=:)\s*\d+/))
     const flagBtnNr = Number(item.flag.proportions?.match(/\d+(?=\s*:)/))
-    console.log(flagTopNr,flagBtnNr)
     return (
       <tr key={item.domain}>
         <td>{i+1}</td>
@@ -23,7 +22,7 @@ export default function Output(props:props) {
         <td className="domain">{item.domain}</td>
         <td className="soverign-to">{item.sovereignTo}</td>
         <td className="region">{item.region.map(item => <div key={item}>{item}</div>)}</td>
-        <td className="driving-side">{item.drivingSide?.slice(0,2)}</td>
+        <td className="driving-side">{item.drivingSide?.slice(0,1).toUpperCase()}</td>
         <td className="">{item.languages?.map(item => <div key={item}>{item}</div>)}</td>
         <td className="bollard">{item.bollard?item.bollard.map(item => <a key={item.pic} href={item.pic} target="_blank" rel="noopener noreferren"><img src={item.pic} /></a>):"n/a"}</td>
         <td className="road-markings">{item.roadMarkings?item.roadMarkings.map(item => <a key={item.pic} href={item.pic} target="_blank" rel="noopener noreferren"><img src={item.pic} /></a>):"n/a"}</td>

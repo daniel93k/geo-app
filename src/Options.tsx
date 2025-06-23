@@ -203,17 +203,19 @@ function addRegionChecks() {
             <div className="emblem-or-not">
               <input onChange={handleChange} type="checkbox" id="flag-emblem" name="flagEmblem" checked={props.formData.flagEmblem}/>
                 <label htmlFor="flag-emblem">Emblem</label><br />
-              <input onChange={handleChange} type="checkbox" id="flag-noemblem" name="noflagEmblem" checked={props.formData.noflagEmblem}/>
+              <input onChange={handleChange} type="checkbox" id="flag-noemblem" name="noFlagEmblem" checked={props.formData.noFlagEmblem}/>
                 <label htmlFor="flag-noemblem">no Emblem</label><br />
-              <hr />
             </div>
+          </fieldset>
+          <fieldset className="flag-colors-field">
+            <legend>flag colors</legend>
             <div className="flag-colors-restriction">
               <input onChange={handleChange} type="radio" id="flag-only" value="only" name="flagColorsRestriction" checked={props.formData.flagColorsRestriction === "only"}/>
                 <label htmlFor="flag-only">Only</label><br />
               <input onChange={handleChange} type="radio" id="flag-contains" value="contains" name="flagColorsRestriction" checked={props.formData.flagColorsRestriction === "contains"}/>
                 <label htmlFor="flag-contains">Contains</label><br />
-              <hr />
             </div>
+            <hr style={{border:"1px dashed black"}} />
             <div className="flag-colors">
               <input onChange={handleChange} type="checkbox" id="flag-black" name="black" checked={props.formData.flagColors.black}/>
                 <label htmlFor="flag-black">Black</label><br />

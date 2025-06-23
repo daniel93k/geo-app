@@ -7,7 +7,7 @@ export interface worldDataInterface {
   domain: string;
   region: string[];
   flag: marker;
-
+  coatOfArms?: string;
   sovereignTo?: string;
   onGoogleMaps: boolean;
   drivingSide: "right" | "left" | null;
@@ -69,7 +69,7 @@ export interface worldFormInterface {
   regionList: {[key: string]:boolean};
   languagesToShow: {[key: string]:boolean};
   flagEmblem: boolean;
-  noflagEmblem: boolean;
+  noFlagEmblem: boolean;
   flagColorsRestriction: string;
   flagColors: {[key: string]:boolean};
 }
@@ -91,8 +91,9 @@ export const initWorldForm = {
   driveLeft: true,
   regionList: initRegionList(),
   languagesToShow: {english: false, spanish: false, french: false},
+  coatOfArms: "",
   flagEmblem: true,
-  noflagEmblem: true,
+  noFlagEmblem: true,
   flagColorsRestriction: "contains",
   flagColors: {
     black: true,

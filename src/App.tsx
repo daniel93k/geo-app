@@ -13,7 +13,6 @@ export default function App() {
   const [domainList, setDomainList] = useState<domainListInterface>(initDomainList())
   const [columnData, setColumnData] = useState<worldColumnInterface>(initWorldColumns())
   const filteredData = worldData.filter(data => domainList[data.domain])
-  console.log(formData.flagColors)
   useEffect(() => {
     setDomainList(d => {
       d = filterData(formData)
@@ -81,6 +80,16 @@ function filterData(formData:worldFormInterface) {
   ret = ret.filter(item => {
     if(selectedLanguages.length === 0) return true
     return item.languages?.some(lang => selectedLanguages.includes(lang))
+  })
+
+  //emblem
+  ret = ret.filter(item => {
+    console.log(item)
+    if(formData.flagEmblem)
+      if(item.flag.emblem !== "" && item.flag.emblem) return true
+    if(formData.noFlagEmblem)
+      if(item.flag.emblem === "" || item.flag.emblem === "undefined") return true
+    return false
   })
 
   //ret
